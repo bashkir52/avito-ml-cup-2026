@@ -1,0 +1,16 @@
+{
+  "source": "C:\\Any\\avito\\experiments\\sequence-finetune-048\\pretrained\\model.pt",
+  "source_sha256": "3224f4fbb4944a55b0a1121e0f5ed771655ad67617154f5735565431df42b509",
+  "saved_predictions_sha256": "020c17bffef31b7712e8164193f1d1e01f91bb828e8435e7a594839b972e28f0",
+  "pairs": 1389971,
+  "exact_equal": true,
+  "max_abs_error": 0.0,
+  "seconds": 3.2681075999862514,
+  "memory": {
+    "rss_gib": 1.0454063415527344,
+    "peak_rss_gib": 1.2642478942871094,
+    "available_gib": 18.426483154296875
+  },
+  "torch": "2.6.0+cpu",
+  "features": 79
+}

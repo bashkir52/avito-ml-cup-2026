@@ -1,0 +1,1 @@
+Exact raw Parquet alignment for 280 pilot feeds, 22990 candidates; 1744 mined pairs match scalar reference.

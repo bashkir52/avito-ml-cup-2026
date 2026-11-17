@@ -1,0 +1,248 @@
+{
+  "choice": {
+    "name": "linear",
+    "weight": 0.05,
+    "early_gain": 0.00012964582240052047,
+    "early_gain_by_block": [
+      6.724952430874129e-05,
+      0.00018777306291338768
+    ]
+  },
+  "families": {
+    "linear": {
+      "name": "linear",
+      "weight": 0.05,
+      "early_gain": 0.00012964582240052047,
+      "early_gain_by_block": [
+        6.724952430874129e-05,
+        0.00018777306291338768
+      ]
+    },
+    "nonlinear": {
+      "name": "nonlinear",
+      "weight": 0.0,
+      "early_gain": 0.0,
+      "early_gain_by_block": [
+        0.0,
+        0.0
+      ]
+    },
+    "nonlinear_delta": {
+      "name": "nonlinear_delta",
+      "weight": 0.0,
+      "early_gain": 0.0,
+      "early_gain_by_block": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "grid": {
+    "linear": [
+      {
+        "name": "linear",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "linear",
+        "weight": 0.025,
+        "early_gain": 6.434987274108752e-08,
+        "early_gain_by_block": [
+          -2.7650148390935123e-08,
+          1.5005539564989792e-07
+        ]
+      },
+      {
+        "name": "linear",
+        "weight": 0.05,
+        "early_gain": 0.00012964582240052047,
+        "early_gain_by_block": [
+          6.724952430874129e-05,
+          0.00018777306291338768
+        ]
+      },
+      {
+        "name": "linear",
+        "weight": 0.1,
+        "early_gain": 6.968883537453861e-05,
+        "early_gain_by_block": [
+          0.000165037223556639,
+          -1.913596452341218e-05
+        ]
+      },
+      {
+        "name": "linear",
+        "weight": 0.2,
+        "early_gain": -0.0001994884586392264,
+        "early_gain_by_block": [
+          -5.1524796539374285e-05,
+          -0.0003373286773232234
+        ]
+      },
+      {
+        "name": "linear",
+        "weight": 0.35,
+        "early_gain": -0.00043605500245665226,
+        "early_gain_by_block": [
+          -0.00021315550787069857,
+          -0.0006437040606257187
+        ]
+      },
+      {
+        "name": "linear",
+        "weight": 0.5,
+        "early_gain": -0.0001465807719634501,
+        "early_gain_by_block": [
+          0.0005270285871425477,
+          -0.0007741028273725577
+        ]
+      }
+    ],
+    "nonlinear": [
+      {
+        "name": "nonlinear",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "nonlinear",
+        "weight": 0.025,
+        "early_gain": -6.988525354769314e-07,
+        "early_gain_by_block": [
+          -2.0265163419020514e-06,
+          5.379745801764152e-07
+        ]
+      },
+      {
+        "name": "nonlinear",
+        "weight": 0.05,
+        "early_gain": -1.9978239383185686e-05,
+        "early_gain_by_block": [
+          -2.7583156094420525e-05,
+          -1.2893639234246536e-05
+        ]
+      },
+      {
+        "name": "nonlinear",
+        "weight": 0.1,
+        "early_gain": -0.000425458092687516,
+        "early_gain_by_block": [
+          -0.00025247946209972817,
+          -0.0005866017946579936
+        ]
+      },
+      {
+        "name": "nonlinear",
+        "weight": 0.2,
+        "early_gain": -0.0009448957474816668,
+        "early_gain_by_block": [
+          -0.0009692926696507877,
+          -0.0009221680247470225
+        ]
+      },
+      {
+        "name": "nonlinear",
+        "weight": 0.35,
+        "early_gain": -0.0011301246113898412,
+        "early_gain_by_block": [
+          -0.0006868834119643727,
+          -0.0015430399379741024
+        ]
+      },
+      {
+        "name": "nonlinear",
+        "weight": 0.5,
+        "early_gain": -0.001197139110765209,
+        "early_gain_by_block": [
+          0.0001418897610954602,
+          -0.002444553711769769
+        ]
+      }
+    ],
+    "nonlinear_delta": [
+      {
+        "name": "nonlinear_delta",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "nonlinear_delta",
+        "weight": 0.025,
+        "early_gain": -0.00048761826799146484,
+        "early_gain_by_block": [
+          -0.0006510799538291206,
+          -0.00033534037622698533
+        ]
+      },
+      {
+        "name": "nonlinear_delta",
+        "weight": 0.05,
+        "early_gain": -0.0013770139493091988,
+        "early_gain_by_block": [
+          -0.002058423334641881,
+          -0.0007422255333250098
+        ]
+      },
+      {
+        "name": "nonlinear_delta",
+        "weight": 0.1,
+        "early_gain": -0.002673707938809418,
+        "early_gain_by_block": [
+          -0.003165341755462294,
+          -0.0022157109425323955
+        ]
+      },
+      {
+        "name": "nonlinear_delta",
+        "weight": 0.2,
+        "early_gain": -0.003365153806793731,
+        "early_gain_by_block": [
+          -0.0035214908265895958,
+          -0.0032195131225119127
+        ]
+      },
+      {
+        "name": "nonlinear_delta",
+        "weight": 0.35,
+        "early_gain": -0.005010669478813726,
+        "early_gain_by_block": [
+          -0.005694013798395153,
+          -0.00437407851376985
+        ]
+      },
+      {
+        "name": "nonlinear_delta",
+        "weight": 0.5,
+        "early_gain": -0.006466262185359867,
+        "early_gain_by_block": [
+          -0.007184950742410167,
+          -0.005796745180551977
+        ]
+      }
+    ]
+  },
+  "oof_anchor_ndcg": 0.3814275671070029,
+  "windows": [
+    [
+      1870,
+      3749
+    ],
+    [
+      3749,
+      5766
+    ]
+  ]
+}

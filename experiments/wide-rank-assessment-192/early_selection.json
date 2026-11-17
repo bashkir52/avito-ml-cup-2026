@@ -1,0 +1,239 @@
+{
+  "normalization": "zscore",
+  "choice": {
+    "name": "wide",
+    "weight": 0.05,
+    "early_gain": 0.00025884252179058645,
+    "early_gain_by_block": [
+      0.00012075389908485228,
+      0.000515507988584735
+    ]
+  },
+  "selected_by_family": {
+    "control": {
+      "name": "control",
+      "weight": 0.025,
+      "early_gain": 5.044801689033851e-05,
+      "early_gain_by_block": [
+        1.9083343465425575e-05,
+        0.0001087455680405609
+      ]
+    },
+    "wide": {
+      "name": "wide",
+      "weight": 0.05,
+      "early_gain": 0.00025884252179058645,
+      "early_gain_by_block": [
+        0.00012075389908485228,
+        0.000515507988584735
+      ]
+    },
+    "coverage_delta": {
+      "name": "coverage_delta",
+      "weight": 0.0,
+      "early_gain": 0.0,
+      "early_gain_by_block": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "grid": {
+    "control": [
+      {
+        "name": "control",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "control",
+        "weight": 0.025,
+        "early_gain": 5.044801689033851e-05,
+        "early_gain_by_block": [
+          1.9083343465425575e-05,
+          0.0001087455680405609
+        ]
+      },
+      {
+        "name": "control",
+        "weight": 0.05,
+        "early_gain": 5.02472979861483e-05,
+        "early_gain_by_block": [
+          7.649082061688267e-05,
+          1.4684351489527952e-06
+        ]
+      },
+      {
+        "name": "control",
+        "weight": 0.1,
+        "early_gain": 0.00014893739185913482,
+        "early_gain_by_block": [
+          -4.087402176087827e-05,
+          0.0005017400639768488
+        ]
+      },
+      {
+        "name": "control",
+        "weight": 0.2,
+        "early_gain": -0.0008224006050023792,
+        "early_gain_by_block": [
+          -0.0010639565381472477,
+          -0.0003734203405699989
+        ]
+      },
+      {
+        "name": "control",
+        "weight": 0.35,
+        "early_gain": -0.0017268772067971757,
+        "early_gain_by_block": [
+          -0.002128693382386705,
+          -0.000980021062877917
+        ]
+      },
+      {
+        "name": "control",
+        "weight": 0.5,
+        "early_gain": -0.0034854030456811253,
+        "early_gain_by_block": [
+          -0.003670862342716192,
+          -0.00314068965719106
+        ]
+      }
+    ],
+    "wide": [
+      {
+        "name": "wide",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "wide",
+        "weight": 0.025,
+        "early_gain": 4.960738908982153e-05,
+        "early_gain_by_block": [
+          1.9966110252862624e-05,
+          0.00010470166492510109
+        ]
+      },
+      {
+        "name": "wide",
+        "weight": 0.05,
+        "early_gain": 0.00025884252179058645,
+        "early_gain_by_block": [
+          0.00012075389908485228,
+          0.000515507988584735
+        ]
+      },
+      {
+        "name": "wide",
+        "weight": 0.1,
+        "early_gain": -0.00043703421859304676,
+        "early_gain_by_block": [
+          -0.0008810589945423415,
+          0.0003882750947604022
+        ]
+      },
+      {
+        "name": "wide",
+        "weight": 0.2,
+        "early_gain": -0.0013543301148604696,
+        "early_gain_by_block": [
+          -0.002221965072252937,
+          0.00025834388378324024
+        ]
+      },
+      {
+        "name": "wide",
+        "weight": 0.35,
+        "early_gain": -0.0018481492710911629,
+        "early_gain_by_block": [
+          -0.0017069147961624432,
+          -0.00211066193668748
+        ]
+      },
+      {
+        "name": "wide",
+        "weight": 0.5,
+        "early_gain": -0.0029554440805000808,
+        "early_gain_by_block": [
+          -0.0026925798187798526,
+          -0.003444030157440655
+        ]
+      }
+    ],
+    "coverage_delta": [
+      {
+        "name": "coverage_delta",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "coverage_delta",
+        "weight": 0.025,
+        "early_gain": -5.263718610565041e-05,
+        "early_gain_by_block": [
+          1.3652695684081943e-05,
+          -0.00017585025840595117
+        ]
+      },
+      {
+        "name": "coverage_delta",
+        "weight": 0.05,
+        "early_gain": -9.332074490443998e-05,
+        "early_gain_by_block": [
+          -9.940640356889865e-06,
+          -0.0002482994320381859
+        ]
+      },
+      {
+        "name": "coverage_delta",
+        "weight": 0.1,
+        "early_gain": -4.540424267002336e-06,
+        "early_gain_by_block": [
+          -6.592847610451304e-05,
+          0.00010956161159756265
+        ]
+      },
+      {
+        "name": "coverage_delta",
+        "weight": 0.2,
+        "early_gain": -0.0012208943626938885,
+        "early_gain_by_block": [
+          -0.0013756238776395629,
+          -0.000933298452167695
+        ]
+      },
+      {
+        "name": "coverage_delta",
+        "weight": 0.35,
+        "early_gain": -0.0023742634396543578,
+        "early_gain_by_block": [
+          -0.0022441465736439755,
+          -0.0026161117939790587
+        ]
+      },
+      {
+        "name": "coverage_delta",
+        "weight": 0.5,
+        "early_gain": -0.0031513669290141044,
+        "early_gain_by_block": [
+          -0.0029902875051212637,
+          -0.003450765421911607
+        ]
+      }
+    ]
+  },
+  "matched_weight": 0.025
+}

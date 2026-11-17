@@ -1,0 +1,842 @@
+[
+  {
+    "signal": "category/positive",
+    "weight": -0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.00382487771555773,
+      -0.007189142142685279
+    ],
+    "early_gain": -0.005001728452553267
+  },
+  {
+    "signal": "category/positive",
+    "weight": -0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -8.53564490223352e-05,
+      -0.0026849124306922083
+    ],
+    "early_gain": -0.0009947051162141726
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.025,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0003900210302910749,
+      -0.0011635779932402126
+    ],
+    "early_gain": -0.000660618393154136
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0016747884553227274,
+      -0.0016607873110294788
+    ],
+    "early_gain": -0.0016698907258673888
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0024475876304178162,
+      -0.0019021229625507516
+    ],
+    "early_gain": -0.0022567790568680645
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.2,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.004793776217799194,
+      -0.003451928024559739
+    ],
+    "early_gain": -0.004324385339241446
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.4,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.007466194064358136,
+      -0.005561321296135322
+    ],
+    "early_gain": -0.00679985199472487
+  },
+  {
+    "signal": "category/positive",
+    "weight": -0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.001849168165772338,
+      -0.0015498269316543333
+    ],
+    "early_gain": -0.0017444558402059114
+  },
+  {
+    "signal": "category/positive",
+    "weight": -0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0007469984308159627,
+      -0.00017026002242
+    ],
+    "early_gain": -0.0005452500142820298
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.025,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.00027893329861379025,
+      -0.0008107582811077843
+    ],
+    "early_gain": -0.0004649705843734827
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0006369660656559805,
+      -0.0012870949722642762
+    ],
+    "early_gain": -0.000864387155602032
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.000652014059995501,
+      -0.001495561140809848
+    ],
+    "early_gain": -0.000947094611851647
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.2,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0013074885411308295,
+      -0.001960344331073617
+    ],
+    "early_gain": -0.0015358635200268757
+  },
+  {
+    "signal": "category/positive",
+    "weight": 0.4,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0018944882308445058,
+      -0.002671798755786646
+    ],
+    "early_gain": -0.0021663986243249593
+  },
+  {
+    "signal": "category/exposure",
+    "weight": -0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.00028760019986564844,
+      -0.0007799545966969989
+    ],
+    "early_gain": -0.0004598303105851827
+  },
+  {
+    "signal": "category/exposure",
+    "weight": -0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.00016406685407151047,
+      8.42488956212544e-05
+    ],
+    "early_gain": -7.72037137436737e-05
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.025,
+    "scope": "all",
+    "early_halves_gain": [
+      -4.100185512054988e-06,
+      2.3263519999567152e-05
+    ],
+    "early_gain": 5.471891147144086e-06
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0001493148300388826,
+      -0.0001058839980646063
+    ],
+    "early_gain": -0.00013412232429970203
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0002518236123647851,
+      -0.00044090008455467217
+    ],
+    "early_gain": -0.00031796430685091106
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.2,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0012426222441952078,
+      -0.0011509186869632603
+    ],
+    "early_gain": -0.0012105434937725857
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.4,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0021920579151841657,
+      -0.0017596227078976016
+    ],
+    "early_gain": -0.0020407880898118103
+  },
+  {
+    "signal": "category/exposure",
+    "weight": -0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0002887486264501476,
+      -0.0002123354451325572
+    ],
+    "early_gain": -0.0002620185905990237
+  },
+  {
+    "signal": "category/exposure",
+    "weight": -0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.00013993529300720053,
+      0.00010610171253468052
+    ],
+    "early_gain": -5.3869278408176235e-05
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.025,
+    "scope": "long",
+    "early_halves_gain": [
+      -3.8288368593699625e-06,
+      2.3263519999567152e-05
+    ],
+    "early_gain": 5.648319537521498e-06
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0001332390910367872,
+      -7.608711102288208e-05
+    ],
+    "early_gain": -0.00011324680111516968
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0001956156469207314,
+      -0.0005441626146187178
+    ],
+    "early_gain": -0.0003175405920901449
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.2,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0005749536775701386,
+      -0.0009311761711886246
+    ],
+    "early_gain": -0.0006995635925247843
+  },
+  {
+    "signal": "category/exposure",
+    "weight": 0.4,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0009788842830757275,
+      -0.0013152752268862787
+    ],
+    "early_gain": -0.0010965569389317596
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": -0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.008613803187554132,
+      -0.009736283431571232
+    ],
+    "early_gain": -0.00900645713347548
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": -0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.004281795804046299,
+      -0.0029057973334681527
+    ],
+    "early_gain": -0.0038004588433879355
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.025,
+    "scope": "all",
+    "early_halves_gain": [
+      7.120345357767782e-05,
+      -0.000749781738093207
+    ],
+    "early_gain": -0.00021598474128881105
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.001232707885410182,
+      -0.0014610974514523297
+    ],
+    "early_gain": -0.0013126006628480962
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0022070558091508035,
+      -0.0013390608047764768
+    ],
+    "early_gain": -0.001903423148064606
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.2,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.005415616758869386,
+      -0.005489887165442385
+    ],
+    "early_gain": -0.00544159723234454
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.4,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.01080972218055918,
+      -0.010187877209808604
+    ],
+    "early_gain": -0.010592195072337898
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": -0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.003974435169129528,
+      -0.003695256692064528
+    ],
+    "early_gain": -0.003876775962011924
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": -0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0025282645319093648,
+      -0.0015118707977566836
+    ],
+    "early_gain": -0.002172720625945792
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.025,
+    "scope": "long",
+    "early_halves_gain": [
+      5.912052063630441e-05,
+      -0.0006979859387492203
+    ],
+    "early_gain": -0.00020572230429963096
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -5.5705027449916834e-05,
+      -0.0006962412958656375
+    ],
+    "early_gain": -0.0002797705240497277
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0003693732985098602,
+      -0.0017298094406780534
+    ],
+    "early_gain": -0.0008452664131045957
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.2,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0005887424810759035,
+      -0.0028386439663256606
+    ],
+    "early_gain": -0.001375778779332712
+  },
+  {
+    "signal": "semantic-256/positive",
+    "weight": 0.4,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0015514616302682277,
+      -0.003770437907850775
+    ],
+    "early_gain": -0.0023276800055516125
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": -0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.001512863883388811,
+      0.0005663421547375118
+    ],
+    "early_gain": -0.0007855384274573522
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": -0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.00034567504919323205,
+      0.00010289993413951142
+    ],
+    "early_gain": -0.00018875938124627688
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.025,
+    "scope": "all",
+    "early_halves_gain": [
+      7.574511985268772e-06,
+      -2.2559344061514748e-05
+    ],
+    "early_gain": -2.966588889924145e-06
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -6.400790168801965e-05,
+      -6.420862094537886e-05
+    ],
+    "early_gain": -6.407811513618016e-05
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      0.000450154031414454,
+      -0.0005781513849755446
+    ],
+    "early_gain": 9.044330910112984e-05
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.2,
+    "scope": "all",
+    "early_halves_gain": [
+      0.0005217467131261647,
+      -0.0019017308128059392
+    ],
+    "early_gain": -0.00032600808566069856
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.4,
+    "scope": "all",
+    "early_halves_gain": [
+      -6.85520345758333e-05,
+      -0.002133422246826727
+    ],
+    "early_gain": -0.0007908626863465675
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": -0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.001134078536424716,
+      0.00022779451210933554
+    ],
+    "early_gain": -0.0006576827787255864
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": -0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0003458514939831517,
+      0.00010374155336042623
+    ],
+    "early_gain": -0.00018857969785203882
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.025,
+    "scope": "long",
+    "early_halves_gain": [
+      7.574511985268772e-06,
+      -2.2559344061514748e-05
+    ],
+    "early_gain": -2.966588889924145e-06
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -8.445221725289097e-05,
+      -8.491431839887083e-05
+    ],
+    "early_gain": -8.4613864497331e-05
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      0.00038361897449413465,
+      -0.0002633921148693236
+    ],
+    "early_gain": 0.0001572885257868686
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.2,
+    "scope": "long",
+    "early_halves_gain": [
+      0.0009171779210949895,
+      -0.0010339953789108213
+    ],
+    "early_gain": 0.00023463949825216606
+  },
+  {
+    "signal": "semantic-256/exposure",
+    "weight": 0.4,
+    "scope": "long",
+    "early_halves_gain": [
+      0.0002770666636680712,
+      -0.0012628688261554285
+    ],
+    "early_gain": -0.00026161697888725294
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": -0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.006684798717367693,
+      -0.006933505856491522
+    ],
+    "early_gain": -0.006771798769329669
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": -0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.00354211531043608,
+      -0.002571050095242056
+    ],
+    "early_gain": -0.0032024277386278337
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.025,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0005913917303665384,
+      -0.0015471595443153545
+    ],
+    "early_gain": -0.0009257281300777353
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.001741784253578553,
+      -0.0026903593029427857
+    ],
+    "early_gain": -0.002073604557874019
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0023702950850564173,
+      -0.0032670089140696816
+    ],
+    "early_gain": -0.002683973855975556
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.2,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.007563842970455039,
+      -0.006738947998848881
+    ],
+    "early_gain": -0.007275287098493606
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.4,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.012357302121103383,
+      -0.012716238340299597
+    ],
+    "early_gain": -0.012482861322303309
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": -0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0029892855853455957,
+      -0.003840825303562798
+    ],
+    "early_gain": -0.003287162035509331
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": -0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0019137973830343393,
+      -0.0014180926529997735
+    ],
+    "early_gain": -0.0017403952948484706
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.025,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.00025076478896716693,
+      -0.0010744665951753134
+    ],
+    "early_gain": -0.0005389032806636345
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0006600292113326564,
+      -0.0019687694298036397
+    ],
+    "early_gain": -0.001117838614845659
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0010474576846167794,
+      -0.002054634691909332
+    ],
+    "early_gain": -0.0013997774944865468
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.2,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0015864250083638433,
+      -0.0033604147865640885
+    ],
+    "early_gain": -0.0022069830004952853
+  },
+  {
+    "signal": "semantic-1024/positive",
+    "weight": 0.4,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0029381507268862114,
+      -0.0056629099682211845
+    ],
+    "early_gain": -0.0038912966494967977
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": -0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0010546005676092137,
+      -0.00046313895256140745
+    ],
+    "early_gain": -0.0008477018375447972
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": -0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      -9.405324296499224e-05,
+      -0.0002565441124747739
+    ],
+    "early_gain": -0.0001508940483415495
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.025,
+    "scope": "all",
+    "early_halves_gain": [
+      -2.2082737200397186e-05,
+      0.00013190699780343218
+    ],
+    "early_gain": 3.178429289025905e-05
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      0.00010289716841947458,
+      1.476236119347971e-05
+    ],
+    "early_gain": 7.20667996760074e-05
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.1,
+    "scope": "all",
+    "early_halves_gain": [
+      3.931022634428716e-05,
+      -0.0009043568376463193
+    ],
+    "early_gain": -0.0002907932193839565
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.2,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.00024774668663620153,
+      -0.0015755465804509821
+    ],
+    "early_gain": -0.0007122233404385621
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.4,
+    "scope": "all",
+    "early_halves_gain": [
+      -0.0012727248463980374,
+      -0.0035101451707040777
+    ],
+    "early_gain": -0.0020553951193993006
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": -0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0006944274059161611,
+      -0.0006152823748854114
+    ],
+    "early_gain": -0.0006667417438299622
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": -0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.000100820903356739,
+      -0.00028953855633905815
+    ],
+    "early_gain": -0.00016683607957341216
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.025,
+    "scope": "long",
+    "early_halves_gain": [
+      -2.233956814850924e-05,
+      0.00013190699780343218
+    ],
+    "early_gain": 3.161730377744738e-05
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.05,
+    "scope": "long",
+    "early_halves_gain": [
+      5.069301536661752e-05,
+      6.078066272059874e-06
+    ],
+    "early_gain": 3.508629453350572e-05
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.1,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.00011861335043161428,
+      -0.0006004349975160245
+    ],
+    "early_gain": -0.00028715900810925144
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.2,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.00016843861547105683,
+      -0.0012280324242499782
+    ],
+    "early_gain": -0.0005390943061243839
+  },
+  {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.4,
+    "scope": "long",
+    "early_halves_gain": [
+      -0.0005974100104232663,
+      -0.0028836055474206856
+    ],
+    "early_gain": -0.0013971423028484825
+  }
+]

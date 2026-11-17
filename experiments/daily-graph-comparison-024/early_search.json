@@ -1,0 +1,362 @@
+[
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "blend",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      6.927799545807202e-05,
+      -2.4748908900036083e-05
+    ],
+    "early_gain": 3.6386516774356435e-05
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "blend",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      5.197895006284087e-05,
+      0.00015213531351413703
+    ],
+    "early_gain": 8.70145700908091e-05
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "blend",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -0.00010423613451964677,
+      -0.0004883061249037751
+    ],
+    "early_gain": -0.00023858736077784785
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "blend",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.0001836238534962464,
+      -0.0012619106975653032
+    ],
+    "early_gain": -0.0005608185403653561
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "blend",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.0006250939423188855,
+      -0.0026002702360799976
+    ],
+    "early_gain": -0.0013160288338409396
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "blend",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0020446987902476422,
+      -0.004710298048448555
+    ],
+    "early_gain": -0.0029771500049183405
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "delta",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      0.00015328863971991743,
+      4.677162043978397e-05
+    ],
+    "early_gain": 0.00011602800359642988
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "delta",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      0.00018017457733850333,
+      -0.0001203041522376205
+    ],
+    "early_gain": 7.506434536572469e-05
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "delta",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -5.557144490518184e-05,
+      -0.0008332223891053408
+    ],
+    "early_gain": -0.00032760092018296904
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "delta",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.001052588789550764,
+      -0.0016411329364695352
+    ],
+    "early_gain": -0.0012584669623456237
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "delta",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.0022253402391854593,
+      -0.002892283853606561
+    ],
+    "early_gain": -0.0024586432690653346
+  },
+  {
+    "source": "lgb-binary-graph-024",
+    "mode": "delta",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0026531804438914594,
+      -0.0036902215747367803
+    ],
+    "early_gain": -0.0030159469997213264
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "blend",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      -7.762008717787536e-05,
+      3.918657928872163e-05
+    ],
+    "early_gain": -3.6760037531131374e-05
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "blend",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      3.5724881009015685e-05,
+      -0.0005639665190562282
+    ],
+    "early_gain": -0.00017405270378661339
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "blend",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      0.0004983836508670521,
+      -0.0007641770842269088
+    ],
+    "early_gain": 5.672825671434329e-05
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "blend",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.00032797991304250304,
+      -0.0014925466413181411
+    ],
+    "early_gain": -0.0007353560994684417
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "blend",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.0023739317315016107,
+      -0.00437849779941305
+    ],
+    "early_gain": -0.0030751474371862055
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "blend",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.003612287860520288,
+      -0.0053836758045189385
+    ],
+    "early_gain": -0.004231935707042189
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "delta",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      -0.000131225667491861,
+      -0.000680696589824565
+    ],
+    "early_gain": -0.00032343566581740106
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "delta",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      -0.00048576662056899246,
+      -0.0017690789944415106
+    ],
+    "early_gain": -0.0009346811294314394
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "delta",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -0.001643823105635254,
+      -0.0019628537295838535
+    ],
+    "early_gain": -0.0017554229614285813
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "delta",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.0018987209357869737,
+      -0.0029281042585180533
+    ],
+    "early_gain": -0.002258808719683711
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "delta",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.0027588319860311246,
+      -0.006489027317762333
+    ],
+    "early_gain": -0.004063688729718576
+  },
+  {
+    "source": "lgb-xendcg-graph-024",
+    "mode": "delta",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.005343010718784606,
+      -0.007896569739354412
+    ],
+    "early_gain": -0.006236269224592671
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      -1.935690776411883e-06,
+      6.050324797633585e-05
+    ],
+    "early_gain": 1.9906026092178486e-05
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      -9.063008308347529e-05,
+      -0.00011079718926033537
+    ],
+    "early_gain": -9.768472289594958e-05
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      0.00023756869336821995,
+      -0.0004998638209500053
+    ],
+    "early_gain": -2.0392004061516393e-05
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.00032592828884043417,
+      -0.0011746744233823516
+    ],
+    "early_gain": -0.0006228275176595544
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.000698469463390717,
+      -0.0018925893571957472
+    ],
+    "early_gain": -0.0011161836197911238
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0016078137515265001,
+      -0.0037604758161794423
+    ],
+    "early_gain": -0.0023608348032790123
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      4.899872315704963e-06,
+      -0.0003342929279031592
+    ],
+    "early_gain": -0.00011375289876328376
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      6.990471545007486e-05,
+      -0.0006796386903731661
+    ],
+    "early_gain": -0.0001922924835692587
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -5.5672223509928717e-05,
+      -0.0016230726646392004
+    ],
+    "early_gain": -0.0006039633594373898
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.0007719114733254509,
+      -0.0019505209282577847
+    ],
+    "early_gain": -0.0011841999351011215
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.002264041168298092,
+      -0.002517172655698588
+    ],
+    "early_gain": -0.0023525888981084987
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0022422475538748077,
+      -0.005966321942864157
+    ],
+    "early_gain": -0.0035449631353162776
+  }
+]

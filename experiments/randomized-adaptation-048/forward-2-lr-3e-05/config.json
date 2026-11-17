@@ -1,0 +1,35 @@
+{
+  "seed": 2026,
+  "prefix_feeds": 3749,
+  "lr": 3e-05,
+  "batch_size": 64,
+  "anchor_coefficient": 0.1,
+  "anchor_reduction": "sum_squared_parameter_deviations",
+  "auxiliary_weight": 0.5,
+  "auxiliary_lr": 0.001,
+  "position_edges": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "trainable_common_names": [
+    "local.0.weight",
+    "local.0.bias",
+    "local.3.weight",
+    "local.3.bias",
+    "output.2.weight",
+    "output.2.bias"
+  ],
+  "common_parameters": 4753,
+  "auxiliary_parameters": 58,
+  "weight_decay": 0,
+  "pointwise_weight": 0.25,
+  "gradient_clip": null,
+  "train_available_feeds": 295376,
+  "train_available_candidates": 23111632
+}

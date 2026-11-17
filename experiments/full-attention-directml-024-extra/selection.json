@@ -1,0 +1,92 @@
+{
+  "best": {
+    "feeds": 140408,
+    "transformer_weight": 0.1,
+    "early_ndcg": 0.3800732911263165,
+    "early_block_gain": [
+      -4.600459268872389e-05,
+      1.443268042032624e-05
+    ]
+  },
+  "gate_passed": false,
+  "early_gate_each": 0.001,
+  "grid": [
+    {
+      "feeds": 100724,
+      "transformer_weight": 0.1,
+      "early_ndcg": 0.38002841784488806,
+      "early_block_gain": [
+        1.3347645542673656e-05,
+        -0.0002241646829144767
+      ]
+    },
+    {
+      "feeds": 100724,
+      "transformer_weight": 0.25,
+      "early_ndcg": 0.3789089811303647,
+      "early_block_gain": [
+        -0.0009657041140619817,
+        -0.0016045350593069327
+      ]
+    },
+    {
+      "feeds": 100724,
+      "transformer_weight": 0.5,
+      "early_ndcg": 0.37596234678325957,
+      "early_block_gain": [
+        -0.0032226073644048645,
+        -0.005833173314077873
+      ]
+    },
+    {
+      "feeds": 100724,
+      "transformer_weight": 1.0,
+      "early_ndcg": 0.3691762254216354,
+      "early_block_gain": [
+        -0.010647135605084082,
+        -0.011432687144924654
+      ]
+    },
+    {
+      "feeds": 140408,
+      "transformer_weight": 0.1,
+      "early_ndcg": 0.3800732911263165,
+      "early_block_gain": [
+        -4.600459268872389e-05,
+        1.443268042032624e-05
+      ]
+    },
+    {
+      "feeds": 140408,
+      "transformer_weight": 0.25,
+      "early_ndcg": 0.37890092739621667,
+      "early_block_gain": [
+        -0.0007915428468500383,
+        -0.0019512720061959233
+      ]
+    },
+    {
+      "feeds": 140408,
+      "transformer_weight": 0.5,
+      "early_ndcg": 0.3768534118654207,
+      "early_block_gain": [
+        -0.0025608195048959993,
+        -0.004515950419460544
+      ]
+    },
+    {
+      "feeds": 140408,
+      "transformer_weight": 1.0,
+      "early_ndcg": 0.36902010205523667,
+      "early_block_gain": [
+        -0.010532598610586377,
+        -0.01209188720591976
+      ]
+    }
+  ],
+  "incumbent_early_block_ndcg": [
+    0.38201170277891977,
+    0.376541439473353
+  ],
+  "late_labels_used": false
+}

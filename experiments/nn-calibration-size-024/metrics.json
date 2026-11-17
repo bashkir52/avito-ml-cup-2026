@@ -1,0 +1,126 @@
+{
+  "chosen": {
+    "width": 25,
+    "penalty": 0.012,
+    "early_holdout_ndcg": 0.37538125225034735
+  },
+  "inner_train_feeds": 3749,
+  "inner_holdout_feeds": 2017,
+  "objective": "listwise",
+  "size_weights": [
+    1.0,
+    1.0,
+    0.5
+  ],
+  "early_feeds": 5766,
+  "late_feeds": 8657,
+  "early_holdout_reference": 0.3742309490929333,
+  "val_sources": [
+    "experiments\\nn-final-blend-024\\val_predictions_resolved.parquet",
+    "experiments\\lgb-ensemble-weighted-intent-048\\val_predictions.parquet",
+    "experiments\\nn-vectors-024\\val_predictions.parquet"
+  ],
+  "coefficients": {
+    "reference_log_rank": 0.07684422973474923,
+    "trees_z": 0.2682900012329269,
+    "network_z": 0.3424153475114129,
+    "f1": 0.0307781844434885,
+    "f2": -0.04595867961667156,
+    "f3": -0.08133705903147453,
+    "f4": 0.055718732355883004,
+    "f5": -0.03802709691412183,
+    "user_cos": 0.0909319340866401,
+    "hist_cos_max": 0.09252429554740546,
+    "intent_max_16": -0.04051697097534902,
+    "intent_category_recency": -0.016014596267188555,
+    "intent_match_same_category": -0.007397417424589228,
+    "item_log_exposure": 0.0773925024176812,
+    "item_smoothed_rate": -0.010975950151189766,
+    "f1_tail_+1": 0.014437335692883966,
+    "f1_tail_-1": -0.015669174370280415,
+    "f2_tail_+1": 0.038042319904756004,
+    "f2_tail_-1": -0.024796388985660965,
+    "f3_tail_+1": -0.017843149339897314,
+    "f3_tail_-1": 0.014510782542113562,
+    "user_cos_tail_+1": -0.01763848571720969,
+    "user_cos_tail_-1": 0.00275345646413383,
+    "hist_cos_max_tail_+1": 0.02026351304504025,
+    "hist_cos_max_tail_-1": -0.013954501216790042
+  },
+  "metrics": {
+    "early": {
+      "ndcg": 0.380143424678291,
+      "ndcg_at_10": 0.2565025064198533,
+      "ndcg_at_30": 0.3243849105992378,
+      "gain": 0.0025691030912143686
+    },
+    "late": {
+      "ndcg": 0.3718108110803289,
+      "ndcg_at_10": 0.24485154197627979,
+      "ndcg_at_30": 0.3138158108653099,
+      "gain": 0.0005814639551643451
+    },
+    "all": {
+      "ndcg": 0.37514200778045026,
+      "ndcg_at_10": 0.24950934277927808,
+      "ndcg_at_30": 0.31804110581544714,
+      "gain": 0.0013760786163627393
+    }
+  },
+  "late_gain_by_size": {
+    "5-30": -0.0012651330815295807,
+    "31-100": 0.0018388990825410835,
+    "101-300": 0.0007724057200623795
+  },
+  "paired_feed_95_interval": [
+    -0.0008578431602490119,
+    0.0021374896901395564
+  ],
+  "trials": [
+    {
+      "width": 3,
+      "penalty": 0.012,
+      "early_holdout_ndcg": 0.37380976408109184
+    },
+    {
+      "width": 3,
+      "penalty": 0.04,
+      "early_holdout_ndcg": 0.37367653397212525
+    },
+    {
+      "width": 3,
+      "penalty": 0.15,
+      "early_holdout_ndcg": 0.3741070791388705
+    },
+    {
+      "width": 15,
+      "penalty": 0.012,
+      "early_holdout_ndcg": 0.3750241622795138
+    },
+    {
+      "width": 15,
+      "penalty": 0.04,
+      "early_holdout_ndcg": 0.3741300978189437
+    },
+    {
+      "width": 15,
+      "penalty": 0.15,
+      "early_holdout_ndcg": 0.3740857834584579
+    },
+    {
+      "width": 25,
+      "penalty": 0.012,
+      "early_holdout_ndcg": 0.37538125225034735
+    },
+    {
+      "width": 25,
+      "penalty": 0.04,
+      "early_holdout_ndcg": 0.3742266533261456
+    },
+    {
+      "width": 25,
+      "penalty": 0.15,
+      "early_holdout_ndcg": 0.37404134861806715
+    }
+  ]
+}

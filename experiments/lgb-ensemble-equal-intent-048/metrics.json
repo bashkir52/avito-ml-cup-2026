@@ -1,0 +1,50 @@
+{
+  "components": [
+    "experiments\\lgb-xendcg-intent-024",
+    "experiments\\lgb-xendcg-priors-024",
+    "experiments\\lgb-debiased-024",
+    "experiments\\lgb-binary-intent-024",
+    "experiments\\lgb-binary-priors-024",
+    "experiments\\lgb-xendcg-intent-048",
+    "experiments\\lgb-binary-intent-048"
+  ],
+  "train_feeds": [
+    147684,
+    147684,
+    147684,
+    147684,
+    147684,
+    295376,
+    295376
+  ],
+  "selected_trees": null,
+  "weights": [
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ],
+  "early_feeds": 5766,
+  "late_feeds": 8657,
+  "late_start_timestamp": 1790091904,
+  "metrics": {
+    "early": {
+      "ndcg": 0.3748983062493614,
+      "ndcg_at_10": 0.24868513430805947,
+      "ndcg_at_30": 0.3177098402227009
+    },
+    "late": {
+      "ndcg": 0.36870478365709836,
+      "ndcg_at_10": 0.24042220247291324,
+      "ndcg_at_30": 0.3099265809206369
+    },
+    "all": {
+      "ndcg": 0.3711808185504642,
+      "ndcg_at_10": 0.24372554192804477,
+      "ndcg_at_30": 0.31303815778644933
+    }
+  }
+}

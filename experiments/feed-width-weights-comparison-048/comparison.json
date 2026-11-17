@@ -1,0 +1,34 @@
+{
+  "source": "joint",
+  "mode": "delta",
+  "weight": 0.0,
+  "early_gain_by_block": [
+    0.0,
+    0.0
+  ],
+  "early_gain": 0.0,
+  "late_metrics": {
+    "ndcg": 0.37295718727139904,
+    "ndcg_at_10": 0.2456998515451269,
+    "ndcg_at_30": 0.31538420813681406
+  },
+  "late_gain": 0.0,
+  "late_gain_by_half": [
+    0.0,
+    0.0
+  ],
+  "late_top10_positives": 4864,
+  "early": 0.38009815420324716,
+  "late": 0.37295718727140426,
+  "all": 0.37581198969316154,
+  "full_gain": 0.0,
+  "paired_feed_95_interval": [
+    0.0,
+    0.0
+  ],
+  "late_gain_by_size": {
+    "5-30": 0.0,
+    "31-100": 0.0,
+    "101-300": 0.0
+  }
+}

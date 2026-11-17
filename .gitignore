@@ -1,0 +1,36 @@
+# Local environments, caches and editor state
+.venv*/
+.avito-directml-cache/
+.freebuff/
+.publish/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+__MACOSX/
+.DS_Store
+Thumbs.db
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Competition data and generated arrays/predictions (see materials/SHARING.md)
+/competition/*
+!/competition/readme.md
+*.parquet
+*.npz
+*.npy
+*.memmap
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Keep experiment source, reports, logs and compact trained models in Git.

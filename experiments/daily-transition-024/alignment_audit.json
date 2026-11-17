@@ -1,0 +1,76 @@
+{
+  "positive_count_by_train_day": [
+    513571,
+    483908,
+    499973,
+    488795,
+    482097,
+    426739,
+    354313,
+    455457,
+    417037,
+    82,
+    0,
+    464377,
+    446910,
+    413553,
+    60
+  ],
+  "train": {
+    "feeds": 147684,
+    "rows": 11566844,
+    "prefix_lengths": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14
+    ],
+    "first_day_rows_without_graph": 1105615,
+    "finite_rate_by_feature": {
+      "graph_category_positive_raw": 0.8932474579928631,
+      "graph_category_positive_centered": 0.8932474579928631,
+      "graph_category_exposure_raw": 0.8932459882747619,
+      "graph_category_exposure_centered": 0.8932459882747619,
+      "graph_semantic_256_positive_raw": 0.8929791047583939,
+      "graph_semantic_256_positive_centered": 0.8929791047583939,
+      "graph_semantic_256_exposure_raw": 0.892968470915662,
+      "graph_semantic_256_exposure_centered": 0.892968470915662,
+      "graph_semantic_1024_positive_raw": 0.8915070523990813,
+      "graph_semantic_1024_positive_centered": 0.8915070523990813,
+      "graph_semantic_1024_exposure_raw": 0.8909581559153041,
+      "graph_semantic_1024_exposure_centered": 0.8909581559153041
+    }
+  },
+  "val": {
+    "feeds": 14423,
+    "rows": 1389971,
+    "prefix_lengths": [
+      15
+    ],
+    "first_day_rows_without_graph": 0,
+    "finite_rate_by_feature": {
+      "graph_category_positive_raw": 0.9860140966969815,
+      "graph_category_positive_centered": 0.9860140966969815,
+      "graph_category_exposure_raw": 0.9860140966969815,
+      "graph_category_exposure_centered": 0.9860140966969815,
+      "graph_semantic_256_positive_raw": 0.9856291965803603,
+      "graph_semantic_256_positive_centered": 0.9856291965803603,
+      "graph_semantic_256_exposure_raw": 0.9856277577014196,
+      "graph_semantic_256_exposure_centered": 0.9856277577014196,
+      "graph_semantic_1024_positive_raw": 0.9854471783943693,
+      "graph_semantic_1024_positive_centered": 0.9854471783943693,
+      "graph_semantic_1024_exposure_raw": 0.9852478936610908,
+      "graph_semantic_1024_exposure_centered": 0.9852478936610908
+    }
+  }
+}

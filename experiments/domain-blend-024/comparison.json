@@ -1,0 +1,64 @@
+{
+  "anchor": "nn-calibration-joint-024",
+  "normalization": "zscore",
+  "test_score_sources": [
+    "C:\\Any\\avito\\experiments\\nn-calibration-joint-024\\submission-reserve.parquet"
+  ],
+  "models": [
+    "experiments\\nn-calibration-joint-024"
+  ],
+  "weights": [
+    1.0
+  ],
+  "early": 0.38009815420324716,
+  "late": 0.37295718727140426,
+  "all": 0.37581198969316154,
+  "compared_to": "nn-calibration-joint-024",
+  "reference_scores": "experiments\\nn-calibration-joint-024\\val_predictions.parquet",
+  "compared": [
+    {
+      "anchor": "nn-calibration-joint-024",
+      "normalization": "zscore",
+      "test_score_sources": [
+        "C:\\Any\\avito\\experiments\\nn-calibration-joint-024\\submission-reserve.parquet"
+      ],
+      "models": [
+        "experiments\\nn-calibration-joint-024"
+      ],
+      "weights": [
+        1.0
+      ],
+      "early": 0.38009815420324716,
+      "late": 0.37295718727140426,
+      "all": 0.37581198969316154
+    },
+    {
+      "anchor": "nn-calibration-joint-024",
+      "normalization": "percentile",
+      "test_score_sources": [
+        "C:\\Any\\avito\\experiments\\nn-calibration-joint-024\\submission-reserve.parquet"
+      ],
+      "models": [
+        "experiments\\nn-calibration-joint-024"
+      ],
+      "weights": [
+        1.0
+      ],
+      "early": 0.38009815420324716,
+      "late": 0.37295718727140426,
+      "all": 0.37581198969316154
+    }
+  ],
+  "early_gain": 0.0,
+  "late_gain": 0.0,
+  "full_gain": 0.0,
+  "paired_feed_95_interval": [
+    0.0,
+    0.0
+  ],
+  "late_gain_by_size": {
+    "5-30": 0.0,
+    "31-100": 0.0,
+    "101-300": 0.0
+  }
+}

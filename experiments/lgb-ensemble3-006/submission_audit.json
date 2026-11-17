@@ -1,0 +1,12 @@
+{
+  "rows": 2904806,
+  "feeds": 28595,
+  "sha256": "3aa886bde3472d8fe05353da549941cd5e5a672614fe94b3e4b6058630576e11",
+  "score_min": -5.444967269897461,
+  "score_max": 6.224064350128174,
+  "score_median": 0.09352163970470428,
+  "feeds_with_ties": 941,
+  "constant_feeds": 0,
+  "top1_same_as_team": 12303,
+  "top1_agreement_fraction": 0.430250043713936
+}

@@ -1,0 +1,16 @@
+{
+  "random_vs_early_val": {
+    "auc": 0.8510956803061225,
+    "mean_val_domain_score": 0.3683897750053771,
+    "candidate_rows": 70000
+  },
+  "recent_vs_early_val": {
+    "auc": 0.8410509292857142,
+    "mean_val_domain_score": 0.3761855090201558,
+    "candidate_rows": 70000
+  },
+  "heldout_val_rows": 70000,
+  "domain_fit_rows": 140000,
+  "early_val_mean_probability": 0.6141692860868995,
+  "labels": "train vs early val; no response labels"
+}

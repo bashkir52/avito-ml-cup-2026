@@ -1,0 +1,47 @@
+{
+  "backend": "directml",
+  "adapter": "AMD Radeon 780M Graphics",
+  "device": "privateuseone:0",
+  "torch": "2.4.1+cpu",
+  "numpy": "2.5.5",
+  "parameters": 111169,
+  "width": 64,
+  "layers": 2,
+  "heads": 4,
+  "batch_max": 32,
+  "seed": 2027,
+  "lr": 0.0006,
+  "weight_decay": 0.03,
+  "checkpoints": [
+    36000,
+    75684
+  ],
+  "max_training_seconds": 300,
+  "gate_each_block": 0.001,
+  "early_feeds": 5766,
+  "early_first_feeds": 3749,
+  "available_train_feeds": 147684,
+  "train_cache": "C:\\Any\\avito\\experiments\\cache-intent-024\\train.npz",
+  "position_used": false,
+  "weight_grid": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "pointwise_loss_weight": 0.25,
+  "resume_source": "experiments\\full-attention-directml-024-run\\feeds-64724\\model.pt",
+  "resume_sha256": "2a7ce9bedbb22f37b47b206d70e1858b970538e54a93a65f3f5d8ad4df005ef2",
+  "excluded_previous_pool_feeds": 72000,
+  "optimizer_reset": true,
+  "initial_training": {
+    "feeds": 64724,
+    "steps": 2035,
+    "candidates": 5050395,
+    "positives": 112394,
+    "train_seconds": 240.07860060001258,
+    "stage_loss": 3.8093858707616826
+  },
+  "new_feeds_available": 75684,
+  "original_early_score_max_abs_error": 0.0
+}

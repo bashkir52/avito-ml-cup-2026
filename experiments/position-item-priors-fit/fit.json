@@ -1,0 +1,42 @@
+{
+  "train_files": 512,
+  "train_feeds": 3151208,
+  "train_candidates": 246745836,
+  "train_positive": 5446872,
+  "train_last_time": 1789851648,
+  "first_evaluation_time": 1790024448,
+  "fold_train_candidates": [
+    30877517,
+    30866759,
+    30819869,
+    30835955,
+    30867220,
+    30933797,
+    30725031,
+    30819688
+  ],
+  "fold_train_positives": [
+    682803,
+    682292,
+    680154,
+    678839,
+    681502,
+    679604,
+    681050,
+    680628
+  ],
+  "evaluation_item_ids": 3401538,
+  "items_with_train_impressions": 1912010,
+  "matched_train_impressions": 45393591,
+  "matched_train_positives": 955780,
+  "background_expected_positives_for_matched_items": {
+    "overall": 1002056.1301901082,
+    "position": 970131.7549140288,
+    "position_length_category": 963615.375094667
+  },
+  "background_cross_fit_expected_positives": {
+    "overall": 5446874.909097634,
+    "position": 5446732.220947816,
+    "position_length_category": 5447597.218827707
+  }
+}

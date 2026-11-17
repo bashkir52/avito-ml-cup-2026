@@ -1,0 +1,4 @@
+12000 training feeds; 544950 keyed early scores; four mixes independently verified
+36000 training feeds; 544950 keyed early scores; four mixes independently verified
+64724 training feeds; 544950 keyed early scores; four mixes independently verified
+Checked finite checkpoints, all early deltas and locked gate. No late metric computed.

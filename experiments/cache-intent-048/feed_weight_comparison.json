@@ -1,0 +1,87 @@
+{
+  "winner_by_late_ndcg": "lgb-ensemble-weighted-intent-048",
+  "selected_component_by_early": "lgb-binary-feed-sqrt-024",
+  "added_component_weight": 0.15,
+  "early_weight_grid": {
+    "0.0": 0.3750397263584728,
+    "0.15": 0.37539411299134634,
+    "0.3": 0.37410892206181456,
+    "0.45": 0.373108175813261
+  },
+  "winner_late_gain_vs_public": 0.0005225763441576627,
+  "winner_early_gain_vs_public": 0.0011257312383571357,
+  "metrics": {
+    "lgb-binary-intent-024": {
+      "early": 0.37173494352717323,
+      "late": 0.36748040267590454,
+      "all": 0.3691812750705807
+    },
+    "lgb-binary-feed-sqrt-024": {
+      "early": 0.3699141705310062,
+      "late": 0.3644472183939775,
+      "all": 0.3666327863078725
+    },
+    "lgb-binary-feed-equal-024": {
+      "early": 0.3693352605315574,
+      "late": 0.36398440769639484,
+      "all": 0.3661235616482459
+    },
+    "lgb-ensemble-mixed-intent-024": {
+      "early": 0.3739139951201157,
+      "late": 0.36820822421762045,
+      "all": 0.37048926665149595
+    },
+    "lgb-ensemble-weighted-intent-048": {
+      "early": 0.3750397263584728,
+      "late": 0.3687308005617781,
+      "all": 0.3712529711326539
+    },
+    "lgb-ensemble-feed-sqrt-024": {
+      "early": 0.3735987070165889,
+      "late": 0.36758017700714957,
+      "all": 0.3699862536926122
+    },
+    "lgb-ensemble-feed-equal-024": {
+      "early": 0.3738717581148575,
+      "late": 0.3676340331950913,
+      "all": 0.3701277392123812
+    },
+    "lgb-ensemble-scale-feed-048": {
+      "early": 0.37539411299134634,
+      "late": 0.36825909562906933,
+      "all": 0.3711115195430185
+    }
+  },
+  "late_by_candidate_count": {
+    "5-30": {
+      "lgb-binary-intent-024": 0.5183712438954804,
+      "lgb-binary-feed-sqrt-024": 0.5144353564153368,
+      "lgb-binary-feed-equal-024": 0.518138953111539,
+      "lgb-ensemble-mixed-intent-024": 0.5217971585021164,
+      "lgb-ensemble-weighted-intent-048": 0.5209736169292652,
+      "lgb-ensemble-feed-sqrt-024": 0.5197184532402137,
+      "lgb-ensemble-feed-equal-024": 0.520756448151592,
+      "lgb-ensemble-scale-feed-048": 0.5206140997398301
+    },
+    "31-100": {
+      "lgb-binary-intent-024": 0.3523053130322115,
+      "lgb-binary-feed-sqrt-024": 0.3487792616925295,
+      "lgb-binary-feed-equal-024": 0.3463567864759313,
+      "lgb-ensemble-mixed-intent-024": 0.35138516449699353,
+      "lgb-ensemble-weighted-intent-048": 0.3529691471828667,
+      "lgb-ensemble-feed-sqrt-024": 0.3515467568979419,
+      "lgb-ensemble-feed-equal-024": 0.3508771186293065,
+      "lgb-ensemble-scale-feed-048": 0.35210255297384535
+    },
+    "101-300": {
+      "lgb-binary-intent-024": 0.27037651316179884,
+      "lgb-binary-feed-sqrt-024": 0.2684674350630935,
+      "lgb-binary-feed-equal-024": 0.2667572099930898,
+      "lgb-ensemble-mixed-intent-024": 0.2706491824757958,
+      "lgb-ensemble-weighted-intent-048": 0.2711762170342844,
+      "lgb-ensemble-feed-sqrt-024": 0.2703555766929179,
+      "lgb-ensemble-feed-equal-024": 0.27035731991703904,
+      "lgb-ensemble-scale-feed-048": 0.27098932335968173
+    }
+  }
+}

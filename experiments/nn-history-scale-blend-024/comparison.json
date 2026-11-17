@@ -1,0 +1,120 @@
+{
+  "anchor": "lgb-ensemble-weighted-intent-048",
+  "normalization": "percentile",
+  "test_score_sources": [
+    null,
+    null,
+    null
+  ],
+  "models": [
+    "experiments\\lgb-ensemble-weighted-intent-048",
+    "experiments\\nn-attention-024",
+    "experiments\\nn-vectors-048"
+  ],
+  "weights": [
+    0.55,
+    0.225,
+    0.225
+  ],
+  "early": 0.3794748843189926,
+  "late": 0.3696412946778265,
+  "all": 0.3735725487769018,
+  "compared_to": "nn-final-blend-024",
+  "reference_scores": "experiments\\nn-final-blend-024\\val_predictions_resolved.parquet",
+  "compared": [
+    {
+      "anchor": "nn-final-blend-024",
+      "normalization": "zscore",
+      "test_score_sources": [
+        "C:\\Any\\avito\\experiments\\nn-final-blend-024\\submission-resolved.parquet",
+        null
+      ],
+      "models": [
+        "experiments\\nn-final-blend-024",
+        "experiments\\nn-vectors-048"
+      ],
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "early": 0.3788074661898806,
+      "late": 0.3699372831563181,
+      "all": 0.3734833883613047
+    },
+    {
+      "anchor": "lgb-ensemble-weighted-intent-048",
+      "normalization": "zscore",
+      "test_score_sources": [
+        null,
+        null,
+        null
+      ],
+      "models": [
+        "experiments\\lgb-ensemble-weighted-intent-048",
+        "experiments\\nn-attention-024",
+        "experiments\\nn-vectors-048"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "early": 0.37851953593890525,
+      "late": 0.3704368048243199,
+      "all": 0.3736681039719798
+    },
+    {
+      "anchor": "nn-final-blend-024",
+      "normalization": "percentile",
+      "test_score_sources": [
+        "C:\\Any\\avito\\experiments\\nn-final-blend-024\\submission-resolved.parquet",
+        null
+      ],
+      "models": [
+        "experiments\\nn-final-blend-024",
+        "experiments\\nn-vectors-048"
+      ],
+      "weights": [
+        0.55,
+        0.45
+      ],
+      "early": 0.3788741270473484,
+      "late": 0.3702560015585263,
+      "all": 0.37370133966908214
+    },
+    {
+      "anchor": "lgb-ensemble-weighted-intent-048",
+      "normalization": "percentile",
+      "test_score_sources": [
+        null,
+        null,
+        null
+      ],
+      "models": [
+        "experiments\\lgb-ensemble-weighted-intent-048",
+        "experiments\\nn-attention-024",
+        "experiments\\nn-vectors-048"
+      ],
+      "weights": [
+        0.55,
+        0.225,
+        0.225
+      ],
+      "early": 0.3794748843189926,
+      "late": 0.3696412946778265,
+      "all": 0.3735725487769018
+    }
+  ],
+  "early_gain": 0.0019005627319159328,
+  "late_gain": -0.0015880524473380338,
+  "full_gain": -0.00019338038718561245,
+  "paired_feed_95_interval": [
+    -0.002689759233248306,
+    -0.00038385649755660363
+  ],
+  "late_gain_by_size": {
+    "5-30": -0.003506789077823915,
+    "31-100": -0.0013681114910380973,
+    "101-300": -0.00037837715239306675
+  }
+}

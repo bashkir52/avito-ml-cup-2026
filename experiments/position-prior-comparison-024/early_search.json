@@ -1,0 +1,122 @@
+[
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "blend",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      5.213818210682841e-05,
+      5.7153691374734555e-05
+    ],
+    "early_gain": 5.389265352433911e-05
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "blend",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      -0.0003496448655542595,
+      -8.892154095485784e-05
+    ],
+    "early_gain": -0.00025844144104558914
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "blend",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -0.0002876954192299189,
+      9.390102430490937e-05
+    ],
+    "early_gain": -0.00015420946248178352
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "blend",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.0007439569648840375,
+      -0.001152158676341801
+    ],
+    "early_gain": -0.0008867496898251246
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "blend",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.0012677602447099066,
+      -0.00279824115069461
+    ],
+    "early_gain": -0.0018031365866057005
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "blend",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0024241548419360573,
+      -0.004336032562866613
+    ],
+    "early_gain": -0.003092947308657689
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "delta",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      -3.813674085035452e-05,
+      5.0411723530917534e-05
+    ],
+    "early_gain": -7.1616710173635836e-06
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "delta",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      -8.120866165478276e-05,
+      0.00022697252104659853
+    ],
+    "early_gain": 2.6595959487896048e-05
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "delta",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -0.00028537766665179157,
+      -0.0004294139078333851
+    ],
+    "early_gain": -0.00033576287276751714
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "delta",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.0010428039667902181,
+      -0.0018138179478481415
+    ],
+    "early_gain": -0.0013125117711249093
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "delta",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.002043445843994472,
+      -0.001970014064378599
+    ],
+    "early_gain": -0.0020177587299665123
+  },
+  {
+    "source": "lgb-binary-position-priors-024",
+    "mode": "delta",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0037802658166179192,
+      -0.002744554646518165
+    ],
+    "early_gain": -0.003417964493327735
+  }
+]

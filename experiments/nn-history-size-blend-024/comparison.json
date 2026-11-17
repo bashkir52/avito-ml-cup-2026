@@ -1,0 +1,57 @@
+{
+  "anchor": "lgb-ensemble-weighted-intent-048",
+  "normalization": "percentile",
+  "test_score_sources": [
+    null,
+    null,
+    null
+  ],
+  "models": [
+    "experiments\\lgb-ensemble-weighted-intent-048",
+    "experiments\\nn-attention-024",
+    "experiments\\nn-vectors-048"
+  ],
+  "weights": [
+    0.55,
+    0.225,
+    0.225
+  ],
+  "early": 0.3796204842101143,
+  "late": 0.369125467019025,
+  "all": 0.3733211453885612,
+  "compared_to": "nn-final-blend-024",
+  "reference_scores": "experiments\\nn-final-blend-024\\val_predictions_resolved.parquet",
+  "early_gain": 0.0020461626230376573,
+  "late_gain": -0.002103880106139526,
+  "full_gain": -0.00044478377552622497,
+  "paired_feed_95_interval": [
+    -0.003348975056088494,
+    -0.0008160857183331908
+  ],
+  "late_gain_by_size": {
+    "5-30": -0.003506789077823915,
+    "31-100": -0.002846760511648863,
+    "101-300": -0.00037837715239306675
+  },
+  "size_boundaries": [
+    30,
+    100
+  ],
+  "size_weights": [
+    [
+      0.55,
+      0.22499999999999998,
+      0.22499999999999998
+    ],
+    [
+      0.4,
+      0.3,
+      0.3
+    ],
+    [
+      0.55,
+      0.22499999999999998,
+      0.22499999999999998
+    ]
+  ]
+}

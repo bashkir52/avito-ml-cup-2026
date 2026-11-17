@@ -1,0 +1,1384 @@
+{
+  "shards": [
+    {
+      "name": "part-00012-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6136,
+      "rows": 79269,
+      "positives": 10480
+    },
+    {
+      "name": "part-00013-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6135,
+      "rows": 79562,
+      "positives": 10564
+    },
+    {
+      "name": "part-00014-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6134,
+      "rows": 79345,
+      "positives": 10464
+    },
+    {
+      "name": "part-00039-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6139,
+      "rows": 79254,
+      "positives": 10583
+    },
+    {
+      "name": "part-00040-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6140,
+      "rows": 79580,
+      "positives": 10833
+    },
+    {
+      "name": "part-00050-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6148,
+      "rows": 79555,
+      "positives": 10496
+    },
+    {
+      "name": "part-00083-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6150,
+      "rows": 79488,
+      "positives": 10472
+    },
+    {
+      "name": "part-00086-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6154,
+      "rows": 79718,
+      "positives": 10682
+    },
+    {
+      "name": "part-00088-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6156,
+      "rows": 79480,
+      "positives": 10674
+    },
+    {
+      "name": "part-00089-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6158,
+      "rows": 79510,
+      "positives": 10693
+    },
+    {
+      "name": "part-00090-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6158,
+      "rows": 79242,
+      "positives": 10274
+    },
+    {
+      "name": "part-00091-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6159,
+      "rows": 79745,
+      "positives": 10579
+    },
+    {
+      "name": "part-00150-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6182,
+      "rows": 79551,
+      "positives": 10469
+    },
+    {
+      "name": "part-00174-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6184,
+      "rows": 79778,
+      "positives": 10656
+    },
+    {
+      "name": "part-00177-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6191,
+      "rows": 79925,
+      "positives": 10654
+    },
+    {
+      "name": "part-00178-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6182,
+      "rows": 80368,
+      "positives": 10814
+    },
+    {
+      "name": "part-00181-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6178,
+      "rows": 79951,
+      "positives": 10707
+    },
+    {
+      "name": "part-00182-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6178,
+      "rows": 79759,
+      "positives": 10546
+    },
+    {
+      "name": "part-00185-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6174,
+      "rows": 80374,
+      "positives": 10902
+    },
+    {
+      "name": "part-00186-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6175,
+      "rows": 79440,
+      "positives": 10569
+    },
+    {
+      "name": "part-00229-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6173,
+      "rows": 79840,
+      "positives": 10491
+    },
+    {
+      "name": "part-00233-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6176,
+      "rows": 80288,
+      "positives": 10771
+    },
+    {
+      "name": "part-00239-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6172,
+      "rows": 80271,
+      "positives": 10933
+    },
+    {
+      "name": "part-00311-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6134,
+      "rows": 79833,
+      "positives": 10851
+    },
+    {
+      "name": "part-00316-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6136,
+      "rows": 79753,
+      "positives": 10612
+    },
+    {
+      "name": "part-00318-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6136,
+      "rows": 79545,
+      "positives": 10586
+    },
+    {
+      "name": "part-00323-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6133,
+      "rows": 79266,
+      "positives": 10600
+    },
+    {
+      "name": "part-00326-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6138,
+      "rows": 79648,
+      "positives": 10850
+    },
+    {
+      "name": "part-00329-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6138,
+      "rows": 79326,
+      "positives": 10517
+    },
+    {
+      "name": "part-00335-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6140,
+      "rows": 79516,
+      "positives": 10621
+    },
+    {
+      "name": "part-00352-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6138,
+      "rows": 79406,
+      "positives": 10565
+    },
+    {
+      "name": "part-00357-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6140,
+      "rows": 79467,
+      "positives": 10620
+    },
+    {
+      "name": "part-00362-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6148,
+      "rows": 79294,
+      "positives": 10467
+    },
+    {
+      "name": "part-00367-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6147,
+      "rows": 79705,
+      "positives": 10624
+    },
+    {
+      "name": "part-00372-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6149,
+      "rows": 79355,
+      "positives": 10536
+    },
+    {
+      "name": "part-00394-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6167,
+      "rows": 79379,
+      "positives": 10476
+    },
+    {
+      "name": "part-00400-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6160,
+      "rows": 79843,
+      "positives": 10739
+    },
+    {
+      "name": "part-00413-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6160,
+      "rows": 79757,
+      "positives": 10487
+    },
+    {
+      "name": "part-00415-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6160,
+      "rows": 79633,
+      "positives": 10524
+    },
+    {
+      "name": "part-00419-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6156,
+      "rows": 79688,
+      "positives": 10487
+    },
+    {
+      "name": "part-00421-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6156,
+      "rows": 79575,
+      "positives": 10655
+    },
+    {
+      "name": "part-00431-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6150,
+      "rows": 79498,
+      "positives": 10485
+    },
+    {
+      "name": "part-00434-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6148,
+      "rows": 79783,
+      "positives": 10921
+    },
+    {
+      "name": "part-00439-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6145,
+      "rows": 80352,
+      "positives": 11027
+    },
+    {
+      "name": "part-00455-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6148,
+      "rows": 79618,
+      "positives": 10685
+    },
+    {
+      "name": "part-00460-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6142,
+      "rows": 79754,
+      "positives": 10739
+    },
+    {
+      "name": "part-00472-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6138,
+      "rows": 79537,
+      "positives": 10578
+    },
+    {
+      "name": "part-00493-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": true,
+      "feeds": 6137,
+      "rows": 79616,
+      "positives": 10783
+    },
+    {
+      "name": "part-00036-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6140,
+      "rows": 79568,
+      "positives": 10652
+    },
+    {
+      "name": "part-00510-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6133,
+      "rows": 79359,
+      "positives": 10464
+    },
+    {
+      "name": "part-00209-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79336,
+      "positives": 10605
+    },
+    {
+      "name": "part-00412-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6162,
+      "rows": 79553,
+      "positives": 10568
+    },
+    {
+      "name": "part-00427-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6155,
+      "rows": 79542,
+      "positives": 10563
+    },
+    {
+      "name": "part-00508-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6133,
+      "rows": 79547,
+      "positives": 10625
+    },
+    {
+      "name": "part-00047-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6146,
+      "rows": 79053,
+      "positives": 10489
+    },
+    {
+      "name": "part-00037-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6140,
+      "rows": 79350,
+      "positives": 10688
+    },
+    {
+      "name": "part-00416-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6160,
+      "rows": 79759,
+      "positives": 10725
+    },
+    {
+      "name": "part-00025-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6143,
+      "rows": 79463,
+      "positives": 10540
+    },
+    {
+      "name": "part-00054-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6146,
+      "rows": 79607,
+      "positives": 10737
+    },
+    {
+      "name": "part-00437-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6142,
+      "rows": 79521,
+      "positives": 10659
+    },
+    {
+      "name": "part-00389-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6164,
+      "rows": 79654,
+      "positives": 10593
+    },
+    {
+      "name": "part-00201-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6160,
+      "rows": 79934,
+      "positives": 10812
+    },
+    {
+      "name": "part-00319-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6137,
+      "rows": 79388,
+      "positives": 10524
+    },
+    {
+      "name": "part-00440-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6144,
+      "rows": 79264,
+      "positives": 10465
+    },
+    {
+      "name": "part-00073-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6146,
+      "rows": 79447,
+      "positives": 10633
+    },
+    {
+      "name": "part-00443-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6147,
+      "rows": 79223,
+      "positives": 10481
+    },
+    {
+      "name": "part-00490-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6137,
+      "rows": 79355,
+      "positives": 10572
+    },
+    {
+      "name": "part-00365-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6150,
+      "rows": 79835,
+      "positives": 10779
+    },
+    {
+      "name": "part-00092-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6161,
+      "rows": 79668,
+      "positives": 10598
+    },
+    {
+      "name": "part-00191-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6173,
+      "rows": 79975,
+      "positives": 10756
+    },
+    {
+      "name": "part-00028-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6145,
+      "rows": 79603,
+      "positives": 10649
+    },
+    {
+      "name": "part-00287-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6151,
+      "rows": 80069,
+      "positives": 10899
+    },
+    {
+      "name": "part-00425-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6154,
+      "rows": 79273,
+      "positives": 10710
+    },
+    {
+      "name": "part-00059-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6147,
+      "rows": 78878,
+      "positives": 10419
+    },
+    {
+      "name": "part-00337-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6142,
+      "rows": 79570,
+      "positives": 10427
+    },
+    {
+      "name": "part-00511-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6133,
+      "rows": 79571,
+      "positives": 10659
+    },
+    {
+      "name": "part-00196-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6163,
+      "rows": 79633,
+      "positives": 10503
+    },
+    {
+      "name": "part-00203-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6160,
+      "rows": 79926,
+      "positives": 10487
+    },
+    {
+      "name": "part-00107-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79788,
+      "positives": 10646
+    },
+    {
+      "name": "part-00272-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6160,
+      "rows": 79719,
+      "positives": 10757
+    },
+    {
+      "name": "part-00008-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6132,
+      "rows": 79480,
+      "positives": 10534
+    },
+    {
+      "name": "part-00488-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6132,
+      "rows": 79504,
+      "positives": 10616
+    },
+    {
+      "name": "part-00283-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6154,
+      "rows": 79906,
+      "positives": 10795
+    },
+    {
+      "name": "part-00407-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6162,
+      "rows": 79531,
+      "positives": 10491
+    },
+    {
+      "name": "part-00142-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6176,
+      "rows": 79923,
+      "positives": 10660
+    },
+    {
+      "name": "part-00392-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6169,
+      "rows": 79719,
+      "positives": 10575
+    },
+    {
+      "name": "part-00212-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6171,
+      "rows": 80157,
+      "positives": 10855
+    },
+    {
+      "name": "part-00378-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6155,
+      "rows": 79358,
+      "positives": 10448
+    },
+    {
+      "name": "part-00227-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6172,
+      "rows": 79887,
+      "positives": 10713
+    },
+    {
+      "name": "part-00497-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6135,
+      "rows": 79791,
+      "positives": 10824
+    },
+    {
+      "name": "part-00195-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79665,
+      "positives": 10677
+    },
+    {
+      "name": "part-00502-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6133,
+      "rows": 79375,
+      "positives": 10669
+    },
+    {
+      "name": "part-00032-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6148,
+      "rows": 79756,
+      "positives": 10595
+    },
+    {
+      "name": "part-00068-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6149,
+      "rows": 79665,
+      "positives": 10636
+    },
+    {
+      "name": "part-00417-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6159,
+      "rows": 80038,
+      "positives": 10786
+    },
+    {
+      "name": "part-00358-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6140,
+      "rows": 79767,
+      "positives": 10652
+    },
+    {
+      "name": "part-00096-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6158,
+      "rows": 79766,
+      "positives": 10567
+    },
+    {
+      "name": "part-00153-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6185,
+      "rows": 80199,
+      "positives": 10822
+    },
+    {
+      "name": "part-00076-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6149,
+      "rows": 79171,
+      "positives": 10562
+    },
+    {
+      "name": "part-00251-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6170,
+      "rows": 79855,
+      "positives": 10745
+    },
+    {
+      "name": "part-00063-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6150,
+      "rows": 79452,
+      "positives": 10454
+    },
+    {
+      "name": "part-00246-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6174,
+      "rows": 80088,
+      "positives": 10819
+    },
+    {
+      "name": "part-00237-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6170,
+      "rows": 79671,
+      "positives": 10904
+    },
+    {
+      "name": "part-00320-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6137,
+      "rows": 79456,
+      "positives": 10442
+    },
+    {
+      "name": "part-00304-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6134,
+      "rows": 79853,
+      "positives": 10721
+    },
+    {
+      "name": "part-00259-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6169,
+      "rows": 79278,
+      "positives": 10612
+    },
+    {
+      "name": "part-00100-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6163,
+      "rows": 79910,
+      "positives": 10801
+    },
+    {
+      "name": "part-00243-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6174,
+      "rows": 80319,
+      "positives": 10876
+    },
+    {
+      "name": "part-00277-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6159,
+      "rows": 79421,
+      "positives": 10542
+    },
+    {
+      "name": "part-00011-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6138,
+      "rows": 78920,
+      "positives": 10419
+    },
+    {
+      "name": "part-00247-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6174,
+      "rows": 80240,
+      "positives": 10902
+    },
+    {
+      "name": "part-00344-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6141,
+      "rows": 79768,
+      "positives": 10983
+    },
+    {
+      "name": "part-00480-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6137,
+      "rows": 79657,
+      "positives": 10635
+    },
+    {
+      "name": "part-00038-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6141,
+      "rows": 79364,
+      "positives": 10666
+    },
+    {
+      "name": "part-00289-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6146,
+      "rows": 79156,
+      "positives": 10553
+    },
+    {
+      "name": "part-00003-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6133,
+      "rows": 79553,
+      "positives": 10688
+    },
+    {
+      "name": "part-00463-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6141,
+      "rows": 79693,
+      "positives": 10810
+    },
+    {
+      "name": "part-00223-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79868,
+      "positives": 10850
+    },
+    {
+      "name": "part-00340-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6137,
+      "rows": 79620,
+      "positives": 10735
+    },
+    {
+      "name": "part-00187-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6175,
+      "rows": 79838,
+      "positives": 10645
+    },
+    {
+      "name": "part-00033-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6148,
+      "rows": 79566,
+      "positives": 10737
+    },
+    {
+      "name": "part-00221-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6167,
+      "rows": 79890,
+      "positives": 10759
+    },
+    {
+      "name": "part-00446-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6149,
+      "rows": 79680,
+      "positives": 10719
+    },
+    {
+      "name": "part-00348-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6139,
+      "rows": 79601,
+      "positives": 10657
+    },
+    {
+      "name": "part-00241-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6174,
+      "rows": 79981,
+      "positives": 10653
+    },
+    {
+      "name": "part-00313-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6137,
+      "rows": 79176,
+      "positives": 10300
+    },
+    {
+      "name": "part-00168-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6193,
+      "rows": 80352,
+      "positives": 10740
+    },
+    {
+      "name": "part-00295-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6139,
+      "rows": 79558,
+      "positives": 10665
+    },
+    {
+      "name": "part-00043-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6143,
+      "rows": 79452,
+      "positives": 10584
+    },
+    {
+      "name": "part-00018-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6138,
+      "rows": 79318,
+      "positives": 10552
+    },
+    {
+      "name": "part-00324-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6135,
+      "rows": 79355,
+      "positives": 10658
+    },
+    {
+      "name": "part-00456-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6145,
+      "rows": 79500,
+      "positives": 10878
+    },
+    {
+      "name": "part-00254-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6169,
+      "rows": 80080,
+      "positives": 10769
+    },
+    {
+      "name": "part-00009-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6135,
+      "rows": 79586,
+      "positives": 10598
+    },
+    {
+      "name": "part-00081-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6145,
+      "rows": 79402,
+      "positives": 10731
+    },
+    {
+      "name": "part-00072-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6146,
+      "rows": 79240,
+      "positives": 10437
+    },
+    {
+      "name": "part-00035-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6143,
+      "rows": 79338,
+      "positives": 10529
+    },
+    {
+      "name": "part-00138-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6167,
+      "rows": 79654,
+      "positives": 10566
+    },
+    {
+      "name": "part-00355-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6137,
+      "rows": 79297,
+      "positives": 10646
+    },
+    {
+      "name": "part-00216-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6167,
+      "rows": 79523,
+      "positives": 10774
+    },
+    {
+      "name": "part-00116-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6166,
+      "rows": 79621,
+      "positives": 10477
+    },
+    {
+      "name": "part-00164-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6195,
+      "rows": 79903,
+      "positives": 10514
+    },
+    {
+      "name": "part-00242-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6174,
+      "rows": 80126,
+      "positives": 10683
+    },
+    {
+      "name": "part-00064-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6150,
+      "rows": 79762,
+      "positives": 10830
+    },
+    {
+      "name": "part-00140-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6170,
+      "rows": 79894,
+      "positives": 10670
+    },
+    {
+      "name": "part-00281-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6156,
+      "rows": 79456,
+      "positives": 10717
+    },
+    {
+      "name": "part-00031-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6147,
+      "rows": 79314,
+      "positives": 10440
+    },
+    {
+      "name": "part-00401-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6162,
+      "rows": 79803,
+      "positives": 10711
+    },
+    {
+      "name": "part-00197-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6163,
+      "rows": 79991,
+      "positives": 10739
+    },
+    {
+      "name": "part-00388-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79259,
+      "positives": 10478
+    },
+    {
+      "name": "part-00085-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6156,
+      "rows": 79670,
+      "positives": 10626
+    },
+    {
+      "name": "part-00080-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6145,
+      "rows": 79529,
+      "positives": 10651
+    },
+    {
+      "name": "part-00370-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6149,
+      "rows": 79519,
+      "positives": 10554
+    },
+    {
+      "name": "part-00117-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6166,
+      "rows": 79996,
+      "positives": 10793
+    },
+    {
+      "name": "part-00459-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6141,
+      "rows": 79920,
+      "positives": 10861
+    },
+    {
+      "name": "part-00160-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6193,
+      "rows": 80045,
+      "positives": 10581
+    },
+    {
+      "name": "part-00101-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79897,
+      "positives": 10628
+    },
+    {
+      "name": "part-00041-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6142,
+      "rows": 79850,
+      "positives": 10822
+    },
+    {
+      "name": "part-00341-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6138,
+      "rows": 79319,
+      "positives": 10524
+    },
+    {
+      "name": "part-00098-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6161,
+      "rows": 80093,
+      "positives": 10818
+    },
+    {
+      "name": "part-00371-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6150,
+      "rows": 80016,
+      "positives": 10883
+    },
+    {
+      "name": "part-00106-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79692,
+      "positives": 10717
+    },
+    {
+      "name": "part-00074-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6148,
+      "rows": 79800,
+      "positives": 10742
+    },
+    {
+      "name": "part-00387-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6162,
+      "rows": 79763,
+      "positives": 10678
+    },
+    {
+      "name": "part-00053-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6147,
+      "rows": 79807,
+      "positives": 10808
+    },
+    {
+      "name": "part-00115-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79912,
+      "positives": 10686
+    },
+    {
+      "name": "part-00199-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6165,
+      "rows": 79251,
+      "positives": 10565
+    },
+    {
+      "name": "part-00262-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6175,
+      "rows": 79644,
+      "positives": 10605
+    },
+    {
+      "name": "part-00046-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6143,
+      "rows": 79390,
+      "positives": 10468
+    },
+    {
+      "name": "part-00067-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6149,
+      "rows": 79791,
+      "positives": 10804
+    },
+    {
+      "name": "part-00273-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6159,
+      "rows": 79603,
+      "positives": 10534
+    },
+    {
+      "name": "part-00158-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6189,
+      "rows": 80176,
+      "positives": 10725
+    },
+    {
+      "name": "part-00461-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6141,
+      "rows": 79359,
+      "positives": 10648
+    },
+    {
+      "name": "part-00396-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6166,
+      "rows": 79599,
+      "positives": 10647
+    },
+    {
+      "name": "part-00045-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6142,
+      "rows": 79190,
+      "positives": 10492
+    },
+    {
+      "name": "part-00504-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6130,
+      "rows": 79516,
+      "positives": 10810
+    },
+    {
+      "name": "part-00307-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6136,
+      "rows": 79385,
+      "positives": 10551
+    },
+    {
+      "name": "part-00175-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6187,
+      "rows": 79826,
+      "positives": 10546
+    },
+    {
+      "name": "part-00444-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6149,
+      "rows": 79782,
+      "positives": 10805
+    },
+    {
+      "name": "part-00479-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6136,
+      "rows": 79450,
+      "positives": 10727
+    },
+    {
+      "name": "part-00361-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6148,
+      "rows": 79689,
+      "positives": 10853
+    },
+    {
+      "name": "part-00016-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6136,
+      "rows": 79611,
+      "positives": 10731
+    },
+    {
+      "name": "part-00200-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6162,
+      "rows": 79847,
+      "positives": 10532
+    },
+    {
+      "name": "part-00271-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6163,
+      "rows": 79890,
+      "positives": 10617
+    },
+    {
+      "name": "part-00060-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6148,
+      "rows": 79418,
+      "positives": 10767
+    },
+    {
+      "name": "part-00056-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6146,
+      "rows": 79375,
+      "positives": 10416
+    },
+    {
+      "name": "part-00366-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6148,
+      "rows": 79213,
+      "positives": 10576
+    },
+    {
+      "name": "part-00051-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6147,
+      "rows": 79475,
+      "positives": 10669
+    },
+    {
+      "name": "part-00436-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6143,
+      "rows": 79573,
+      "positives": 10566
+    },
+    {
+      "name": "part-00343-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6142,
+      "rows": 79615,
+      "positives": 10759
+    },
+    {
+      "name": "part-00245-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6173,
+      "rows": 80109,
+      "positives": 10654
+    },
+    {
+      "name": "part-00382-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.npz",
+      "control": false,
+      "feeds": 6158,
+      "rows": 79892,
+      "positives": 10846
+    }
+  ],
+  "features": [
+    "f1",
+    "f2",
+    "f3",
+    "f4",
+    "f5",
+    "category",
+    "f1_rank",
+    "f2_rank",
+    "f3_rank",
+    "f4_rank",
+    "f5_rank",
+    "f1_z",
+    "f2_z",
+    "f3_z",
+    "f4_z",
+    "f5_z",
+    "feed_size",
+    "category_count",
+    "user_norm",
+    "item_norm",
+    "item_missing",
+    "user_cos",
+    "hist_length",
+    "hist_category_8",
+    "hist_category_32",
+    "history_cos_4",
+    "history_cos_16",
+    "history_cos_48",
+    "recent_cos"
+  ],
+  "seed": 2026,
+  "negatives": 12,
+  "workers": 4,
+  "version": 2,
+  "seconds": 170.71
+}

@@ -1,0 +1,7 @@
+depth-hard-ranker-048 frozen_val_predictions.parquet early NDCG [0.377761, 0.371074] long@30 1417 best weight/gains (0.05, -2.719267108605954e-05, 8.367911605209847e-05)
+feeds-108000 control_val_predictions.parquet early NDCG [0.37805, 0.371469] long@30 1431 best weight/gains (0.05, 9.849989287092714e-06, 0.0001818696598440206)
+feeds-108000 depth_hard_val_predictions.parquet early NDCG [0.367468, 0.362352] long@30 1161 best weight/gains (0.025, 7.901927198239049e-06, -7.530030226952659e-05)
+feeds-36000 control_val_predictions.parquet early NDCG [0.37691, 0.37001] long@30 1415 best weight/gains (0.025, -3.773826022480472e-05, 1.02622344020057e-06)
+feeds-36000 depth_hard_val_predictions.parquet early NDCG [0.371829, 0.366039] long@30 1303 best weight/gains (0.025, 3.1096552579973886e-05, -5.99631916276721e-06)
+feeds-8192 control_val_predictions.parquet early NDCG [0.378344, 0.36933] long@30 1408 best weight/gains (0.1, 0.00020142134736660992, -3.7292161395055325e-07)
+feeds-8192 depth_hard_val_predictions.parquet early NDCG [0.374606, 0.367424] long@30 1365 best weight/gains (0.025, -1.3356022684567604e-05, -7.2648653003326345e-06)

@@ -1,0 +1,29 @@
+{
+  "seed": 2027,
+  "threads": 6,
+  "source": "C:\\Any\\avito\\experiments\\sequence-finetune-048\\pretrained\\model.pt",
+  "source_sha256": "3224f4fbb4944a55b0a1121e0f5ed771655ad67617154f5735565431df42b509",
+  "batch_size_max": 96,
+  "train_feeds": 295376,
+  "train_candidates": 23111632,
+  "stages": [
+    8192,
+    36000,
+    108000,
+    216000,
+    295376
+  ],
+  "lr_max": 0.0003,
+  "lr_min": 8.999999999999999e-05,
+  "pointwise_weight": 0.25,
+  "pair_weight": 0.5,
+  "weight_decay": 0.03,
+  "gradient_clip": 5,
+  "mining_teacher_top_candidates": 4,
+  "missed_positive_weight": 2,
+  "missed_positive_cutoff": 30,
+  "log_depth_offset": 2,
+  "max_depth_ratio": 2,
+  "negative_no_deeper_than_positive": true,
+  "late_labels_used_for_training_or_selection": false
+}

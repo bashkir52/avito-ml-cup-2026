@@ -1,0 +1,15 @@
+{
+  "steps_per_arm": 300,
+  "random_feed_presentations_per_arm": 16446,
+  "train_feed_presentations_joint": 19162,
+  "unique_random_feeds": 1870,
+  "unique_train_feeds": 19162,
+  "random_candidates": 1554233,
+  "train_candidates": 1609700,
+  "random_positives": 25415,
+  "train_positives": 33348,
+  "batch_hashes_shared_across_arms": {
+    "random_rows_labels": "7b55118fb8a99babc403f183b7ee5cc1aaf8ca0b639b58c21eb25fbe0b0223e4",
+    "train_rows_labels": "c4ebb457387df37a6b0ab3457d4d8903753fef1d51502ffedac4ce8f83345086"
+  }
+}

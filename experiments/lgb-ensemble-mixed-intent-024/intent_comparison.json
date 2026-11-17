@@ -1,0 +1,49 @@
+{
+  "winner_by_late_ndcg": "lgb-ensemble-mixed-intent-024",
+  "baseline": "lgb-ensemble3-024",
+  "early_gain": 0.002762948060885677,
+  "late_gain": 0.003400004179262284,
+  "full_gain": 0.00314532307418293,
+  "paired_feed_bootstrap_95_interval": [
+    0.0012856516361422095,
+    0.005537601601273309
+  ],
+  "resamples": 2000,
+  "seed": 2026,
+  "by_candidate_count": {
+    "5-30": {
+      "feeds": 2392,
+      "late_ndcg_gain": 0.005493441148933313
+    },
+    "31-100": {
+      "feeds": 3020,
+      "late_ndcg_gain": 0.004852508488292538
+    },
+    "101-300": {
+      "feeds": 3245,
+      "late_ndcg_gain": 0.0005050691269589044
+    }
+  },
+  "models": {
+    "lgb-ensemble3-024": {
+      "early": 0.37115104705923013,
+      "late": 0.3648082200383581,
+      "all": 0.36734394357731315
+    },
+    "lgb-ensemble-priors-024": {
+      "early": 0.37304933741051105,
+      "late": 0.3661852329659461,
+      "all": 0.36892935181967706
+    },
+    "lgb-ensemble-intent-024": {
+      "early": 0.3741076825724833,
+      "late": 0.36816523467613993,
+      "all": 0.3705408953965389
+    },
+    "lgb-ensemble-mixed-intent-024": {
+      "early": 0.3739139951201157,
+      "late": 0.36820822421762045,
+      "all": 0.37048926665149595
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "backend": "directml",
+  "adapter": "AMD Radeon 780M Graphics",
+  "device": "privateuseone:0",
+  "torch": "2.4.1+cpu",
+  "numpy": "2.5.5",
+  "parameters": 111169,
+  "width": 64,
+  "layers": 2,
+  "heads": 4,
+  "batch_max": 32,
+  "seed": 2026,
+  "lr": 0.0012,
+  "weight_decay": 0.03,
+  "checkpoints": [
+    12000,
+    36000,
+    72000
+  ],
+  "max_training_seconds": 240,
+  "gate_each_block": 0.001,
+  "early_feeds": 5766,
+  "early_first_feeds": 3749,
+  "available_train_feeds": 147684,
+  "train_cache": "C:\\Any\\avito\\experiments\\cache-intent-024\\train.npz",
+  "position_used": false,
+  "weight_grid": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "pointwise_loss_weight": 0.25
+}

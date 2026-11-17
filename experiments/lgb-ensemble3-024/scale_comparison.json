@@ -1,0 +1,30 @@
+{
+  "winner_by_late_ndcg": "lgb-ensemble3-024",
+  "late_ndcg_by_feed_size": {
+    "5-30": {
+      "feeds": 2392,
+      "lgb-ensemble3-006": 0.5147266722086624,
+      "lgb-ensemble3-024": 0.516303717353183,
+      "lgb-ensemble6-006-024": 0.5171106243207432
+    },
+    "31-100": {
+      "feeds": 3020,
+      "lgb-ensemble3-006": 0.34436029088069486,
+      "lgb-ensemble3-024": 0.34653265600870103,
+      "lgb-ensemble6-006-024": 0.3459189222935925
+    },
+    "101-300": {
+      "feeds": 3245,
+      "lgb-ensemble3-006": 0.265813197124375,
+      "lgb-ensemble3-024": 0.27014411334883687,
+      "lgb-ensemble6-006-024": 0.2696086682600345
+    }
+  },
+  "late_ndcg_gain_024_vs_006": 0.002816987157288986,
+  "paired_feed_bootstrap_95_interval": [
+    0.0005969071032518948,
+    0.005097407599409738
+  ],
+  "resamples": 2000,
+  "seed": 2026
+}

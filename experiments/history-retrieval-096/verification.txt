@@ -1,0 +1,7 @@
+submitted all 1389971 candidate keys and independent reference metrics verified
+legacy all 1389971 candidate keys and independent reference metrics verified
+uniform_96 checkpoint reproduced; max score error 0.0
+uniform_96 all 1389971 candidate keys and independent reference metrics verified
+hard_96 checkpoint reproduced; max score error 0.0
+hard_96 all 1389971 candidate keys and independent reference metrics verified
+blend all 1389971 candidate keys and independent reference metrics verified

@@ -1,0 +1,21 @@
+{"gpu": "AMD Radeon 780M Graphics", "device": "privateuseone:0", "torch": "2.4.1+cpu"}
+val history: 14,423 aligned feeds, 167,383 vectors
+train history: 147,684 aligned feeds, 1,714,469 vectors
+{"restored_pairs": 544950, "resume_source": "experiments\\full-attention-directml-024-run\\feeds-64724\\model.pt", "resume_sha256": "2a7ce9bedbb22f37b47b206d70e1858b970538e54a93a65f3f5d8ad4df005ef2", "excluded_previous_pool_feeds": 72000, "optimizer_reset": true, "initial_training": {"feeds": 64724, "steps": 2035, "candidates": 5050395, "positives": 112394, "train_seconds": 240.07860060001258, "stage_loss": 3.8093858707616826}, "new_feeds_available": 75684, "original_early_score_max_abs_error": 0.0}
+C:\Any\avito\.venv-avito-directml\Lib\site-packages\torch\optim\adamw.py:380: UserWarning: The operator 'aten::lerp.Scalar_out' is not currently supported on the DML backend and will fall back to run on the CPU. This may have performance implications. (Triggered internally at C:\__w\1\s\pytorch-directml-plugin\torch_directml\csrc\dml\dml_cpu_fallback.cpp:17.)
+  exp_avg.lerp_(grad, 1 - beta1)
+{"steps": 2200, "train_feeds": 70004, "new_feeds": 5280, "loss_last": 3.823378324508667, "train_seconds": 23.287789000023622}
+{"steps": 2400, "train_feeds": 76395, "new_feeds": 11671, "loss_last": 3.9118967056274414, "train_seconds": 47.15757989999838}
+{"steps": 2600, "train_feeds": 82795, "new_feeds": 18071, "loss_last": 3.6353235244750977, "train_seconds": 71.54802210000344}
+{"steps": 2800, "train_feeds": 89149, "new_feeds": 24425, "loss_last": 4.385261535644531, "train_seconds": 95.08781360002467}
+{"steps": 3000, "train_feeds": 95532, "new_feeds": 30808, "loss_last": 3.216701030731201, "train_seconds": 119.48111620004056}
+{"feeds": 100724, "steps": 3164, "candidates": 7867123, "positives": 174947, "train_seconds": 142.04591829999117, "stage_loss": 3.81696339801285, "added_feeds": 36000, "added_steps": 1129, "added_candidates": 2816728, "added_positives": 62553}
+{"steps": 3200, "train_feeds": 101876, "new_feeds": 37152, "loss_last": 5.0076422691345215, "train_seconds": 146.90219839999918}
+{"steps": 3400, "train_feeds": 108262, "new_feeds": 43538, "loss_last": 4.28010892868042, "train_seconds": 171.3341985999723}
+{"steps": 3600, "train_feeds": 114662, "new_feeds": 49938, "loss_last": 4.3889055252075195, "train_seconds": 193.82735669997055}
+{"steps": 3800, "train_feeds": 121015, "new_feeds": 56291, "loss_last": 4.809061527252197, "train_seconds": 216.48362399998587}
+{"steps": 4000, "train_feeds": 127374, "new_feeds": 62650, "loss_last": 2.5365118980407715, "train_seconds": 241.1725644999533}
+{"steps": 4200, "train_feeds": 133743, "new_feeds": 69019, "loss_last": 2.655066967010498, "train_seconds": 266.35436050000135}
+{"steps": 4400, "train_feeds": 140120, "new_feeds": 75396, "loss_last": 3.2567620277404785, "train_seconds": 291.394223899988}
+{"feeds": 140408, "steps": 4409, "candidates": 10967114, "positives": 243452, "train_seconds": 292.72362529998645, "stage_loss": 3.8054891581221004, "added_feeds": 75684, "added_steps": 2374, "added_candidates": 5916719, "added_positives": 131058}
+{"best": {"feeds": 140408, "transformer_weight": 0.1, "early_ndcg": 0.3800732911263165, "early_block_gain": [-4.600459268872389e-05, 1.443268042032624e-05]}, "gate_passed": false, "incumbent_early_block_ndcg": [0.38201170277891977, 0.376541439473353]}

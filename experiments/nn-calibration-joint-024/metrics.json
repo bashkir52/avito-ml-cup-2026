@@ -1,0 +1,51 @@
+{
+  "sources": [
+    "experiments\\nn-final-blend-024\\val_predictions_resolved.parquet",
+    "experiments\\nn-calibration-extra-024\\val_predictions.parquet",
+    "experiments\\nn-calibration-stratified-024\\val_predictions.parquet"
+  ],
+  "size_weights": [
+    [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0.5,
+      0.5
+    ]
+  ],
+  "size_boundaries": [
+    30,
+    100
+  ],
+  "metrics": {
+    "early": {
+      "ndcg": 0.38009815420324716,
+      "gain": 0.002523832616170504
+    },
+    "late": {
+      "ndcg": 0.37295718727140426,
+      "gain": 0.0017278401462396571
+    },
+    "all": {
+      "ndcg": 0.37581198969316154,
+      "gain": 0.0020460605290741067
+    }
+  },
+  "late_gain_by_size": {
+    "5-30": 0.002671447848210668,
+    "31-100": 0.002329500008609709,
+    "101-300": 0.00047233247059336685
+  },
+  "paired_feed_95_interval": [
+    0.0006892188892957177,
+    0.002871999543384809
+  ]
+}

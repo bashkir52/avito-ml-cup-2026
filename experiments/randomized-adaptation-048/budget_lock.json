@@ -1,0 +1,21 @@
+{
+  "pilot_seconds": 2.107040499977302,
+  "pilot_memory": {
+    "rss_gib": 6.479011535644531,
+    "peak_rss_gib": 20.869056701660156,
+    "available_gib": 11.145313262939453
+  },
+  "grid_lrs": [
+    3e-05,
+    0.0001
+  ],
+  "grid_steps": [
+    100,
+    300
+  ],
+  "batch_size": 64,
+  "threads": 6,
+  "estimated_training_seconds": 158.02803749829764,
+  "selection": "max(min(two joint-vs-frozen forward gains)), then weighted mean",
+  "blends": false
+}

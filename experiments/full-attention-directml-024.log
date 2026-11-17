@@ -1,0 +1,15 @@
+{"gpu": "AMD Radeon 780M Graphics", "device": "privateuseone:0", "torch": "2.4.1+cpu"}
+val history: 14,423 aligned feeds, 167,383 vectors
+train history: 147,684 aligned feeds, 1,714,469 vectors
+Traceback (most recent call last):
+  File "C:\Any\avito\experiments\full_attention_ranker.py", line 195, in <module>
+    main()
+  File "C:\Any\avito\experiments\full_attention_ranker.py", line 191, in main
+    train(args.out, args.backend)
+  File "C:\Any\avito\experiments\full_attention_ranker.py", line 149, in train
+    loss = feed_loss(score, labels, data[3], pointwise_weight=.25)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Any\avito\experiments\set_ranker.py", line 223, in feed_loss
+    list_loss = -(log_prob * pos).sum(dim=1) / pos_count.clamp_min(1)
+                  ~~~~~~~~~^~~~~
+RuntimeError: isDifferentiableType(variable.scalar_type()) INTERNAL ASSERT FAILED at "C:\\actions-runner\\_work\\pytorch\\pytorch\\builder\\windows\\pytorch\\torch/csrc/autograd/functions/utils.h":75, please report a bug to PyTorch. 

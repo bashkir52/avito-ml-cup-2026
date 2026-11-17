@@ -1,0 +1,211 @@
+{
+  "selected": {
+    "width": 9,
+    "penalty": 0.06,
+    "weight": 0.0,
+    "inner_long_gain": 0.0
+  },
+  "coefficients": {
+    "incumbent_log_rank": 0.3033580818771094,
+    "lgb-ensemble-weighted-intent-048": -0.024379364068188247,
+    "nn-vectors-024": 0.021547234305176972,
+    "nn-nearest-024": 0.011817773309138163,
+    "nn-vectors-048": 0.011429593282080397,
+    "nn-calibration-extra-024": 0.015366934781308943,
+    "nn-calibration-stratified-024": -0.09925666374524197,
+    "model_disagreement": 0.050550193026184215,
+    "head_first_votes": 0.005480362478467583
+  },
+  "early_scores_in_sample": true,
+  "forward_folds": [
+    [
+      1387,
+      2532
+    ],
+    [
+      2532,
+      3749
+    ],
+    [
+      3749,
+      4735
+    ],
+    [
+      4735,
+      5766
+    ]
+  ],
+  "inner_fit_long_feeds": 801,
+  "inner_tune_long_feeds": 749,
+  "fit_long_feeds": 1550,
+  "fit_long_feeds_with_head_positive": 791,
+  "late_feeds": 8657,
+  "late_long_feeds": 3245,
+  "late_ndcg": 0.37295718727140426,
+  "base_late_ndcg": 0.37295718727140426,
+  "late_gain": 0.0,
+  "late_long_gain": 0.0,
+  "late_long_ndcg_at_10": 0.09732648111421717,
+  "base_late_long_ndcg_at_10": 0.09732648111421717,
+  "late_gains_by_half": [
+    0.0,
+    0.0
+  ],
+  "paired_feed_95_interval": [
+    0.0,
+    0.0
+  ],
+  "late_long_feeds_reordered": 0,
+  "trials": [
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 0.0,
+      "inner_long_gain": 0.0
+    },
+    {
+      "width": 21,
+      "penalty": 0.2,
+      "weight": 0.25,
+      "inner_long_gain": -0.00013081764630082113
+    },
+    {
+      "width": 21,
+      "penalty": 0.015,
+      "weight": 0.25,
+      "inner_long_gain": -0.00019082269429829604
+    },
+    {
+      "width": 21,
+      "penalty": 0.06,
+      "weight": 0.25,
+      "inner_long_gain": -0.0002214762898598602
+    },
+    {
+      "width": 9,
+      "penalty": 0.015,
+      "weight": 0.25,
+      "inner_long_gain": -0.00022830378456046687
+    },
+    {
+      "width": 9,
+      "penalty": 0.2,
+      "weight": 0.25,
+      "inner_long_gain": -0.0002518786931776259
+    },
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 0.25,
+      "inner_long_gain": -0.0002559050117563802
+    },
+    {
+      "width": 9,
+      "penalty": 0.2,
+      "weight": 0.5,
+      "inner_long_gain": -0.0006529783522432714
+    },
+    {
+      "width": 21,
+      "penalty": 0.06,
+      "weight": 0.5,
+      "inner_long_gain": -0.0009606471912437338
+    },
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 0.5,
+      "inner_long_gain": -0.001128406299892629
+    },
+    {
+      "width": 21,
+      "penalty": 0.2,
+      "weight": 0.5,
+      "inner_long_gain": -0.001203482063350818
+    },
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 1.0,
+      "inner_long_gain": -0.0017376431738230914
+    },
+    {
+      "width": 21,
+      "penalty": 0.2,
+      "weight": 0.75,
+      "inner_long_gain": -0.0017888163705891513
+    },
+    {
+      "width": 21,
+      "penalty": 0.015,
+      "weight": 0.5,
+      "inner_long_gain": -0.0018548900147072956
+    },
+    {
+      "width": 9,
+      "penalty": 0.015,
+      "weight": 0.5,
+      "inner_long_gain": -0.0018917225108974764
+    },
+    {
+      "width": 9,
+      "penalty": 0.2,
+      "weight": 0.75,
+      "inner_long_gain": -0.0019124058483744341
+    },
+    {
+      "width": 9,
+      "penalty": 0.015,
+      "weight": 0.75,
+      "inner_long_gain": -0.0021956041597793975
+    },
+    {
+      "width": 21,
+      "penalty": 0.06,
+      "weight": 0.75,
+      "inner_long_gain": -0.0024338494685968355
+    },
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 0.75,
+      "inner_long_gain": -0.0025706082737486924
+    },
+    {
+      "width": 9,
+      "penalty": 0.2,
+      "weight": 1.0,
+      "inner_long_gain": -0.0030922436266918995
+    },
+    {
+      "width": 21,
+      "penalty": 0.015,
+      "weight": 0.75,
+      "inner_long_gain": -0.0031851537181807063
+    },
+    {
+      "width": 21,
+      "penalty": 0.2,
+      "weight": 1.0,
+      "inner_long_gain": -0.0033129598830671826
+    },
+    {
+      "width": 9,
+      "penalty": 0.015,
+      "weight": 1.0,
+      "inner_long_gain": -0.003788018283157078
+    },
+    {
+      "width": 21,
+      "penalty": 0.06,
+      "weight": 1.0,
+      "inner_long_gain": -0.006118392530480409
+    },
+    {
+      "width": 21,
+      "penalty": 0.015,
+      "weight": 1.0,
+      "inner_long_gain": -0.007226183435334435
+    }
+  ]
+}

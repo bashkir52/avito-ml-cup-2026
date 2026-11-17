@@ -1,0 +1,19 @@
+{
+  "selection": {
+    "feeds": 140408,
+    "transformer_weight": 0.1,
+    "early_ndcg": 0.3800732911263165,
+    "early_block_gain": [
+      -4.600459268872389e-05,
+      1.443268042032624e-05
+    ]
+  },
+  "selection_sha256": "104ff4f948fefb9caa5c13fb169add8dcd4c7b6bf0a5ddf14f0a96edb5ceaa55",
+  "checkpoint": "experiments\\full-attention-directml-024-extra\\feeds-140408\\model.pt",
+  "checkpoint_sha256": "0d4a3d1262f44bbddfd415386d7d996cce51c3243fa132b2285dc55b2c90057e",
+  "val_anchor_sha256": "b7d14500c3d54951e8b9f8f18388c9ded4b696f97423d652c6414ec44a2ad712",
+  "test_anchor_sha256": "580a5cc7582a28c151e86f7b6ff882cb74c3ec92e49c8051091efa77da7177c0",
+  "adapter": "AMD Radeon 780M Graphics",
+  "backend": "directml",
+  "normalization": "within-feed z-score"
+}

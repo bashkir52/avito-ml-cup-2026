@@ -1,0 +1,10 @@
+{
+  "rows": 2904806,
+  "feeds": 28595,
+  "sha256": "0bd6d6263adfc70da11737b291b38482039d9ae0ae72ad2bc9686b94d70c364d",
+  "score_min": -5.1075215339660645,
+  "score_max": 7.346620559692383,
+  "score_median": 0.05363068729639053,
+  "feeds_with_ties": 58,
+  "constant_feeds": 0
+}

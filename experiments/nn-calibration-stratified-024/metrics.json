@@ -1,0 +1,101 @@
+{
+  "chosen": {
+    "width": 3,
+    "penalty": 0.15,
+    "early_holdout_ndcg": 0.37262628066288794
+  },
+  "inner_train_feeds": 3749,
+  "inner_holdout_feeds": 2017,
+  "objective": "pairwise",
+  "negative_sampling": "stratified",
+  "size_weights": null,
+  "early_feeds": 5766,
+  "late_feeds": 8657,
+  "early_holdout_reference": 0.3742309490929333,
+  "val_sources": [
+    "experiments\\nn-final-blend-024\\val_predictions_resolved.parquet",
+    "experiments\\lgb-ensemble-weighted-intent-048\\val_predictions.parquet",
+    "experiments\\nn-vectors-024\\val_predictions.parquet"
+  ],
+  "coefficients": {
+    "reference_log_rank": 0.05,
+    "trees_z": -0.01701622302560151,
+    "network_z": 0.1473968521624121
+  },
+  "metrics": {
+    "early": {
+      "ndcg": 0.37686432921420476,
+      "ndcg_at_10": 0.25235124335559606,
+      "ndcg_at_30": 0.3204710478284774,
+      "gain": -0.0007099923728719177
+    },
+    "late": {
+      "ndcg": 0.3717747369798346,
+      "ndcg_at_10": 0.24358678649191937,
+      "ndcg_at_30": 0.31420986003070783,
+      "gain": 0.0005453898546701185
+    },
+    "all": {
+      "ndcg": 0.37380944465669647,
+      "ndcg_at_10": 0.24709062468618964,
+      "ndcg_at_30": 0.3167129459935407,
+      "gain": 4.351549260900919e-05
+    }
+  },
+  "late_gain_by_size": {
+    "5-30": 0.0018197509447221284,
+    "31-100": 0.00031409644095550126,
+    "101-300": -0.0001787289798402866
+  },
+  "paired_feed_95_interval": [
+    -0.000248170551521773,
+    0.0014005958771039445
+  ],
+  "trials": [
+    {
+      "width": 3,
+      "penalty": 0.012,
+      "early_holdout_ndcg": 0.3621932532054507
+    },
+    {
+      "width": 3,
+      "penalty": 0.04,
+      "early_holdout_ndcg": 0.369870552646858
+    },
+    {
+      "width": 3,
+      "penalty": 0.15,
+      "early_holdout_ndcg": 0.37262628066288794
+    },
+    {
+      "width": 15,
+      "penalty": 0.012,
+      "early_holdout_ndcg": 0.3388562213012232
+    },
+    {
+      "width": 15,
+      "penalty": 0.04,
+      "early_holdout_ndcg": 0.34424589323603316
+    },
+    {
+      "width": 15,
+      "penalty": 0.15,
+      "early_holdout_ndcg": 0.35206801440945235
+    },
+    {
+      "width": 25,
+      "penalty": 0.012,
+      "early_holdout_ndcg": 0.33121300351407995
+    },
+    {
+      "width": 25,
+      "penalty": 0.04,
+      "early_holdout_ndcg": 0.33260304342447683
+    },
+    {
+      "width": 25,
+      "penalty": 0.15,
+      "early_holdout_ndcg": 0.3365754907056135
+    }
+  ]
+}

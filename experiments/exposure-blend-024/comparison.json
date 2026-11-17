@@ -1,0 +1,73 @@
+{
+  "anchor": "nn-calibration-joint-024",
+  "normalization": "percentile",
+  "test_score_sources": [
+    "C:\\Any\\avito\\experiments\\nn-calibration-joint-024\\submission-reserve.parquet",
+    null
+  ],
+  "models": [
+    "experiments\\nn-calibration-joint-024",
+    "experiments\\nn-exposure-024"
+  ],
+  "weights": [
+    0.7,
+    0.3
+  ],
+  "early": 0.3808228229050419,
+  "late": 0.3715524370285872,
+  "all": 0.3752585345785864,
+  "compared_to": "nn-calibration-joint-024",
+  "reference_scores": "experiments\\nn-calibration-joint-024\\val_predictions.parquet",
+  "compared": [
+    {
+      "anchor": "nn-calibration-joint-024",
+      "normalization": "zscore",
+      "test_score_sources": [
+        "C:\\Any\\avito\\experiments\\nn-calibration-joint-024\\submission-reserve.parquet",
+        null
+      ],
+      "models": [
+        "experiments\\nn-calibration-joint-024",
+        "experiments\\nn-exposure-024"
+      ],
+      "weights": [
+        0.85,
+        0.15
+      ],
+      "early": 0.3802277306371117,
+      "late": 0.3728774857611608,
+      "all": 0.3758159529285139
+    },
+    {
+      "anchor": "nn-calibration-joint-024",
+      "normalization": "percentile",
+      "test_score_sources": [
+        "C:\\Any\\avito\\experiments\\nn-calibration-joint-024\\submission-reserve.parquet",
+        null
+      ],
+      "models": [
+        "experiments\\nn-calibration-joint-024",
+        "experiments\\nn-exposure-024"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "early": 0.3808228229050419,
+      "late": 0.3715524370285872,
+      "all": 0.3752585345785864
+    }
+  ],
+  "early_gain": 0.0007246687017947428,
+  "late_gain": -0.0014047502428169822,
+  "full_gain": -0.0005534551145752011,
+  "paired_feed_95_interval": [
+    -0.002391324650673564,
+    -0.0003968792976205751
+  ],
+  "late_gain_by_size": {
+    "5-30": -0.0012316474711529491,
+    "31-100": -0.0020054485860739575,
+    "101-300": -0.0009733027337828683
+  }
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "epoch": 1,
+    "lr": 0.0015,
+    "steps_per_arm": 379,
+    "feeds": 36000,
+    "candidates": 2808721,
+    "positives": 61962,
+    "loss": {
+      "scratch": 3.8358819186223876,
+      "pretrained": 4.884610440240966
+    },
+    "sequence_strength": {
+      "scratch": 0.426878958940506,
+      "pretrained": 0.5084518194198608
+    },
+    "seconds": 34.42,
+    "position_band_loss": 2.1023916878700257,
+    "feeds_with_position_comparisons": 35065
+  },
+  {
+    "epoch": 2,
+    "lr": 0.0013997339220468473,
+    "steps_per_arm": 379,
+    "feeds": 36000,
+    "candidates": 2834988,
+    "positives": 62382,
+    "loss": {
+      "scratch": 3.8221784114009805,
+      "pretrained": 4.867710535380575
+    },
+    "sequence_strength": {
+      "scratch": 0.39164304733276367,
+      "pretrained": 0.5268269181251526
+    },
+    "seconds": 67.65,
+    "position_band_loss": 2.096282889035013,
+    "feeds_with_position_comparisons": 35098
+  },
+  {
+    "epoch": 3,
+    "lr": 0.0011372339220468474,
+    "steps_per_arm": 380,
+    "feeds": 36000,
+    "candidates": 2800570,
+    "positives": 62375,
+    "loss": {
+      "scratch": 3.8021430727872585,
+      "pretrained": 4.83787364048428
+    },
+    "sequence_strength": {
+      "scratch": 0.3802355229854584,
+      "pretrained": 0.5309923887252808
+    },
+    "seconds": 100.4,
+    "position_band_loss": 2.0746685201856825,
+    "feeds_with_position_comparisons": 35041
+  },
+  {
+    "epoch": 4,
+    "lr": 0.0008127660779531526,
+    "steps_per_arm": 381,
+    "feeds": 36000,
+    "candidates": 2820571,
+    "positives": 61588,
+    "loss": {
+      "scratch": 3.806173746585846,
+      "pretrained": 4.846279720816347
+    },
+    "sequence_strength": {
+      "scratch": 0.3806644678115845,
+      "pretrained": 0.5394613146781921
+    },
+    "seconds": 135.11,
+    "position_band_loss": 2.0823861880832246,
+    "feeds_with_position_comparisons": 35079
+  },
+  {
+    "epoch": 5,
+    "lr": 0.0005502660779531526,
+    "steps_per_arm": 379,
+    "feeds": 36000,
+    "candidates": 2811014,
+    "positives": 63080,
+    "loss": {
+      "scratch": 3.798969161391258,
+      "pretrained": 4.835981471670999
+    },
+    "sequence_strength": {
+      "scratch": 0.3819093406200409,
+      "pretrained": 0.5519559383392334
+    },
+    "seconds": 171.89,
+    "position_band_loss": 2.075178554640876,
+    "feeds_with_position_comparisons": 35065
+  },
+  {
+    "epoch": 6,
+    "lr": 0.00045,
+    "steps_per_arm": 379,
+    "feeds": 36000,
+    "candidates": 2827704,
+    "positives": 62220,
+    "loss": {
+      "scratch": 3.8019699715110993,
+      "pretrained": 4.837319362302622
+    },
+    "sequence_strength": {
+      "scratch": 0.3742142915725708,
+      "pretrained": 0.5492221117019653
+    },
+    "seconds": 208.59,
+    "position_band_loss": 2.072034294499291,
+    "feeds_with_position_comparisons": 35075
+  }
+]

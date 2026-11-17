@@ -1,0 +1,88 @@
+{
+  "selection": {
+    "signal": "submitted",
+    "weight": 0.0
+  },
+  "early_gate_passed": false,
+  "coverage": {
+    "1": {
+      "late_candidates": 0.09917741689259793,
+      "late_positives": 0.09378797083839611,
+      "test_candidates": 0.13576982421545536
+    },
+    "2": {
+      "late_candidates": 0.0234491213827822,
+      "late_positives": 0.02164337788578372,
+      "test_candidates": 0.041894708286887315
+    },
+    "4": {
+      "late_candidates": 0.003758486475484041,
+      "late_positives": 0.002961725394896719,
+      "test_candidates": 0.009551756640546735
+    }
+  },
+  "incumbent": {
+    "late": {
+      "ndcg": 0.37295718727139904,
+      "ndcg_at_10": 0.2456998515451269,
+      "ndcg_at_30": 0.31538420813681406,
+      "top10_positives": 4864
+    },
+    "late_first": {
+      "ndcg": 0.36783752237401546,
+      "ndcg_at_10": 0.23922788211911553,
+      "ndcg_at_30": 0.30857385744379134,
+      "top10_positives": 2380
+    },
+    "late_second": {
+      "ndcg": 0.37804972030413614,
+      "ndcg_at_10": 0.2521375225156506,
+      "ndcg_at_30": 0.3221584671095837,
+      "top10_positives": 2484
+    }
+  },
+  "candidate": {
+    "late": {
+      "ndcg": 0.37295718727139904,
+      "ndcg_at_10": 0.2456998515451269,
+      "ndcg_at_30": 0.31538420813681406,
+      "top10_positives": 4864
+    },
+    "late_first": {
+      "ndcg": 0.36783752237401546,
+      "ndcg_at_10": 0.23922788211911553,
+      "ndcg_at_30": 0.30857385744379134,
+      "top10_positives": 2380
+    },
+    "late_second": {
+      "ndcg": 0.37804972030413614,
+      "ndcg_at_10": 0.2521375225156506,
+      "ndcg_at_30": 0.3221584671095837,
+      "top10_positives": 2484
+    }
+  },
+  "gain": {
+    "late": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    },
+    "late_first": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    },
+    "late_second": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    }
+  },
+  "paired_late_ndcg_95_ci": [
+    0.0,
+    0.0
+  ]
+}

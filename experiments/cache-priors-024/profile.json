@@ -1,0 +1,14 @@
+{
+  "train": {
+    "rows": 11566844,
+    "item_seen_fraction": 0.6832905328367876
+  },
+  "val": {
+    "rows": 1389971,
+    "item_seen_fraction": 0.6543366732111677
+  },
+  "test": {
+    "rows": 2904806,
+    "item_seen_fraction": 0.5381815515390701
+  }
+}

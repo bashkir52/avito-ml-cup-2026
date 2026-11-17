@@ -1,0 +1,84 @@
+{
+  "kind": "context",
+  "params": {
+    "objective": "lambdarank",
+    "metric": "None",
+    "learning_rate": 0.08,
+    "num_leaves": 63,
+    "min_data_in_leaf": 160,
+    "lambda_l2": 5,
+    "max_bin": 127,
+    "feature_fraction": 0.9,
+    "num_threads": 8,
+    "force_col_wise": true,
+    "verbosity": -1,
+    "seed": 2026,
+    "lambdarank_truncation_level": 40
+  },
+  "train_feeds": 36928,
+  "train_rows": 2866780,
+  "train_shards": [
+    "part-00013-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.parquet",
+    "part-00090-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.parquet",
+    "part-00186-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.parquet",
+    "part-00239-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.parquet",
+    "part-00326-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.parquet",
+    "part-00431-e3428b2d-e8b5-4109-8f1d-0bb6189ed749-c000.zstd.parquet"
+  ],
+  "prepare_seed": null,
+  "early_feeds": 5766,
+  "late_feeds": 8657,
+  "late_start_timestamp": 1790091904,
+  "rounds": 160,
+  "selected_trees": 80,
+  "early_search": {
+    "40": 0.3470063275474939,
+    "80": 0.34761240012463973,
+    "120": 0.3466062167996267,
+    "160": 0.3473852526284954
+  },
+  "metrics": {
+    "early": {
+      "ndcg": 0.3476124001246427,
+      "ndcg_at_10": 0.21343699990623424,
+      "ndcg_at_30": 0.28389641685304107
+    },
+    "late": {
+      "ndcg": 0.338538489879406,
+      "ndcg_at_10": 0.20181334557171757,
+      "ndcg_at_30": 0.2730468480655921
+    },
+    "all": {
+      "ndcg": 0.3421660407685407,
+      "ndcg_at_10": 0.20646022839032432,
+      "ndcg_at_30": 0.27738426841006203
+    }
+  },
+  "importance_gain": {
+    "f1": 4997.0432806015015,
+    "f2": 3616.331301689148,
+    "f3": 7563.904599189758,
+    "f4": 5029.38632106781,
+    "f5": 8184.080320358276,
+    "category": 37723.31822013855,
+    "user_dot": 4986.561287879944,
+    "user_cos": 3596.0189056396484,
+    "item_missing": 0.0,
+    "f1_rank": 5138.25311088562,
+    "f1_z": 17003.989192008972,
+    "f2_rank": 4022.441912651062,
+    "f2_z": 3075.1649951934814,
+    "f3_rank": 3696.358404159546,
+    "f3_z": 3383.3816871643066,
+    "f4_rank": 6145.021903038025,
+    "f4_z": 3706.667896270752,
+    "f5_rank": 5392.952513694763,
+    "f5_z": 5499.217402458191,
+    "user_cos_rank": 16304.752914428711,
+    "user_cos_z": 5550.843081474304,
+    "feed_size": 4782.5494174957275,
+    "category_count": 6067.235366821289,
+    "user_norm": 3764.803792953491,
+    "item_norm": 4989.836790084839
+  }
+}

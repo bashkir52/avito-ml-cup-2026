@@ -1,0 +1,398 @@
+{
+  "anchor": "experiments\\nn-calibration-joint-024\\val_predictions.parquet",
+  "graph": "experiments\\semantic-transition-fit\\graph.npz",
+  "early_sizes": [
+    3749,
+    2017
+  ],
+  "late_sizes": [
+    4317,
+    4340
+  ],
+  "late_positive_count": 13168,
+  "incumbent_late": {
+    "ndcg": 0.37295718727139904,
+    "ndcg_at_10": 0.2456998515451269,
+    "ndcg_at_30": 0.31538420813681406
+  },
+  "incumbent_positive_hits_at_10": 4864,
+  "selected": {
+    "signal": "semantic-1024/exposure",
+    "weight": 0.05,
+    "scope": "all",
+    "early_halves_gain": [
+      0.00010289716841947458,
+      1.476236119347971e-05
+    ],
+    "early_gain": 7.20667996760074e-05,
+    "late_metrics": {
+      "ndcg": 0.37305018128985634,
+      "ndcg_at_10": 0.24580949550394604,
+      "ndcg_at_30": 0.3155878374609881
+    },
+    "late_gain": {
+      "ndcg": 9.299401845687817e-05,
+      "ndcg_at_10": 0.00010964395881912824,
+      "ndcg_at_30": 0.00020362932417419276
+    },
+    "late_halves_gain": [
+      -0.00013513448187302734,
+      0.0003199135428633766
+    ],
+    "late_candidate_coverage": 0.9841838250173665,
+    "late_positive_coverage": 0.988456865127582,
+    "late_positive_hits_at_10": 4866,
+    "late_feeds_with_more_positive_hits": 7,
+    "late_feeds_with_fewer_positive_hits": 5
+  },
+  "best_nonzero_by_signal": [
+    {
+      "signal": "category/positive",
+      "weight": 0.025,
+      "scope": "all",
+      "early_halves_gain": [
+        -0.0003900210302910749,
+        -0.0011635779932402126
+      ],
+      "early_gain": -0.000660618393154136,
+      "late_metrics": {
+        "ndcg": 0.37312248340862647,
+        "ndcg_at_10": 0.24584735011951311,
+        "ndcg_at_30": 0.31565596512657396
+      },
+      "late_gain": {
+        "ndcg": 0.0001652961372270765,
+        "ndcg_at_10": 0.00014749857438636172,
+        "ndcg_at_30": 0.0002717569897598483
+      },
+      "late_halves_gain": [
+        -0.0003382545335320108,
+        0.0006661782214821406
+      ],
+      "late_candidate_coverage": 0.9850642765091046,
+      "late_positive_coverage": 0.989140340218712,
+      "late_positive_hits_at_10": 4862,
+      "late_feeds_with_more_positive_hits": 28,
+      "late_feeds_with_fewer_positive_hits": 30
+    },
+    {
+      "signal": "category/positive",
+      "weight": -0.05,
+      "scope": "long",
+      "early_halves_gain": [
+        -0.0007469984308159627,
+        -0.00017026002242
+      ],
+      "early_gain": -0.0005452500142820298,
+      "late_metrics": {
+        "ndcg": 0.37139599245984284,
+        "ndcg_at_10": 0.2441413105435094,
+        "ndcg_at_30": 0.3138029023261082
+      },
+      "late_gain": {
+        "ndcg": -0.0015611948115575945,
+        "ndcg_at_10": -0.0015585410016173984,
+        "ndcg_at_30": -0.0015813058107064142
+      },
+      "late_halves_gain": [
+        -0.0010057022385310116,
+        -0.0021137435299344955
+      ],
+      "late_candidate_coverage": 0.9850642765091046,
+      "late_positive_coverage": 0.989140340218712,
+      "late_positive_hits_at_10": 4857,
+      "late_feeds_with_more_positive_hits": 48,
+      "late_feeds_with_fewer_positive_hits": 53
+    },
+    {
+      "signal": "category/exposure",
+      "weight": 0.025,
+      "scope": "all",
+      "early_halves_gain": [
+        -4.100185512054988e-06,
+        2.3263519999567152e-05
+      ],
+      "early_gain": 5.471891147144086e-06,
+      "late_metrics": {
+        "ndcg": 0.3729684027301616,
+        "ndcg_at_10": 0.2456928602014535,
+        "ndcg_at_30": 0.3154063092899761
+      },
+      "late_gain": {
+        "ndcg": 1.1215458762080889e-05,
+        "ndcg_at_10": -6.991343673367428e-06,
+        "ndcg_at_30": 2.2101153161964032e-05
+      },
+      "late_halves_gain": [
+        1.8371418396942215e-05,
+        4.097422415607077e-06
+      ],
+      "late_candidate_coverage": 0.9850642765091046,
+      "late_positive_coverage": 0.989140340218712,
+      "late_positive_hits_at_10": 4864,
+      "late_feeds_with_more_positive_hits": 1,
+      "late_feeds_with_fewer_positive_hits": 1
+    },
+    {
+      "signal": "category/exposure",
+      "weight": 0.025,
+      "scope": "long",
+      "early_halves_gain": [
+        -3.8288368593699625e-06,
+        2.3263519999567152e-05
+      ],
+      "early_gain": 5.648319537521498e-06,
+      "late_metrics": {
+        "ndcg": 0.3729684027301616,
+        "ndcg_at_10": 0.2456928602014535,
+        "ndcg_at_30": 0.3154063092899761
+      },
+      "late_gain": {
+        "ndcg": 1.1215458762080889e-05,
+        "ndcg_at_10": -6.991343673367428e-06,
+        "ndcg_at_30": 2.2101153161964032e-05
+      },
+      "late_halves_gain": [
+        1.8371418396942215e-05,
+        4.097422415607077e-06
+      ],
+      "late_candidate_coverage": 0.9850642765091046,
+      "late_positive_coverage": 0.989140340218712,
+      "late_positive_hits_at_10": 4864,
+      "late_feeds_with_more_positive_hits": 1,
+      "late_feeds_with_fewer_positive_hits": 1
+    },
+    {
+      "signal": "semantic-256/positive",
+      "weight": 0.025,
+      "scope": "all",
+      "early_halves_gain": [
+        7.120345357767782e-05,
+        -0.000749781738093207
+      ],
+      "early_gain": -0.00021598474128881105,
+      "late_metrics": {
+        "ndcg": 0.37307314992768936,
+        "ndcg_at_10": 0.24614712997109187,
+        "ndcg_at_30": 0.3155780430162875
+      },
+      "late_gain": {
+        "ndcg": 0.00011596265629036199,
+        "ndcg_at_10": 0.0004472784259650664,
+        "ndcg_at_30": 0.00019383487947288537
+      },
+      "late_halves_gain": [
+        -0.000359404043666459,
+        0.0005888101318004067
+      ],
+      "late_candidate_coverage": 0.9845778980640718,
+      "late_positive_coverage": 0.9886087484811664,
+      "late_positive_hits_at_10": 4886,
+      "late_feeds_with_more_positive_hits": 60,
+      "late_feeds_with_fewer_positive_hits": 38
+    },
+    {
+      "signal": "semantic-256/positive",
+      "weight": 0.05,
+      "scope": "long",
+      "early_halves_gain": [
+        -5.5705027449916834e-05,
+        -0.0006962412958656375
+      ],
+      "early_gain": -0.0002797705240497277,
+      "late_metrics": {
+        "ndcg": 0.37315260317615734,
+        "ndcg_at_10": 0.24596454104003132,
+        "ndcg_at_30": 0.31565446596371854
+      },
+      "late_gain": {
+        "ndcg": 0.00019541590475665368,
+        "ndcg_at_10": 0.00026468949490458826,
+        "ndcg_at_30": 0.0002702578269040381
+      },
+      "late_halves_gain": [
+        -0.0006511203357909822,
+        0.0010374658933382528
+      ],
+      "late_candidate_coverage": 0.9845778980640718,
+      "late_positive_coverage": 0.9886087484811664,
+      "late_positive_hits_at_10": 4878,
+      "late_feeds_with_more_positive_hits": 78,
+      "late_feeds_with_fewer_positive_hits": 65
+    },
+    {
+      "signal": "semantic-256/exposure",
+      "weight": 0.025,
+      "scope": "all",
+      "early_halves_gain": [
+        7.574511985268772e-06,
+        -2.2559344061514748e-05
+      ],
+      "early_gain": -2.966588889924145e-06,
+      "late_metrics": {
+        "ndcg": 0.37292658846405913,
+        "ndcg_at_10": 0.24566957236233616,
+        "ndcg_at_30": 0.3153535896168507
+      },
+      "late_gain": {
+        "ndcg": -3.0598807340084624e-05,
+        "ndcg_at_10": -3.0279182790769357e-05,
+        "ndcg_at_30": -3.0618519963323724e-05
+      },
+      "late_halves_gain": [
+        8.645555962633238e-06,
+        -6.963519360225816e-05
+      ],
+      "late_candidate_coverage": 0.9845755312589864,
+      "late_positive_coverage": 0.9886087484811664,
+      "late_positive_hits_at_10": 4864,
+      "late_feeds_with_more_positive_hits": 0,
+      "late_feeds_with_fewer_positive_hits": 0
+    },
+    {
+      "signal": "semantic-256/exposure",
+      "weight": 0.025,
+      "scope": "long",
+      "early_halves_gain": [
+        7.574511985268772e-06,
+        -2.2559344061514748e-05
+      ],
+      "early_gain": -2.966588889924145e-06,
+      "late_metrics": {
+        "ndcg": 0.37292658846405913,
+        "ndcg_at_10": 0.24566957236233616,
+        "ndcg_at_30": 0.3153535896168507
+      },
+      "late_gain": {
+        "ndcg": -3.0598807340084624e-05,
+        "ndcg_at_10": -3.0279182790769357e-05,
+        "ndcg_at_30": -3.0618519963323724e-05
+      },
+      "late_halves_gain": [
+        8.645555962633238e-06,
+        -6.963519360225816e-05
+      ],
+      "late_candidate_coverage": 0.9845755312589864,
+      "late_positive_coverage": 0.9886087484811664,
+      "late_positive_hits_at_10": 4864,
+      "late_feeds_with_more_positive_hits": 0,
+      "late_feeds_with_fewer_positive_hits": 0
+    },
+    {
+      "signal": "semantic-1024/positive",
+      "weight": 0.025,
+      "scope": "all",
+      "early_halves_gain": [
+        -0.0005913917303665384,
+        -0.0015471595443153545
+      ],
+      "early_gain": -0.0009257281300777353,
+      "late_metrics": {
+        "ndcg": 0.3728776218016783,
+        "ndcg_at_10": 0.2460740521552895,
+        "ndcg_at_30": 0.31533265701319463
+      },
+      "late_gain": {
+        "ndcg": -7.95654697211582e-05,
+        "ndcg_at_10": 0.0003742006101624204,
+        "ndcg_at_30": -5.15511236195192e-05
+      },
+      "late_halves_gain": [
+        -0.0001562142724660655,
+        -3.322870308770234e-06
+      ],
+      "late_candidate_coverage": 0.9843944706699597,
+      "late_positive_coverage": 0.9885328068043743,
+      "late_positive_hits_at_10": 4884,
+      "late_feeds_with_more_positive_hits": 58,
+      "late_feeds_with_fewer_positive_hits": 38
+    },
+    {
+      "signal": "semantic-1024/positive",
+      "weight": 0.025,
+      "scope": "long",
+      "early_halves_gain": [
+        -0.00025076478896716693,
+        -0.0010744665951753134
+      ],
+      "early_gain": -0.0005389032806636345,
+      "late_metrics": {
+        "ndcg": 0.3731162560057728,
+        "ndcg_at_10": 0.24622763760757957,
+        "ndcg_at_30": 0.31553190661132724
+      },
+      "late_gain": {
+        "ndcg": 0.00015906873437247538,
+        "ndcg_at_10": 0.0005277860624526199,
+        "ndcg_at_30": 0.00014769847451285927
+      },
+      "late_halves_gain": [
+        -0.00014949973139697268,
+        0.00046600192947079494
+      ],
+      "late_candidate_coverage": 0.9843944706699597,
+      "late_positive_coverage": 0.9885328068043743,
+      "late_positive_hits_at_10": 4883,
+      "late_feeds_with_more_positive_hits": 43,
+      "late_feeds_with_fewer_positive_hits": 24
+    },
+    {
+      "signal": "semantic-1024/exposure",
+      "weight": 0.05,
+      "scope": "all",
+      "early_halves_gain": [
+        0.00010289716841947458,
+        1.476236119347971e-05
+      ],
+      "early_gain": 7.20667996760074e-05,
+      "late_metrics": {
+        "ndcg": 0.37305018128985634,
+        "ndcg_at_10": 0.24580949550394604,
+        "ndcg_at_30": 0.3155878374609881
+      },
+      "late_gain": {
+        "ndcg": 9.299401845687817e-05,
+        "ndcg_at_10": 0.00010964395881912824,
+        "ndcg_at_30": 0.00020362932417419276
+      },
+      "late_halves_gain": [
+        -0.00013513448187302734,
+        0.0003199135428633766
+      ],
+      "late_candidate_coverage": 0.9841838250173665,
+      "late_positive_coverage": 0.988456865127582,
+      "late_positive_hits_at_10": 4866,
+      "late_feeds_with_more_positive_hits": 7,
+      "late_feeds_with_fewer_positive_hits": 5
+    },
+    {
+      "signal": "semantic-1024/exposure",
+      "weight": 0.05,
+      "scope": "long",
+      "early_halves_gain": [
+        5.069301536661752e-05,
+        6.078066272059874e-06
+      ],
+      "early_gain": 3.508629453350572e-05,
+      "late_metrics": {
+        "ndcg": 0.3730131965975358,
+        "ndcg_at_10": 0.24578328338790628,
+        "ndcg_at_30": 0.31552788043835306
+      },
+      "late_gain": {
+        "ndcg": 5.600932613639087e-05,
+        "ndcg_at_10": 8.343184277941372e-05,
+        "ndcg_at_30": 0.0001436723015391863
+      },
+      "late_halves_gain": [
+        -0.000154069756005437,
+        0.0002649750859535042
+      ],
+      "late_candidate_coverage": 0.9841838250173665,
+      "late_positive_coverage": 0.988456865127582,
+      "late_positive_hits_at_10": 4866,
+      "late_feeds_with_more_positive_hits": 6,
+      "late_feeds_with_fewer_positive_hits": 4
+    }
+  ]
+}

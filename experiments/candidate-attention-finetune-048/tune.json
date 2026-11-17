@@ -1,0 +1,124 @@
+{
+  "seed": 2026,
+  "train_feeds_available": 295376,
+  "epochs": [
+    {
+      "epoch": 1,
+      "lr": 0.0015,
+      "steps_per_arm": 379,
+      "feeds": 36000,
+      "candidates": 2808721,
+      "positives": 61962,
+      "loss": {
+        "shared": 3.832496364712715,
+        "attention": 3.8325064962440067
+      },
+      "sequence_strength": {
+        "shared": 0.5002539157867432,
+        "attention": 0.500904381275177
+      },
+      "seconds": 52.86
+    },
+    {
+      "epoch": 2,
+      "lr": 0.0013997339220468473,
+      "steps_per_arm": 379,
+      "feeds": 36000,
+      "candidates": 2834988,
+      "positives": 62382,
+      "loss": {
+        "shared": 3.8208935704098805,
+        "attention": 3.820930391798417
+      },
+      "sequence_strength": {
+        "shared": 0.5261718034744263,
+        "attention": 0.5267601609230042
+      },
+      "seconds": 107.22
+    },
+    {
+      "epoch": 3,
+      "lr": 0.0011372339220468474,
+      "steps_per_arm": 380,
+      "feeds": 36000,
+      "candidates": 2800570,
+      "positives": 62375,
+      "loss": {
+        "shared": 3.7997374903029866,
+        "attention": 3.799813114222553
+      },
+      "sequence_strength": {
+        "shared": 0.5293780565261841,
+        "attention": 0.5305924415588379
+      },
+      "seconds": 161.07
+    },
+    {
+      "epoch": 4,
+      "lr": 0.0008127660779531526,
+      "steps_per_arm": 381,
+      "feeds": 36000,
+      "candidates": 2820571,
+      "positives": 61588,
+      "loss": {
+        "shared": 3.8031616069078447,
+        "attention": 3.803197194033199
+      },
+      "sequence_strength": {
+        "shared": 0.5300735831260681,
+        "attention": 0.5312023758888245
+      },
+      "seconds": 215.67
+    },
+    {
+      "epoch": 5,
+      "lr": 0.0005502660779531526,
+      "steps_per_arm": 379,
+      "feeds": 36000,
+      "candidates": 2811014,
+      "positives": 63080,
+      "loss": {
+        "shared": 3.797855647371875,
+        "attention": 3.7979264466265836
+      },
+      "sequence_strength": {
+        "shared": 0.5431438684463501,
+        "attention": 0.5446012020111084
+      },
+      "seconds": 266.9
+    },
+    {
+      "epoch": 6,
+      "lr": 0.00045,
+      "steps_per_arm": 379,
+      "feeds": 36000,
+      "candidates": 2827704,
+      "positives": 62220,
+      "loss": {
+        "shared": 3.8005852245754665,
+        "attention": 3.8006224197281733
+      },
+      "sequence_strength": {
+        "shared": 0.5435254573822021,
+        "attention": 0.5453932285308838
+      },
+      "seconds": 319.3
+    }
+  ],
+  "batch_size": 96,
+  "threads": 6,
+  "base_width": 48,
+  "sequence_width": 32,
+  "lr": 0.0015,
+  "candidate_slots": 8,
+  "arms": [
+    "shared",
+    "attention"
+  ],
+  "position_conditioned": null,
+  "encoder": "experiments\\sequence-pretrain-510\\encoder.pt",
+  "train_cache": "experiments\\cache-intent-048",
+  "train_vectors": "experiments\\embedding-cache-048",
+  "val_cache": "experiments\\cache-intent-024",
+  "val_vectors": "experiments\\embedding-cache-024"
+}

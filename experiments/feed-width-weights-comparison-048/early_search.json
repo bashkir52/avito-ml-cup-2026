@@ -1,0 +1,362 @@
+[
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "blend",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      -0.00012759400387372165,
+      -8.171457059755319e-05
+    ],
+    "early_gain": -0.00011154495480711887
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "blend",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      -0.0001913028461531855,
+      0.00020055016150323298
+    ],
+    "early_gain": -5.422904864312729e-05
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "blend",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -0.00033155937289402733,
+      -0.00029210608563304556
+    ],
+    "early_gain": -0.00031775824899437407
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "blend",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.001342625531777958,
+      -0.0005627415399526367
+    ],
+    "early_gain": -0.0010698149158376749
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "blend",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.0013810835170671842,
+      -0.0008857032940057552
+    ],
+    "early_gain": -0.0012077949444145827
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "blend",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0014357418319726639,
+      -0.002602391780979518
+    ],
+    "early_gain": -0.0018438467482312186
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "delta",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      -5.644288249924842e-06,
+      7.132123122568725e-07
+    ],
+    "early_gain": -3.4203758957936383e-06
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "delta",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      0.00016922275807373008,
+      -0.00043107167011207173
+    ],
+    "early_gain": -4.076577152230913e-05
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "delta",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      0.00028431584626799464,
+      -0.0009559953761743973
+    ],
+    "early_gain": -0.0001495564630740631
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "delta",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      5.812426974117946e-05,
+      -0.000239043397943559
+    ],
+    "early_gain": -4.582772223247968e-05
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "delta",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.001221612088108353,
+      -0.0020329869445012217
+    ],
+    "early_gain": -0.0015054384990248317
+  },
+  {
+    "source": "lgb-width-global-weight-048",
+    "mode": "delta",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.002857818265014305,
+      -0.0029765406679210936
+    ],
+    "early_gain": -0.002899348456943371
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "blend",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      -4.911111090367994e-05,
+      -0.00014581000632040068
+    ],
+    "early_gain": -8.29372767128242e-05
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "blend",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      1.6364025609749267e-05,
+      -8.149871140428883e-06
+    ],
+    "early_gain": 7.788838349064339e-06
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "blend",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -4.5888809066750856e-05,
+      -5.722963744671621e-05
+    ],
+    "early_gain": -4.985593547021782e-05
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "blend",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.0007195405985713019,
+      -0.00021395104673036875
+    ],
+    "early_gain": -0.0005426807085152558
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "blend",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.0017000065497309615,
+      -0.0021514730174419018
+    ],
+    "early_gain": -0.0018579336855916908
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "blend",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0029566949950765036,
+      -0.0033127114668499774
+    ],
+    "early_gain": -0.0030812328416889036
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "delta",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      0.00013648836748395704,
+      -3.515716829054408e-05
+    ],
+    "early_gain": 7.644517538247095e-05
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "delta",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      0.00016678887332148684,
+      -6.631657172176187e-05
+    ],
+    "early_gain": 8.524643789792935e-05
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "delta",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      0.0004271920334234407,
+      -0.0005465926934723908
+    ],
+    "early_gain": 8.65531513303273e-05
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "delta",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.0001689834773847929,
+      -0.0014438583325901287
+    ],
+    "early_gain": -0.0006149464643686922
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "delta",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.001963279857928868,
+      -0.003249067390597275
+    ],
+    "early_gain": -0.0024130602001751697
+  },
+  {
+    "source": "lgb-width-feed-weight-048",
+    "mode": "delta",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0031932804606854166,
+      -0.005032831924481407
+    ],
+    "early_gain": -0.003836772535343154
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      -7.637524686542194e-05,
+      -0.00013858014000765585
+    ],
+    "early_gain": -9.813509242003275e-05
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      -0.00027225341302556446,
+      0.0001415462860690541
+    ],
+    "early_gain": -0.0001275024603592714
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      -9.771188537178274e-05,
+      0.00025985823433743484
+    ],
+    "early_gain": 2.736944162327309e-05
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -0.0012153602726561747,
+      -0.00042527041994647673
+    ],
+    "early_gain": -0.0009389795524141593
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.001262404283550776,
+      -0.0015412687526514903
+    ],
+    "early_gain": -0.0013599536477852787
+  },
+  {
+    "source": "joint",
+    "mode": "blend",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0020676100387308784,
+      -0.002922782752736681
+    ],
+    "early_gain": -0.002366757344341302
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.025,
+    "early_gain_by_block": [
+      4.0721838443794006e-05,
+      -3.891273854126163e-07
+    ],
+    "early_gain": 2.6340843286404175e-05
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.05,
+    "early_gain_by_block": [
+      0.00023845045982509393,
+      -0.0004296339792594598
+    ],
+    "early_gain": 4.7483589521239695e-06
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.1,
+    "early_gain_by_block": [
+      0.0005193486049127643,
+      -0.00076651616287595
+    ],
+    "early_gain": 6.954124510876911e-05
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.2,
+    "early_gain_by_block": [
+      -4.747472162662105e-06,
+      -0.0012098137274338863
+    ],
+    "early_gain": -0.0004262907668005495
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.35,
+    "early_gain_by_block": [
+      -0.0012045389327765765,
+      -0.0018643780910204762
+    ],
+    "early_gain": -0.0014353567583364002
+  },
+  {
+    "source": "joint",
+    "mode": "delta",
+    "weight": 0.5,
+    "early_gain_by_block": [
+      -0.0016334915875869625,
+      -0.004125137938612478
+    ],
+    "early_gain": -0.0025050924703511773
+  }
+]

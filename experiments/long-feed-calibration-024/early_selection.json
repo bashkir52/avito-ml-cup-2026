@@ -1,0 +1,278 @@
+{
+  "choice": {
+    "name": "global",
+    "weight": 0.05,
+    "early_gain": 0.000360785802908877,
+    "early_gain_by_block": [
+      0.00019410423375748818,
+      0.0005056585686198972
+    ]
+  },
+  "families": {
+    "global": {
+      "name": "global",
+      "weight": 0.05,
+      "early_gain": 0.000360785802908877,
+      "early_gain_by_block": [
+        0.00019410423375748818,
+        0.0005056585686198972
+      ]
+    },
+    "specialist": {
+      "name": "specialist",
+      "weight": 0.05,
+      "early_gain": 0.00014742289466723263,
+      "early_gain_by_block": [
+        0.00021339702487311677,
+        9.008089364716512e-05
+      ]
+    },
+    "specialist_delta": {
+      "name": "specialist_delta",
+      "weight": 0.35,
+      "early_gain": 0.0010652828893886492,
+      "early_gain_by_block": [
+        0.0021246888896578864,
+        0.00014449075831351866
+      ]
+    }
+  },
+  "long_feeds_by_window": [
+    651,
+    749
+  ],
+  "grid": {
+    "global": [
+      {
+        "name": "global",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "global",
+        "weight": 0.05,
+        "early_gain": 0.000360785802908877,
+        "early_gain_by_block": [
+          0.00019410423375748818,
+          0.0005056585686198972
+        ]
+      },
+      {
+        "name": "global",
+        "weight": 0.1,
+        "early_gain": 0.00019393407329943032,
+        "early_gain_by_block": [
+          0.00047635167905211165,
+          -5.1531696186545145e-05
+        ]
+      },
+      {
+        "name": "global",
+        "weight": 0.2,
+        "early_gain": -0.0005294453220101307,
+        "early_gain_by_block": [
+          -8.56546288053935e-05,
+          -0.0009151699432067712
+        ]
+      },
+      {
+        "name": "global",
+        "weight": 0.35,
+        "early_gain": -0.0007216523996711387,
+        "early_gain_by_block": [
+          0.0006960141461638164,
+          -0.0019538298647426415
+        ]
+      },
+      {
+        "name": "global",
+        "weight": 0.5,
+        "early_gain": -0.0008750272223815697,
+        "early_gain_by_block": [
+          0.0006302137298390217,
+          -0.002183320760292925
+        ]
+      },
+      {
+        "name": "global",
+        "weight": 0.75,
+        "early_gain": -0.0016844969339515586,
+        "early_gain_by_block": [
+          -0.0007812290271065908,
+          -0.0024695802548541945
+        ]
+      },
+      {
+        "name": "global",
+        "weight": 1.0,
+        "early_gain": -0.002013106344367479,
+        "early_gain_by_block": [
+          -0.0014968809047975376,
+          -0.0024617882684796716
+        ]
+      }
+    ],
+    "specialist": [
+      {
+        "name": "specialist",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "specialist",
+        "weight": 0.05,
+        "early_gain": 0.00014742289466723263,
+        "early_gain_by_block": [
+          0.00021339702487311677,
+          9.008089364716512e-05
+        ]
+      },
+      {
+        "name": "specialist",
+        "weight": 0.1,
+        "early_gain": -0.00026959499492548196,
+        "early_gain_by_block": [
+          0.0003512742634486584,
+          -0.0008092290232319777
+        ]
+      },
+      {
+        "name": "specialist",
+        "weight": 0.2,
+        "early_gain": -0.0011685965233603104,
+        "early_gain_by_block": [
+          -0.00041342414331267354,
+          -0.0018249613022802186
+        ]
+      },
+      {
+        "name": "specialist",
+        "weight": 0.35,
+        "early_gain": -0.0012766025235518284,
+        "early_gain_by_block": [
+          -0.00022707870599701592,
+          -0.0021888054677817125
+        ]
+      },
+      {
+        "name": "specialist",
+        "weight": 0.5,
+        "early_gain": -0.0007563708162929198,
+        "early_gain_by_block": [
+          9.480819146769848e-05,
+          -0.0014961806080848585
+        ]
+      },
+      {
+        "name": "specialist",
+        "weight": 0.75,
+        "early_gain": -0.0020414671159049553,
+        "early_gain_by_block": [
+          -0.0014187221084991815,
+          -0.0025827314681361423
+        ]
+      },
+      {
+        "name": "specialist",
+        "weight": 1.0,
+        "early_gain": -0.0021931791061434803,
+        "early_gain_by_block": [
+          -0.0015483634995261653,
+          -0.002753626315633296
+        ]
+      }
+    ],
+    "specialist_delta": [
+      {
+        "name": "specialist_delta",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "specialist_delta",
+        "weight": 0.05,
+        "early_gain": 0.00013654455545970116,
+        "early_gain_by_block": [
+          0.0006357266336059973,
+          -0.00029732397975156563
+        ]
+      },
+      {
+        "name": "specialist_delta",
+        "weight": 0.1,
+        "early_gain": 2.1601499194398497e-05,
+        "early_gain_by_block": [
+          0.00020652886351988674,
+          -0.00013912976138756778
+        ]
+      },
+      {
+        "name": "specialist_delta",
+        "weight": 0.2,
+        "early_gain": -0.0008591225682823826,
+        "early_gain_by_block": [
+          -0.0011844870651430252,
+          -0.0005763291270857491
+        ]
+      },
+      {
+        "name": "specialist_delta",
+        "weight": 0.35,
+        "early_gain": 0.0010652828893886492,
+        "early_gain_by_block": [
+          0.0021246888896578864,
+          0.00014449075831351866
+        ]
+      },
+      {
+        "name": "specialist_delta",
+        "weight": 0.5,
+        "early_gain": 0.001009162187192712,
+        "early_gain_by_block": [
+          0.003247990989560596,
+          -0.0009367357438373186
+        ]
+      },
+      {
+        "name": "specialist_delta",
+        "weight": 0.75,
+        "early_gain": -0.0009633972299742658,
+        "early_gain_by_block": [
+          0.0020290358807152657,
+          -0.0035642970364614273
+        ]
+      },
+      {
+        "name": "specialist_delta",
+        "weight": 1.0,
+        "early_gain": -0.0019377802669137921,
+        "early_gain_by_block": [
+          0.0010515990715634544,
+          -0.004536025860169717
+        ]
+      }
+    ]
+  },
+  "windows": [
+    [
+      1870,
+      3749
+    ],
+    [
+      3749,
+      5766
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{"gpu": "AMD Radeon 780M Graphics", "device": "privateuseone:0", "torch": "2.4.1+cpu"}
+val history: 14,423 aligned feeds, 167,383 vectors
+train history: 147,684 aligned feeds, 1,714,469 vectors
+C:\Any\avito\.venv-avito-directml\Lib\site-packages\torch\optim\adamw.py:380: UserWarning: The operator 'aten::lerp.Scalar_out' is not currently supported on the DML backend and will fall back to run on the CPU. This may have performance implications. (Triggered internally at C:\__w\1\s\pytorch-directml-plugin\torch_directml\csrc\dml\dml_cpu_fallback.cpp:17.)
+  exp_avg.lerp_(grad, 1 - beta1)
+{"steps": 200, "train_feeds": 6355, "loss_last": 2.6192216873168945, "train_seconds": 31.528203299967572}
+{"feeds": 12000, "steps": 380, "candidates": 944248, "positives": 20992, "train_seconds": 53.21218630002113, "stage_loss": 3.8482778584261736}
+{"steps": 400, "train_feeds": 12633, "loss_last": 2.525242805480957, "train_seconds": 55.51762250001775}
+{"steps": 600, "train_feeds": 18972, "loss_last": 4.7156476974487305, "train_seconds": 77.05243999999948}
+{"steps": 800, "train_feeds": 25320, "loss_last": 4.4228925704956055, "train_seconds": 100.79057880002074}
+{"steps": 1000, "train_feeds": 31697, "loss_last": 3.1449947357177734, "train_seconds": 123.13417460001074}
+{"feeds": 36000, "steps": 1135, "candidates": 2825056, "positives": 62334, "train_seconds": 138.80397050001193, "stage_loss": 3.8333518468737604}
+{"steps": 1200, "train_feeds": 38065, "loss_last": 4.962401390075684, "train_seconds": 146.18293240002822}
+{"steps": 1400, "train_feeds": 44459, "loss_last": 4.822107791900635, "train_seconds": 171.17101620003814}
+{"steps": 1600, "train_feeds": 50844, "loss_last": 5.512282371520996, "train_seconds": 193.19466300000204}
+{"steps": 1800, "train_feeds": 57230, "loss_last": 3.2016172409057617, "train_seconds": 214.21852430002764}
+{"steps": 2000, "train_feeds": 63604, "loss_last": 2.545924186706543, "train_seconds": 236.11480560002383}
+{"feeds": 64724, "steps": 2035, "candidates": 5050395, "positives": 112394, "train_seconds": 240.07860060001258, "stage_loss": 3.8093858707616826}
+{"best": {"feeds": 64724, "transformer_weight": 0.1, "early_ndcg": 0.38000016019236593, "early_block_gain": [-1.9776656150033512e-05, -0.00024337668955615784]}, "gate_passed": false, "incumbent_early_block_ndcg": [0.38201170277891977, 0.376541439473353]}

@@ -1,0 +1,14 @@
+{
+  "f1_f5": {
+    "log_position_mae": 0.9113915521914806,
+    "ndcg_for_logged_top10": 0.6880917296407528,
+    "feeds_with_logged_top10": 3000,
+    "seconds": 3.44476109999232
+  },
+  "all79": {
+    "log_position_mae": 0.66888229791718,
+    "ndcg_for_logged_top10": 0.7086161436714239,
+    "feeds_with_logged_top10": 3000,
+    "seconds": 21.89124389999779
+  }
+}

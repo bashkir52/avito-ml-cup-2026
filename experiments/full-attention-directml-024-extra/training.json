@@ -1,0 +1,26 @@
+[
+  {
+    "feeds": 100724,
+    "steps": 3164,
+    "candidates": 7867123,
+    "positives": 174947,
+    "train_seconds": 142.04591829999117,
+    "stage_loss": 3.81696339801285,
+    "added_feeds": 36000,
+    "added_steps": 1129,
+    "added_candidates": 2816728,
+    "added_positives": 62553
+  },
+  {
+    "feeds": 140408,
+    "steps": 4409,
+    "candidates": 10967114,
+    "positives": 243452,
+    "train_seconds": 292.72362529998645,
+    "stage_loss": 3.8054891581221004,
+    "added_feeds": 75684,
+    "added_steps": 2374,
+    "added_candidates": 5916719,
+    "added_positives": 131058
+  }
+]

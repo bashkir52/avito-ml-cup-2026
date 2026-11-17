@@ -1,0 +1,11 @@
+history-intent: 295247 train feeds, 23119839 rows, 79 features, 160 initial trees
+training matrix binned
+trained 200/160 new trees
+trained 240/160 new trees
+trained 280/160 new trees
+trained 320/160 new trees
+added trees=40, early NDCG=0.372245
+added trees=80, early NDCG=0.372919
+added trees=120, early NDCG=0.373398
+added trees=160, early NDCG=0.373073
+{"early": {"ndcg": 0.37339836680580923, "ndcg_at_10": 0.24813240435335746, "ndcg_at_30": 0.3164047669061722}, "late": {"ndcg": 0.3691455062070635, "ndcg_at_10": 0.24158545279967222, "ndcg_at_30": 0.3103022140351538}, "all": {"ndcg": 0.3708457068735284, "ndcg_at_10": 0.24420278086307476, "ndcg_at_30": 0.3127418812232711}}

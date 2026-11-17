@@ -1,0 +1,67 @@
+{
+  "scope": "late val; diagnostic uses known target, and union is not a model",
+  "score_sources": {
+    "previous": "experiments\\nn-final-blend-024\\val_predictions_resolved.parquet",
+    "current": "experiments\\nn-calibration-joint-024\\val_predictions.parquet",
+    "trees": "experiments\\lgb-ensemble-weighted-intent-048\\val_predictions.parquet",
+    "vectors": "experiments\\nn-vectors-024\\val_predictions.parquet",
+    "nearest": "experiments\\nn-nearest-024\\val_predictions.parquet",
+    "vectors48": "experiments\\nn-vectors-048\\val_predictions.parquet"
+  },
+  "improved_feeds": 3367,
+  "worse_feeds": 2782,
+  "unchanged_feeds": 2508,
+  "segments": {
+    "5-30": {
+      "feeds": 2392,
+      "share": 0.2763081899041238,
+      "current_ndcg": 0.5280205066462574,
+      "gain_vs_previous": 0.002671447848210668,
+      "first_positive_rank_p50": 4.0,
+      "has_positive_top_10": 0.8524247491638796,
+      "has_positive_top_30": 1.0,
+      "positive_at_rank_11_to_30": 0.14757525083612041,
+      "union_top_10_has_positive": 0.8900501672240803,
+      "union_top_10_mean_items": 10.459448160535118,
+      "union_recovers_positive_missed_in_current_top_10": 0.03762541806020067,
+      "same_budget_current_has_positive": 0.8929765886287625,
+      "union_current30_and_top10_has_positive": 1.0,
+      "current_at_union30_budget_has_positive": 1.0,
+      "union_current30_and_top10_mean_items": 16.410117056856187
+    },
+    "31-100": {
+      "feeds": 3020,
+      "share": 0.3488506410996881,
+      "current_ndcg": 0.35872717448053,
+      "gain_vs_previous": 0.002329500008609709,
+      "first_positive_rank_p50": 12.0,
+      "has_positive_top_10": 0.4609271523178808,
+      "has_positive_top_30": 0.8350993377483443,
+      "positive_at_rank_11_to_30": 0.3741721854304636,
+      "union_top_10_has_positive": 0.5582781456953643,
+      "union_top_10_mean_items": 14.241390728476821,
+      "union_recovers_positive_missed_in_current_top_10": 0.09735099337748344,
+      "same_budget_current_has_positive": 0.5748344370860927,
+      "union_current30_and_top10_has_positive": 0.8357615894039735,
+      "current_at_union30_budget_has_positive": 0.8357615894039735,
+      "union_current30_and_top10_mean_items": 30.069867549668874
+    },
+    "101-300": {
+      "feeds": 3245,
+      "share": 0.3748411689961881,
+      "current_ndcg": 0.2718980743850533,
+      "gain_vs_previous": 0.00047233247059336685,
+      "first_positive_rank_p50": 30.0,
+      "has_positive_top_10": 0.2468412942989214,
+      "has_positive_top_30": 0.5057010785824345,
+      "positive_at_rank_11_to_30": 0.2588597842835131,
+      "union_top_10_has_positive": 0.34298921417565487,
+      "union_top_10_mean_items": 16.438212634822804,
+      "union_recovers_positive_missed_in_current_top_10": 0.09614791987673343,
+      "same_budget_current_has_positive": 0.34637904468412944,
+      "union_current30_and_top10_has_positive": 0.5115562403697997,
+      "current_at_union30_budget_has_positive": 0.510939907550077,
+      "union_current30_and_top10_mean_items": 30.572881355932203
+    }
+  }
+}

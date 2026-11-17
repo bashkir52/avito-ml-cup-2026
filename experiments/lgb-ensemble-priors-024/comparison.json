@@ -1,0 +1,8 @@
+{
+  "late_gain_vs_public_ensemble": 0.0013770129275879656,
+  "paired_feed_bootstrap_95_interval": [
+    -0.0005536560602218524,
+    0.0033529686367342443
+  ],
+  "seed": 2026
+}

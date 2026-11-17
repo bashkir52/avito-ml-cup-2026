@@ -1,0 +1,1 @@
+Initial diagnostic run. An off-by-two discount array in the inner gain check produced NaN for nonzero trial weights. Do not use this run for comparison. The corrected results are in `experiments/long-head-rerank-verified-024`.

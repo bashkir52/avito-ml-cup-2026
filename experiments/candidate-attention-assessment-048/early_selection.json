@@ -1,0 +1,239 @@
+{
+  "normalization": "zscore",
+  "choice": {
+    "name": "shared",
+    "weight": 0.025,
+    "early_gain": 2.4724087913691243e-06,
+    "early_gain_by_block": [
+      2.1142990359470614e-06,
+      3.138027766618165e-06
+    ]
+  },
+  "selected_by_family": {
+    "shared": {
+      "name": "shared",
+      "weight": 0.025,
+      "early_gain": 2.4724087913691243e-06,
+      "early_gain_by_block": [
+        2.1142990359470614e-06,
+        3.138027766618165e-06
+      ]
+    },
+    "attention": {
+      "name": "attention",
+      "weight": 0.0,
+      "early_gain": 0.0,
+      "early_gain_by_block": [
+        0.0,
+        0.0
+      ]
+    },
+    "attention_delta": {
+      "name": "attention_delta",
+      "weight": 0.0,
+      "early_gain": 0.0,
+      "early_gain_by_block": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "grid": {
+    "shared": [
+      {
+        "name": "shared",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "shared",
+        "weight": 0.025,
+        "early_gain": 2.4724087913691243e-06,
+        "early_gain_by_block": [
+          2.1142990359470614e-06,
+          3.138027766618165e-06
+        ]
+      },
+      {
+        "name": "shared",
+        "weight": 0.05,
+        "early_gain": -2.646939718404727e-05,
+        "early_gain_by_block": [
+          -6.937558384149264e-05,
+          5.328037662793225e-05
+        ]
+      },
+      {
+        "name": "shared",
+        "weight": 0.1,
+        "early_gain": -0.00011382147891502853,
+        "early_gain_by_block": [
+          -0.00011533059778665286,
+          -0.00011101647809712101
+        ]
+      },
+      {
+        "name": "shared",
+        "weight": 0.2,
+        "early_gain": -0.0005908951430126542,
+        "early_gain_by_block": [
+          -0.00029405772785809836,
+          -0.0011426271556127683
+        ]
+      },
+      {
+        "name": "shared",
+        "weight": 0.35,
+        "early_gain": -0.001308664508113151,
+        "early_gain_by_block": [
+          -0.0006224889357495043,
+          -0.0025840597588773113
+        ]
+      },
+      {
+        "name": "shared",
+        "weight": 0.5,
+        "early_gain": -0.002338137663357555,
+        "early_gain_by_block": [
+          -0.0012470298308010401,
+          -0.004366180927737514
+        ]
+      }
+    ],
+    "attention": [
+      {
+        "name": "attention",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attention",
+        "weight": 0.025,
+        "early_gain": 6.667958376153371e-07,
+        "early_gain_by_block": [
+          1.8856299681183943e-06,
+          -1.598652429740122e-06
+        ]
+      },
+      {
+        "name": "attention",
+        "weight": 0.05,
+        "early_gain": -3.1708443635675696e-05,
+        "early_gain_by_block": [
+          -7.15216620160022e-05,
+          4.2292426819378365e-05
+        ]
+      },
+      {
+        "name": "attention",
+        "weight": 0.1,
+        "early_gain": -5.579230029303891e-05,
+        "early_gain_by_block": [
+          -9.39965183985345e-05,
+          1.5217919675975873e-05
+        ]
+      },
+      {
+        "name": "attention",
+        "weight": 0.2,
+        "early_gain": -0.0004921370378888741,
+        "early_gain_by_block": [
+          -0.00019902288020159914,
+          -0.0010369486279580833
+        ]
+      },
+      {
+        "name": "attention",
+        "weight": 0.35,
+        "early_gain": -0.0011564768951800074,
+        "early_gain_by_block": [
+          -0.00041080137445723673,
+          -0.002542464761907656
+        ]
+      },
+      {
+        "name": "attention",
+        "weight": 0.5,
+        "early_gain": -0.002164993958226162,
+        "early_gain_by_block": [
+          -0.001376407291506312,
+          -0.003630740816695532
+        ]
+      }
+    ],
+    "attention_delta": [
+      {
+        "name": "attention_delta",
+        "weight": 0.0,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attention_delta",
+        "weight": 0.025,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attention_delta",
+        "weight": 0.05,
+        "early_gain": 0.0,
+        "early_gain_by_block": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attention_delta",
+        "weight": 0.1,
+        "early_gain": 2.319983307054364e-06,
+        "early_gain_by_block": [
+          3.627222140883117e-06,
+          -1.0978287441514235e-07
+        ]
+      },
+      {
+        "name": "attention_delta",
+        "weight": 0.2,
+        "early_gain": -1.570674690770269e-05,
+        "early_gain_by_block": [
+          -2.7289634558071937e-05,
+          5.822378427564688e-06
+        ]
+      },
+      {
+        "name": "attention_delta",
+        "weight": 0.35,
+        "early_gain": -8.80197761570584e-05,
+        "early_gain_by_block": [
+          -9.023308166832449e-05,
+          -8.390590289888461e-05
+        ]
+      },
+      {
+        "name": "attention_delta",
+        "weight": 0.5,
+        "early_gain": -0.00019943709339687333,
+        "early_gain_by_block": [
+          -0.00027882170240909585,
+          -5.188483797455194e-05
+        ]
+      }
+    ]
+  },
+  "matched_weight": 0.025
+}

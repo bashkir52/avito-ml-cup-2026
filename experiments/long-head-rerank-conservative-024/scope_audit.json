@@ -1,0 +1,10 @@
+{
+  "feeds": 14423,
+  "eligible_feeds": 5306,
+  "outside_head_scores_unchanged": true,
+  "locked_first_three_unchanged": true,
+  "max_position_change": 5,
+  "late_long_feeds_with_top10_membership_changed": 131,
+  "late_long_feeds_gaining_a_positive_in_top10": 3,
+  "late_long_feeds_losing_all_positive_candidates_in_top10": 0
+}

@@ -1,0 +1,29 @@
+{
+  "train_files": 512,
+  "train_candidates": 246745836,
+  "train_positive": 5446872,
+  "registry_items": 9536549,
+  "matched_train_impressions": 153148632,
+  "matched_train_positives": 3451615,
+  "expected_train_positives": 3419167.3341635116,
+  "splits": {
+    "train": {
+      "rows": 11566844,
+      "feeds": 147684,
+      "feature_coverage": 0.6832905328367876,
+      "rows_with_empty_day_prefix": 1105615
+    },
+    "val": {
+      "rows": 1389971,
+      "feeds": 14423,
+      "feature_coverage": 0.6543366732111677,
+      "rows_with_empty_day_prefix": 0
+    },
+    "test": {
+      "rows": 2904806,
+      "feeds": 28595,
+      "feature_coverage": 0.5381815515390701,
+      "rows_with_empty_day_prefix": 0
+    }
+  }
+}

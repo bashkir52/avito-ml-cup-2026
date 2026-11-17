@@ -1,0 +1,155 @@
+{
+  "selected": {
+    "signal": "prior_positive_absent_from_history",
+    "weight": 0.0,
+    "early_gain": 0.0,
+    "early_gain_by_block": [
+      0.0,
+      0.0
+    ]
+  },
+  "best_nonzero_early": {
+    "signal": "prior_positive_absent_from_history",
+    "weight": 0.025,
+    "early_gain": -5.7934135762917975e-05,
+    "early_gain_by_block": [
+      -7.772678409455421e-05,
+      -2.1145519701785487e-05
+    ]
+  },
+  "audit": {
+    "late_feeds_with_profile": 2595,
+    "late_feeds_with_novel_positive": 901,
+    "late_prior_positives_across_feeds": 8912,
+    "late_novel_positives_across_feeds": 4271,
+    "late_exact_candidate_matches": 10,
+    "late_exact_matches_positive": 0,
+    "late_active_feeds_by_signal": {
+      "prior_positive": 2595,
+      "prior_positive_absent_from_history": 901,
+      "category_lift": 2514,
+      "mean": 2595
+    },
+    "validation_shared_item_embedding_pairs": 8275,
+    "validation_shared_item_embedding_cosine_mean": 0.9991099778042819
+  },
+  "incumbent": {
+    "early_first": {
+      "ndcg": 0.38201170277892305,
+      "ndcg_at_10": 0.258487957514267,
+      "ndcg_at_30": 0.32860502142688913,
+      "top10_positives": 2240
+    },
+    "early_second": {
+      "ndcg": 0.3765414394733532,
+      "ndcg_at_10": 0.2533815463883055,
+      "ndcg_at_30": 0.3175314333237703,
+      "top10_positives": 1165
+    },
+    "late": {
+      "ndcg": 0.37295718727139904,
+      "ndcg_at_10": 0.2456998515451269,
+      "ndcg_at_30": 0.31538420813681406,
+      "top10_positives": 4864
+    },
+    "late_first": {
+      "ndcg": 0.36783752237401546,
+      "ndcg_at_10": 0.23922788211911553,
+      "ndcg_at_30": 0.30857385744379134,
+      "top10_positives": 2380
+    },
+    "late_second": {
+      "ndcg": 0.37804972030413614,
+      "ndcg_at_10": 0.2521375225156506,
+      "ndcg_at_30": 0.3221584671095837,
+      "top10_positives": 2484
+    },
+    "all": {
+      "ndcg": 0.3758119896931605,
+      "ndcg_at_10": 0.2500981450885573,
+      "ndcg_at_30": 0.31912100230075346,
+      "top10_positives": 8269
+    }
+  },
+  "selected_metrics": {
+    "early_first": {
+      "ndcg": 0.38201170277892305,
+      "ndcg_at_10": 0.258487957514267,
+      "ndcg_at_30": 0.32860502142688913,
+      "top10_positives": 2240
+    },
+    "early_second": {
+      "ndcg": 0.3765414394733532,
+      "ndcg_at_10": 0.2533815463883055,
+      "ndcg_at_30": 0.3175314333237703,
+      "top10_positives": 1165
+    },
+    "late": {
+      "ndcg": 0.37295718727139904,
+      "ndcg_at_10": 0.2456998515451269,
+      "ndcg_at_30": 0.31538420813681406,
+      "top10_positives": 4864
+    },
+    "late_first": {
+      "ndcg": 0.36783752237401546,
+      "ndcg_at_10": 0.23922788211911553,
+      "ndcg_at_30": 0.30857385744379134,
+      "top10_positives": 2380
+    },
+    "late_second": {
+      "ndcg": 0.37804972030413614,
+      "ndcg_at_10": 0.2521375225156506,
+      "ndcg_at_30": 0.3221584671095837,
+      "top10_positives": 2484
+    },
+    "all": {
+      "ndcg": 0.3758119896931605,
+      "ndcg_at_10": 0.2500981450885573,
+      "ndcg_at_30": 0.31912100230075346,
+      "top10_positives": 8269
+    }
+  },
+  "selected_gain": {
+    "early_first": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    },
+    "early_second": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    },
+    "late": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    },
+    "late_first": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    },
+    "late_second": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    },
+    "all": {
+      "ndcg": 0.0,
+      "ndcg_at_10": 0.0,
+      "ndcg_at_30": 0.0,
+      "top10_positives": 0
+    }
+  },
+  "late_paired_ndcg_95_interval": [
+    0.0,
+    0.0
+  ],
+  "late_ndcg_gain_for_covered_feeds": 0.0
+}

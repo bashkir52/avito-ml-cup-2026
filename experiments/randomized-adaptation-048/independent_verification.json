@@ -1,0 +1,201 @@
+{
+  "official_evaluator": "C:\\Any\\avito\\baseline\\calculate_metrics.py",
+  "official_evaluator_sha256": "f4d726d406abaff73ec90d3d7579d4132cea1c103465b4d85cc44973875a82ec",
+  "independent_numpy_reference_metrics": {
+    "frozen": {
+      "late": {
+        "rows": 845021,
+        "groups": 8657,
+        "positives": 13168,
+        "ndcg": 0.3704108748388818,
+        "ndcg_at_10": 0.24205466635365733,
+        "ndcg_at_30": 0.31191531364257685
+      },
+      "late_first": {
+        "rows": 426929,
+        "groups": 4317,
+        "positives": 6508,
+        "ndcg": 0.3641673959699191,
+        "ndcg_at_10": 0.2351725540863835,
+        "ndcg_at_30": 0.3044023733259471
+      },
+      "late_second": {
+        "rows": 418092,
+        "groups": 4340,
+        "positives": 6660,
+        "ndcg": 0.37662126614703606,
+        "ndcg_at_10": 0.2489003065973895,
+        "ndcg_at_30": 0.31938843883772194
+      }
+    },
+    "random_only": {
+      "late": {
+        "rows": 845021,
+        "groups": 8657,
+        "positives": 13168,
+        "ndcg": 0.3699837159774348,
+        "ndcg_at_10": 0.24153228822906786,
+        "ndcg_at_30": 0.3116798748587494
+      },
+      "late_first": {
+        "rows": 426929,
+        "groups": 4317,
+        "positives": 6508,
+        "ndcg": 0.36343158221602967,
+        "ndcg_at_10": 0.2343012664896514,
+        "ndcg_at_30": 0.3037884029330278
+      },
+      "late_second": {
+        "rows": 418092,
+        "groups": 4340,
+        "positives": 6660,
+        "ndcg": 0.3765011264493391,
+        "ndcg_at_10": 0.24872498888552844,
+        "ndcg_at_30": 0.31952952561989584
+      }
+    },
+    "joint": {
+      "late": {
+        "rows": 845021,
+        "groups": 8657,
+        "positives": 13168,
+        "ndcg": 0.36984396687510973,
+        "ndcg_at_10": 0.24140913477679332,
+        "ndcg_at_30": 0.3114864375941969
+      },
+      "late_first": {
+        "rows": 426929,
+        "groups": 4317,
+        "positives": 6508,
+        "ndcg": 0.3632383490560882,
+        "ndcg_at_10": 0.2342085756295824,
+        "ndcg_at_30": 0.3035394567688135
+      },
+      "late_second": {
+        "rows": 418092,
+        "groups": 4340,
+        "positives": 6660,
+        "ndcg": 0.3764145779637729,
+        "ndcg_at_10": 0.2485715342787491,
+        "ndcg_at_30": 0.3193913030834167
+      }
+    },
+    "submitted": {
+      "late": {
+        "rows": 845021,
+        "groups": 8657,
+        "positives": 13168,
+        "ndcg": 0.372957187271398,
+        "ndcg_at_10": 0.2456998515451275,
+        "ndcg_at_30": 0.315384208136813
+      },
+      "late_first": {
+        "rows": 426929,
+        "groups": 4317,
+        "positives": 6508,
+        "ndcg": 0.36783752237401507,
+        "ndcg_at_10": 0.23922788211911616,
+        "ndcg_at_30": 0.30857385744379107
+      },
+      "late_second": {
+        "rows": 418092,
+        "groups": 4340,
+        "positives": 6660,
+        "ndcg": 0.3780497203041365,
+        "ndcg_at_10": 0.2521375225156504,
+        "ndcg_at_30": 0.3221584671095837
+      }
+    }
+  },
+  "catboost_check": "not run: CatBoost is not installed in the local Python 3.12 environment",
+  "all_prediction_pairs": 1389971,
+  "schedules": [
+    {
+      "folder": "experiments\\randomized-adaptation-048\\forward-1-lr-0.0001",
+      "steps": 300,
+      "max_random_feed_index": 1869,
+      "prefix": 1870,
+      "schedule_sha256": "2ebc29b932120622ef2c892e42c39eb4cde74f9dd119c1a538dabedb93ecc416"
+    },
+    {
+      "folder": "experiments\\randomized-adaptation-048\\forward-1-lr-3e-05",
+      "steps": 300,
+      "max_random_feed_index": 1869,
+      "prefix": 1870,
+      "schedule_sha256": "2ebc29b932120622ef2c892e42c39eb4cde74f9dd119c1a538dabedb93ecc416"
+    },
+    {
+      "folder": "experiments\\randomized-adaptation-048\\forward-2-lr-0.0001",
+      "steps": 300,
+      "max_random_feed_index": 3748,
+      "prefix": 3749,
+      "schedule_sha256": "719de405b968b6c5f7c3f66d4d01679180bd42d2ad49e34968900a6dca354e29"
+    },
+    {
+      "folder": "experiments\\randomized-adaptation-048\\forward-2-lr-3e-05",
+      "steps": 300,
+      "max_random_feed_index": 3748,
+      "prefix": 3749,
+      "schedule_sha256": "719de405b968b6c5f7c3f66d4d01679180bd42d2ad49e34968900a6dca354e29"
+    },
+    {
+      "folder": "experiments\\randomized-adaptation-048\\final",
+      "steps": 100,
+      "max_random_feed_index": 5765,
+      "prefix": 5766,
+      "schedule_sha256": "784a7681aa84fe75b2bf191ad95b57a040f70ac498db75ac9531d492f38ad5e2"
+    }
+  ],
+  "checkpoint_audit": {
+    "random_only": {
+      "sha256": "65da949db90ba04cc3de10e0eb5d4088c0b898904a8672fc97f9c84214b3b4c8",
+      "changed_parameters": [
+        "local.0.weight",
+        "local.0.bias",
+        "local.3.weight",
+        "local.3.bias",
+        "output.2.weight",
+        "output.2.bias"
+      ],
+      "depth_bias": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "joint": {
+      "sha256": "c77990f096234d80c663ac21469361cadcc7d099e798b7c553b82f8aefde9e45",
+      "changed_parameters": [
+        "local.0.weight",
+        "local.0.bias",
+        "local.3.weight",
+        "local.3.bias",
+        "output.2.weight",
+        "output.2.bias"
+      ],
+      "depth_bias": [
+        0.03471742570400238,
+        0.03715590387582779,
+        -0.0012420002603903413,
+        -0.011580930091440678,
+        -0.00808244664222002,
+        -0.006557900458574295,
+        -0.015765678137540817,
+        -0.020341461524367332,
+        0.03783943131566048
+      ]
+    }
+  },
+  "selection_recomputed": true,
+  "source_sha256": "3224f4fbb4944a55b0a1121e0f5ed771655ad67617154f5735565431df42b509",
+  "code_sha256": {
+    "randomized_adaptation.py": "146bd465cf6e8105fbefa985bf36b2309d98a0beee67d020dbcb7b1a2688374d",
+    "verify_randomized_adaptation.py": "3047a9e7aba59a00740d704c53075e33688fe875f760efb63b2d4b88dcd2fea7"
+  }
+}

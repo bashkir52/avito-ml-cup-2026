@@ -1,0 +1,224 @@
+{
+  "chosen": {
+    "model": "submitted",
+    "weight": 0.0
+  },
+  "metrics": {
+    "submitted": {
+      "late_first": {
+        "ndcg": 0.36783752237401546,
+        "ndcg_at_10": 0.23922788211911553,
+        "ndcg_at_30": 0.30857385744379134,
+        "top10_positives": 2380,
+        "ndcg_gain": 0.0,
+        "top30_positives": 4111,
+        "top30_positive_change": 0
+      },
+      "late_second": {
+        "ndcg": 0.37804972030413614,
+        "ndcg_at_10": 0.2521375225156506,
+        "ndcg_at_30": 0.3221584671095837,
+        "top10_positives": 2484,
+        "ndcg_gain": 0.0,
+        "top30_positives": 4266,
+        "top30_positive_change": 0
+      },
+      "late": {
+        "ndcg": 0.37295718727139904,
+        "ndcg_at_10": 0.2456998515451269,
+        "ndcg_at_30": 0.31538420813681406,
+        "top10_positives": 4864,
+        "ndcg_gain": 0.0,
+        "top30_positives": 8377,
+        "top30_positive_change": 0
+      },
+      "late_long": {
+        "ndcg": 0.27189807438505303,
+        "ndcg_at_10": 0.09732648111421716,
+        "ndcg_at_30": 0.15714277537232024,
+        "top10_positives": 963,
+        "ndcg_gain": 0.0,
+        "top30_positives": 2307,
+        "top30_positive_change": 0
+      },
+      "late_ndcg_paired_interval": [
+        0.0,
+        0.0
+      ],
+      "late_long_positives_recovered_from_below_submitted_30": 0
+    },
+    "legacy": {
+      "late_first": {
+        "ndcg": 0.3406739790321217,
+        "ndcg_at_10": 0.20551945673148933,
+        "ndcg_at_30": 0.27030659275257213,
+        "top10_positives": 2075,
+        "ndcg_gain": -0.027163543341892086,
+        "top30_positives": 3685,
+        "top30_positive_change": -426
+      },
+      "late_second": {
+        "ndcg": 0.3430569861847807,
+        "ndcg_at_10": 0.20796690453399977,
+        "ndcg_at_30": 0.2763081650571381,
+        "top10_positives": 2162,
+        "ndcg_gain": -0.034992734119353885,
+        "top30_positives": 3873,
+        "top30_positive_change": -393
+      },
+      "late": {
+        "ndcg": 0.341868648206488,
+        "ndcg_at_10": 0.20674643183405564,
+        "ndcg_at_30": 0.27331535142206564,
+        "top10_positives": 4237,
+        "ndcg_gain": -0.031088539064912095,
+        "top30_positives": 7558,
+        "top30_positive_change": -819
+      },
+      "late_long": {
+        "ndcg": 0.24630918326773382,
+        "ndcg_at_10": 0.07292158441430475,
+        "ndcg_at_30": 0.11959907688469502,
+        "top10_positives": 776,
+        "ndcg_gain": -0.02558889111731919,
+        "top30_positives": 1887,
+        "top30_positive_change": -420
+      },
+      "late_ndcg_paired_interval": [
+        -0.035276359922570645,
+        -0.02697429307860495
+      ],
+      "late_long_positives_recovered_from_below_submitted_30": 571
+    },
+    "uniform_96": {
+      "late_first": {
+        "ndcg": 0.33991699844544937,
+        "ndcg_at_10": 0.20484204340575496,
+        "ndcg_at_30": 0.27020043604460536,
+        "top10_positives": 2085,
+        "ndcg_gain": -0.027920523928564478,
+        "top30_positives": 3725,
+        "top30_positive_change": -386
+      },
+      "late_second": {
+        "ndcg": 0.34601778359049107,
+        "ndcg_at_10": 0.21115773867594875,
+        "ndcg_at_30": 0.27987755005193893,
+        "top10_positives": 2155,
+        "ndcg_gain": -0.03203193671364423,
+        "top30_positives": 3858,
+        "top30_positive_change": -408
+      },
+      "late": {
+        "ndcg": 0.342975495329986,
+        "ndcg_at_10": 0.20800828084050882,
+        "ndcg_at_30": 0.2750518481725727,
+        "top10_positives": 4240,
+        "ndcg_gain": -0.029981691941414913,
+        "top30_positives": 7583,
+        "top30_positive_change": -794
+      },
+      "late_long": {
+        "ndcg": 0.2463587922284145,
+        "ndcg_at_10": 0.07214693097664769,
+        "ndcg_at_30": 0.11914753953904858,
+        "top10_positives": 766,
+        "ndcg_gain": -0.025539282156638803,
+        "top30_positives": 1877,
+        "top30_positive_change": -430
+      },
+      "late_ndcg_paired_interval": [
+        -0.03403345221688187,
+        -0.025837891305533395
+      ],
+      "late_long_positives_recovered_from_below_submitted_30": 533
+    },
+    "hard_96": {
+      "late_first": {
+        "ndcg": 0.3400240370308715,
+        "ndcg_at_10": 0.20461937088520896,
+        "ndcg_at_30": 0.2707542277450127,
+        "top10_positives": 2075,
+        "ndcg_gain": -0.02781348534314271,
+        "top30_positives": 3739,
+        "top30_positive_change": -372
+      },
+      "late_second": {
+        "ndcg": 0.344343955821447,
+        "ndcg_at_10": 0.2092481454682865,
+        "ndcg_at_30": 0.2782522608055347,
+        "top10_positives": 2149,
+        "ndcg_gain": -0.033705764482688576,
+        "top30_positives": 3860,
+        "top30_positive_change": -406
+      },
+      "late": {
+        "ndcg": 0.3421897350268336,
+        "ndcg_at_10": 0.20693990706293536,
+        "ndcg_at_30": 0.27451320469807455,
+        "top10_positives": 4224,
+        "ndcg_gain": -0.03076745224456688,
+        "top30_positives": 7599,
+        "top30_positive_change": -778
+      },
+      "late_long": {
+        "ndcg": 0.24567027552223447,
+        "ndcg_at_10": 0.07130616951766505,
+        "ndcg_at_30": 0.11891789310417993,
+        "top10_positives": 766,
+        "ndcg_gain": -0.026227798862818927,
+        "top30_positives": 1891,
+        "top30_positive_change": -416
+      },
+      "late_ndcg_paired_interval": [
+        -0.03464325535444695,
+        -0.02669717588884345
+      ],
+      "late_long_positives_recovered_from_below_submitted_30": 564
+    },
+    "blend": {
+      "late_first": {
+        "ndcg": 0.36783752237401546,
+        "ndcg_at_10": 0.23922788211911553,
+        "ndcg_at_30": 0.30857385744379134,
+        "top10_positives": 2380,
+        "ndcg_gain": 0.0,
+        "top30_positives": 4111,
+        "top30_positive_change": 0
+      },
+      "late_second": {
+        "ndcg": 0.37804972030413614,
+        "ndcg_at_10": 0.2521375225156506,
+        "ndcg_at_30": 0.3221584671095837,
+        "top10_positives": 2484,
+        "ndcg_gain": 0.0,
+        "top30_positives": 4266,
+        "top30_positive_change": 0
+      },
+      "late": {
+        "ndcg": 0.37295718727139904,
+        "ndcg_at_10": 0.2456998515451269,
+        "ndcg_at_30": 0.31538420813681406,
+        "top10_positives": 4864,
+        "ndcg_gain": 0.0,
+        "top30_positives": 8377,
+        "top30_positive_change": 0
+      },
+      "late_long": {
+        "ndcg": 0.27189807438505303,
+        "ndcg_at_10": 0.09732648111421716,
+        "ndcg_at_30": 0.15714277537232024,
+        "top10_positives": 963,
+        "ndcg_gain": 0.0,
+        "top30_positives": 2307,
+        "top30_positive_change": 0
+      },
+      "late_ndcg_paired_interval": [
+        0.0,
+        0.0
+      ],
+      "late_long_positives_recovered_from_below_submitted_30": 0
+    }
+  },
+  "late_long_feeds": 3245
+}

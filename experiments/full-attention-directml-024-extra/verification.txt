@@ -1,0 +1,4 @@
+Fresh train pool with zero overlap verified, source predictions restored.
+100724 training feeds; 544950 keyed early scores; four mixes independently verified
+140408 training feeds; 544950 keyed early scores; four mixes independently verified
+Checked finite checkpoints, all early deltas and locked gate. No late metric computed.

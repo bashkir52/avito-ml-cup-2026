@@ -1,0 +1,14 @@
+{
+  "train_shards": 512,
+  "train_feeds": 3151208,
+  "positive_rows": 5446872,
+  "sampled_exposure_rows": 46287708,
+  "exposure_samples_per_feed": 16,
+  "lookback": 12,
+  "group_counts": {
+    "category": 54,
+    "semantic-256": 256,
+    "semantic-1024": 1024
+  },
+  "seed": 2026
+}

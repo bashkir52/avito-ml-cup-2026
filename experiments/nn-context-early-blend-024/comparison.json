@@ -1,0 +1,90 @@
+{
+  "anchor": "lgb-ensemble-mixed-intent-024",
+  "normalization": "zscore",
+  "models": [
+    "experiments\\lgb-ensemble-mixed-intent-024",
+    "experiments\\nn-context-024"
+  ],
+  "weights": [
+    0.55,
+    0.45
+  ],
+  "early": 0.3761648566406009,
+  "late": 0.36854015616987584,
+  "all": 0.37158834468226587,
+  "compared_to": "lgb-ensemble-mixed-intent-024",
+  "early_gain": 0.0022508615204852277,
+  "late_gain": 0.000331931952255416,
+  "full_gain": 0.0010990780307698093,
+  "paired_feed_95_interval": [
+    -0.0012297561292300987,
+    0.0018967932793179584
+  ],
+  "late_gain_by_size": {
+    "5-30": 0.0008299217160675016,
+    "31-100": -0.0004675302602158689,
+    "101-300": 0.0007088762871166706
+  },
+  "compared": [
+    {
+      "anchor": "lgb-ensemble-mixed-intent-024",
+      "normalization": "zscore",
+      "models": [
+        "experiments\\lgb-ensemble-mixed-intent-024",
+        "experiments\\nn-context-024"
+      ],
+      "weights": [
+        0.55,
+        0.45
+      ],
+      "early": 0.3761648566406009,
+      "late": 0.36854015616987584,
+      "all": 0.37158834468226587
+    },
+    {
+      "anchor": "lgb-ensemble-weighted-intent-048",
+      "normalization": "zscore",
+      "models": [
+        "experiments\\lgb-ensemble-weighted-intent-048",
+        "experiments\\nn-context-024"
+      ],
+      "weights": [
+        0.55,
+        0.45
+      ],
+      "early": 0.37558608762990436,
+      "late": 0.3685031790504193,
+      "all": 0.37133477101251533
+    },
+    {
+      "anchor": "lgb-ensemble-mixed-intent-024",
+      "normalization": "percentile",
+      "models": [
+        "experiments\\lgb-ensemble-mixed-intent-024",
+        "experiments\\nn-context-024"
+      ],
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "early": 0.37501531745296135,
+      "late": 0.36840931931720006,
+      "all": 0.3710502529129014
+    },
+    {
+      "anchor": "lgb-ensemble-weighted-intent-048",
+      "normalization": "percentile",
+      "models": [
+        "experiments\\lgb-ensemble-weighted-intent-048",
+        "experiments\\nn-context-024"
+      ],
+      "weights": [
+        0.55,
+        0.45
+      ],
+      "early": 0.3757444744843402,
+      "late": 0.36901421285952724,
+      "all": 0.371704824280776
+    }
+  ]
+}

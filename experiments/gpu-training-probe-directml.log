@@ -1,0 +1,5 @@
+{"torch": "2.4.1+cpu", "adapter": "AMD Radeon 780M Graphics\u0000", "device": "privateuseone:0"}
+C:\Any\avito\.venv-avito-directml\Lib\site-packages\torch\optim\adamw.py:380: UserWarning: The operator 'aten::lerp.Scalar_out' is not currently supported on the DML backend and will fall back to run on the CPU. This may have performance implications. (Triggered internally at C:\__w\1\s\pytorch-directml-plugin\torch_directml\csrc\dml\dml_cpu_fallback.cpp:17.)
+  exp_avg.lerp_(grad, 1 - beta1)
+{"device": "privateuseone:0", "batch": 32, "candidates": 96, "steps_timed": 8, "seconds_per_step": 0.0732486625056481, "feeds_per_second": 436.86804516782166, "total_seconds": 2.4203751000459306, "loss_first": 4.562640190124512, "loss_last": 3.774197578430176}
+{"device": "privateuseone:0", "batch": 32, "candidates": 300, "steps_timed": 8, "seconds_per_step": 0.20605795001029037, "feeds_per_second": 155.29611936060678, "total_seconds": 4.543541099992581, "loss_first": 5.769989490509033, "loss_last": 5.088288307189941}

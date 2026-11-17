@@ -1,0 +1,86 @@
+{
+  "selection": {
+    "max_swaps": 0
+  },
+  "metrics": {
+    "anchor": {
+      "late": {
+        "ndcg": 0.37295718727139904,
+        "ndcg_at_10": 0.2456998515451269,
+        "ndcg_at_30": 0.31538420813681406,
+        "top10_positives": 4864,
+        "top30_positives": 8377
+      },
+      "late_first": {
+        "ndcg": 0.36783752237401546,
+        "ndcg_at_10": 0.23922788211911553,
+        "ndcg_at_30": 0.30857385744379134,
+        "top10_positives": 2380,
+        "top30_positives": 4111
+      },
+      "late_second": {
+        "ndcg": 0.37804972030413614,
+        "ndcg_at_10": 0.2521375225156506,
+        "ndcg_at_30": 0.3221584671095837,
+        "top10_positives": 2484,
+        "top30_positives": 4266
+      },
+      "late_long": {
+        "ndcg": 0.27189807438505303,
+        "ndcg_at_10": 0.09732648111421716,
+        "ndcg_at_30": 0.15714277537232024,
+        "top10_positives": 963,
+        "top30_positives": 2307
+      }
+    },
+    "proposed": {
+      "late": {
+        "ndcg": 0.37295718727139904,
+        "ndcg_at_10": 0.2456998515451269,
+        "ndcg_at_30": 0.31538420813681406,
+        "top10_positives": 4864,
+        "top30_positives": 8377
+      },
+      "late_first": {
+        "ndcg": 0.36783752237401546,
+        "ndcg_at_10": 0.23922788211911553,
+        "ndcg_at_30": 0.30857385744379134,
+        "top10_positives": 2380,
+        "top30_positives": 4111
+      },
+      "late_second": {
+        "ndcg": 0.37804972030413614,
+        "ndcg_at_10": 0.2521375225156506,
+        "ndcg_at_30": 0.3221584671095837,
+        "top10_positives": 2484,
+        "top30_positives": 4266
+      },
+      "late_long": {
+        "ndcg": 0.27189807438505303,
+        "ndcg_at_10": 0.09732648111421716,
+        "ndcg_at_30": 0.15714277537232024,
+        "top10_positives": 963,
+        "top30_positives": 2307
+      }
+    }
+  },
+  "movement": {
+    "ndcg_gain": 0.0,
+    "swaps": 0,
+    "recovered": 0,
+    "displaced": 0,
+    "net_top30": 0,
+    "changed_feeds": 0
+  },
+  "late_gain_by_block": {
+    "late": 0.0,
+    "late_first": 0.0,
+    "late_second": 0.0,
+    "late_long": 0.0
+  },
+  "late_gain_ci95": [
+    0.0,
+    0.0
+  ],
+  "val_prediction_sha256": "2a2b202c2b93c318b66548e46865daac6ff6b373de0fb9fcca4641d449686078"
+}

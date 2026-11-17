@@ -1,0 +1,3 @@
+1870 3749 all early swaps, top20, unchanged scores multiset and independent metric delta verified
+3749 5766 all early swaps, top20, unchanged scores multiset and independent metric delta verified
+45 configurations checked; 1,389,971 keyed predictions exactly equal anchor; independent late and half metrics verified

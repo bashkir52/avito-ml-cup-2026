@@ -1,0 +1,14 @@
+{
+  "train_files": 512,
+  "train_feeds": 3151208,
+  "train_candidates": 246745836,
+  "train_positives": 5446872,
+  "train_end": 1789851648,
+  "excluded_user_ids": 40957,
+  "matched_train_candidates": 28487837,
+  "matched_train_responses": 883288,
+  "items_with_response_vector": 414810,
+  "seconds": 112.41181670001242,
+  "val_candidate_coverage": 0.18873703120424815,
+  "test_candidate_coverage": 0.1465791519295953
+}

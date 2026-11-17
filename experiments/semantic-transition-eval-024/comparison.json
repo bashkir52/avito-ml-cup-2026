@@ -1,0 +1,38 @@
+{
+  "signal": "semantic-1024/exposure",
+  "weight": 0.05,
+  "scope": "all",
+  "early_halves_gain": [
+    0.00010289716841947458,
+    1.476236119347971e-05
+  ],
+  "early_gain": 7.20667996760074e-05,
+  "late_metrics": {
+    "ndcg": 0.37305018128985634,
+    "ndcg_at_10": 0.24580949550394604,
+    "ndcg_at_30": 0.3155878374609881
+  },
+  "late_gain": 9.299401845687833e-05,
+  "late_halves_gain": [
+    -0.00013513448187302734,
+    0.0003199135428633766
+  ],
+  "late_candidate_coverage": 0.9841838250173665,
+  "late_positive_coverage": 0.988456865127582,
+  "late_positive_hits_at_10": 4866,
+  "late_feeds_with_more_positive_hits": 7,
+  "late_feeds_with_fewer_positive_hits": 5,
+  "early": 0.38017022100292314,
+  "late": 0.37305018128986106,
+  "all": 0.3758966174671831,
+  "full_gain": 8.462777402156657e-05,
+  "paired_feed_95_interval": [
+    -0.00017813873982652773,
+    0.0003595106886396569
+  ],
+  "late_gain_by_size": {
+    "5-30": 0.0,
+    "31-100": 0.00010601870245644336,
+    "101-300": 0.00014942149040454136
+  }
+}

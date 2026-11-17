@@ -1,0 +1,25 @@
+{
+  "train_files": 512,
+  "train_feeds_scanned": 3151208,
+  "train_candidates_scanned": 246745836,
+  "categories": 52,
+  "users_with_train_profile": 12577,
+  "matched_train_feeds": 20374,
+  "matched_train_candidates": 1674024,
+  "matched_train_positives": 42341,
+  "matched_train_positives_with_embedding": 42341,
+  "split_coverage": {
+    "val": {
+      "feeds": 14423,
+      "feeds_with_zero_id": 658,
+      "covered_feeds": 4386,
+      "covered_users": 4369
+    },
+    "test": {
+      "feeds": 28595,
+      "feeds_with_zero_id": 1179,
+      "covered_feeds": 8328,
+      "covered_users": 8262
+    }
+  }
+}

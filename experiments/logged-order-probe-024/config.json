@@ -1,0 +1,28 @@
+{
+  "seed": 2026,
+  "params": {
+    "learning_rate": 0.1,
+    "max_iter": 80,
+    "max_leaf_nodes": 63,
+    "min_samples_leaf": 100,
+    "l2_regularization": 5.0,
+    "max_bins": 127,
+    "early_stopping": false,
+    "random_state": 2026
+  },
+  "train_feeds": 15000,
+  "train_rows": 1168652,
+  "logged_order_holdout_feeds": 3000,
+  "logged_order_holdout_rows": 228055,
+  "train_timestamp_max": 1789690624,
+  "order_holdout_timestamp_min": 1789690752,
+  "source_labels": "log1p(pos); competition target is not read in training",
+  "weights": [
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5
+  ]
+}

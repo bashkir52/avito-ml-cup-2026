@@ -1,0 +1,15 @@
+{
+  "model_sha256": "f9bc77759099e494a9ff572de0620af40d33b2af805c5392d2fe33c7beac9a6f",
+  "late_feeds": 8657,
+  "lost_ndcg_when_shared": [
+    -0.00046279161363827555,
+    -0.0003772671870747598,
+    -0.000393579668769523
+  ],
+  "late_paired_ndcg_95_interval": [
+    -0.00106244570901931,
+    6.714967596646954e-05
+  ],
+  "mean_abs_score_change": 0.013012857176363468,
+  "late_top1_changed": 287
+}

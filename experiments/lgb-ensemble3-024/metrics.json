@@ -1,0 +1,29 @@
+{
+  "components": [
+    "experiments\\lgb-xendcg-024",
+    "experiments\\lgb-debiased-024",
+    "experiments\\lgb-binary-024"
+  ],
+  "train_feeds": 147684,
+  "selected_trees": null,
+  "early_feeds": 5766,
+  "late_feeds": 8657,
+  "late_start_timestamp": 1790091904,
+  "metrics": {
+    "early": {
+      "ndcg": 0.3711510470592329,
+      "ndcg_at_10": 0.24466491766243853,
+      "ndcg_at_30": 0.31338959768248287
+    },
+    "late": {
+      "ndcg": 0.3648082200383527,
+      "ndcg_at_10": 0.23555006207535165,
+      "ndcg_at_30": 0.3042191427575167
+    },
+    "all": {
+      "ndcg": 0.36734394357731215,
+      "ndcg_at_10": 0.2391939820167674,
+      "ndcg_at_30": 0.3078852900983789
+    }
+  }
+}

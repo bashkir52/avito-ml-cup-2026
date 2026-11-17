@@ -1,0 +1,25 @@
+Building 48 shards, 23119839 candidates
+Aggregated 64/512 train files
+Aggregated 128/512 train files
+Aggregated 192/512 train files
+Aggregated 256/512 train files
+Aggregated 320/512 train files
+Aggregated 384/512 train files
+Aggregated 448/512 train files
+Aggregated 512/512 train files
+Priors staged in 38.7s
+Staged 25718218 item vectors
+Item vectors staged in 75.1s
+Shards complete: 4/48
+Shards complete: 8/48
+Shards complete: 12/48
+Shards complete: 16/48
+Shards complete: 20/48
+Shards complete: 24/48
+Shards complete: 28/48
+Shards complete: 32/48
+Shards complete: 36/48
+Shards complete: 40/48
+Shards complete: 44/48
+Shards complete: 48/48
+{"shards": 48, "rows": 23119839, "feeds": 295247, "seconds": 491.0}

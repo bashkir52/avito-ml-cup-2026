@@ -1,0 +1,34 @@
+{
+  "source": "experiments\\cache-intent-048\\train.npz",
+  "sample": "experiments\\feed-width-048\\random.npz",
+  "feeds": 295376,
+  "source_rows": 23111632,
+  "sample_rows": 3575775,
+  "positive_rows": 510341,
+  "sample_positive_fraction": 0.14272178758450965,
+  "source_positive_fraction": 0.022081564815500696,
+  "negative_global_multiplier": 7.372949800909105,
+  "negative_feed_multiplier_range": [
+    1.0,
+    7.945945945945946
+  ],
+  "normalization": 0.15471754655837372,
+  "weights": {
+    "global": {
+      "mean": 0.9999999617579598,
+      "min": 0.1547175496816635,
+      "max": 1.1407246589660645,
+      "weighted_positive_fraction": 0.022081566105706336,
+      "effective_row_fraction": 0.8936932882081612,
+      "max_feed_negative_mass_error_before_normalization": 21.20086815867336
+    },
+    "per_feed": {
+      "mean": 0.9999999998220249,
+      "min": 0.1547175496816635,
+      "max": 1.229377269744873,
+      "weighted_positive_fraction": 0.022081565265192168,
+      "effective_row_fraction": 0.8828301423660981,
+      "max_feed_negative_mass_error_before_normalization": 1.4101326314630569e-05
+    }
+  }
+}

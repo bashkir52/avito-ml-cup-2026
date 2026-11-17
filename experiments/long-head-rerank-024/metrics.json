@@ -1,0 +1,211 @@
+{
+  "selected": {
+    "width": 9,
+    "penalty": 0.06,
+    "weight": 0.0,
+    "inner_long_gain": 0.0
+  },
+  "coefficients": {
+    "incumbent_log_rank": 0.3033580818771094,
+    "lgb-ensemble-weighted-intent-048": -0.024379364068188247,
+    "nn-vectors-024": 0.021547234305176972,
+    "nn-nearest-024": 0.011817773309138163,
+    "nn-vectors-048": 0.011429593282080397,
+    "nn-calibration-extra-024": 0.015366934781308943,
+    "nn-calibration-stratified-024": -0.09925666374524197,
+    "model_disagreement": 0.050550193026184215,
+    "head_first_votes": 0.005480362478467583
+  },
+  "early_scores_in_sample": true,
+  "forward_folds": [
+    [
+      1387,
+      2532
+    ],
+    [
+      2532,
+      3749
+    ],
+    [
+      3749,
+      4735
+    ],
+    [
+      4735,
+      5766
+    ]
+  ],
+  "inner_fit_long_feeds": 801,
+  "inner_tune_long_feeds": 749,
+  "fit_long_feeds": 1550,
+  "fit_long_feeds_with_head_positive": 791,
+  "late_feeds": 8657,
+  "late_long_feeds": 3245,
+  "late_ndcg": 0.37295718727140426,
+  "base_late_ndcg": 0.37295718727140426,
+  "late_gain": 0.0,
+  "late_long_gain": 0.0,
+  "late_long_ndcg_at_10": 0.09732648111421717,
+  "base_late_long_ndcg_at_10": 0.09732648111421717,
+  "late_gains_by_half": [
+    0.0,
+    0.0
+  ],
+  "paired_feed_95_interval": [
+    0.0,
+    0.0
+  ],
+  "late_long_feeds_reordered": 0,
+  "trials": [
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 0.0,
+      "inner_long_gain": 0.0
+    },
+    {
+      "width": 9,
+      "penalty": 0.015,
+      "weight": 0.25,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.015,
+      "weight": 0.5,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.015,
+      "weight": 0.75,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.015,
+      "weight": 1.0,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 0.25,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 0.5,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 0.75,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.06,
+      "weight": 1.0,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.2,
+      "weight": 0.25,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.2,
+      "weight": 0.5,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.2,
+      "weight": 0.75,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 9,
+      "penalty": 0.2,
+      "weight": 1.0,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.015,
+      "weight": 0.25,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.015,
+      "weight": 0.5,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.015,
+      "weight": 0.75,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.015,
+      "weight": 1.0,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.06,
+      "weight": 0.25,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.06,
+      "weight": 0.5,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.06,
+      "weight": 0.75,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.06,
+      "weight": 1.0,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.2,
+      "weight": 0.25,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.2,
+      "weight": 0.5,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.2,
+      "weight": 0.75,
+      "inner_long_gain": NaN
+    },
+    {
+      "width": 21,
+      "penalty": 0.2,
+      "weight": 1.0,
+      "inner_long_gain": NaN
+    }
+  ]
+}

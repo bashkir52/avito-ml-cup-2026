@@ -1,0 +1,102 @@
+{
+  "legacy": [
+    {
+      "feeds": 1312,
+      "positives": 2522,
+      "anchor_top30": 963,
+      "standalone_top30": 732,
+      "standalone_rescued": 214,
+      "anchor20_history10_top30": 893,
+      "anchor20_history10_rescued": 126
+    },
+    {
+      "feeds": 749,
+      "positives": 1394,
+      "anchor_top30": 503,
+      "standalone_top30": 410,
+      "standalone_rescued": 140,
+      "anchor20_history10_top30": 492,
+      "anchor20_history10_rescued": 74
+    }
+  ],
+  "uniform_8": [
+    {
+      "feeds": 1312,
+      "positives": 2522,
+      "anchor_top30": 963,
+      "standalone_top30": 722,
+      "standalone_rescued": 244,
+      "anchor20_history10_top30": 886,
+      "anchor20_history10_rescued": 126
+    },
+    {
+      "feeds": 749,
+      "positives": 1394,
+      "anchor_top30": 503,
+      "standalone_top30": 424,
+      "standalone_rescued": 148,
+      "anchor20_history10_top30": 482,
+      "anchor20_history10_rescued": 67
+    }
+  ],
+  "hard_8": [
+    {
+      "feeds": 1312,
+      "positives": 2522,
+      "anchor_top30": 963,
+      "standalone_top30": 706,
+      "standalone_rescued": 237,
+      "anchor20_history10_top30": 881,
+      "anchor20_history10_rescued": 126
+    },
+    {
+      "feeds": 749,
+      "positives": 1394,
+      "anchor_top30": 503,
+      "standalone_top30": 417,
+      "standalone_rescued": 148,
+      "anchor20_history10_top30": 473,
+      "anchor20_history10_rescued": 62
+    }
+  ],
+  "uniform_32": [
+    {
+      "feeds": 1312,
+      "positives": 2522,
+      "anchor_top30": 963,
+      "standalone_top30": 780,
+      "standalone_rescued": 243,
+      "anchor20_history10_top30": 898,
+      "anchor20_history10_rescued": 125
+    },
+    {
+      "feeds": 749,
+      "positives": 1394,
+      "anchor_top30": 503,
+      "standalone_top30": 407,
+      "standalone_rescued": 119,
+      "anchor20_history10_top30": 486,
+      "anchor20_history10_rescued": 70
+    }
+  ],
+  "hard_32": [
+    {
+      "feeds": 1312,
+      "positives": 2522,
+      "anchor_top30": 963,
+      "standalone_top30": 759,
+      "standalone_rescued": 233,
+      "anchor20_history10_top30": 905,
+      "anchor20_history10_rescued": 133
+    },
+    {
+      "feeds": 749,
+      "positives": 1394,
+      "anchor_top30": 503,
+      "standalone_top30": 409,
+      "standalone_rescued": 122,
+      "anchor20_history10_top30": 491,
+      "anchor20_history10_rescued": 74
+    }
+  ]
+}

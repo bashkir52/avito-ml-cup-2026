@@ -1,0 +1,94 @@
+{
+  "anchor": "lgb-ensemble-weighted-intent-048",
+  "normalization": "percentile",
+  "models": [
+    "experiments\\lgb-ensemble-weighted-intent-048",
+    "experiments\\nn-vectors-024"
+  ],
+  "weights": [
+    0.55,
+    0.45
+  ],
+  "early": 0.3775518479941114,
+  "late": 0.3712116529657942,
+  "all": 0.3737463242916818,
+  "compared_to": "lgb-ensemble-mixed-intent-024",
+  "early_gain": 0.003637852873995711,
+  "late_gain": 0.0030034287481737866,
+  "full_gain": 0.0032570576401857957,
+  "paired_feed_95_interval": [
+    0.0011695607918570956,
+    0.004828751375765582
+  ],
+  "late_gain_by_size": {
+    "5-30": 0.003547668740467735,
+    "31-100": 0.004990246855185176,
+    "101-300": 0.0007531936958651506
+  },
+  "compared": [
+    {
+      "anchor": "lgb-ensemble-mixed-intent-024",
+      "normalization": "zscore",
+      "models": [
+        "experiments\\lgb-ensemble-mixed-intent-024",
+        "experiments\\nn-context-024",
+        "experiments\\nn-vectors-024"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "early": 0.3771104910313076,
+      "late": 0.36959357359433404,
+      "all": 0.37259867280681336
+    },
+    {
+      "anchor": "lgb-ensemble-weighted-intent-048",
+      "normalization": "zscore",
+      "models": [
+        "experiments\\lgb-ensemble-weighted-intent-048",
+        "experiments\\nn-vectors-024"
+      ],
+      "weights": [
+        0.55,
+        0.45
+      ],
+      "early": 0.3772464625519278,
+      "late": 0.3706940943292015,
+      "all": 0.37331358785844226
+    },
+    {
+      "anchor": "lgb-ensemble-mixed-intent-024",
+      "normalization": "percentile",
+      "models": [
+        "experiments\\lgb-ensemble-mixed-intent-024",
+        "experiments\\nn-context-024",
+        "experiments\\nn-vectors-024"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "early": 0.37630857966477843,
+      "late": 0.36909472065756077,
+      "all": 0.37197866373705996
+    },
+    {
+      "anchor": "lgb-ensemble-weighted-intent-048",
+      "normalization": "percentile",
+      "models": [
+        "experiments\\lgb-ensemble-weighted-intent-048",
+        "experiments\\nn-vectors-024"
+      ],
+      "weights": [
+        0.55,
+        0.45
+      ],
+      "early": 0.3775518479941114,
+      "late": 0.3712116529657942,
+      "all": 0.3737463242916818
+    }
+  ]
+}

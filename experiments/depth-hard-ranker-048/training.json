@@ -1,0 +1,122 @@
+[
+  {
+    "feeds": 8192,
+    "steps": 90,
+    "eligible_feeds": 7709,
+    "eligible_positives": 13339,
+    "pairs": 48276,
+    "eligible_teacher_missed_positives": 4644,
+    "teacher_missed_positives": 4728,
+    "positives": 14399,
+    "candidates": 635504,
+    "stage_seconds": 9.953465999977197,
+    "cumulative_seconds": 9.953474799985997,
+    "last_lr": 0.0002996109716274574,
+    "stage_loss": {
+      "control": 3.780811933684163,
+      "depth_hard": 3.800765807623975,
+      "pair": 0.9814667298778659
+    },
+    "memory": {
+      "rss_gib": 7.174724578857422,
+      "peak_rss_gib": 20.957237243652344,
+      "available_gib": 11.049003601074219
+    }
+  },
+  {
+    "feeds": 36000,
+    "steps": 384,
+    "eligible_feeds": 33899,
+    "eligible_positives": 58182,
+    "pairs": 210169,
+    "eligible_teacher_missed_positives": 20497,
+    "teacher_missed_positives": 20843,
+    "positives": 62779,
+    "candidates": 2830300,
+    "stage_seconds": 32.84485689998837,
+    "cumulative_seconds": 49.928408599982504,
+    "last_lr": 0.0002924367185565416,
+    "stage_loss": {
+      "control": 3.793159626347149,
+      "depth_hard": 3.8284809804415403,
+      "pair": 0.9286399247388434
+    },
+    "memory": {
+      "rss_gib": 8.238719940185547,
+      "peak_rss_gib": 20.957237243652344,
+      "available_gib": 10.549888610839844
+    }
+  },
+  {
+    "feeds": 108000,
+    "steps": 1139,
+    "eligible_feeds": 101713,
+    "eligible_positives": 174041,
+    "pairs": 629303,
+    "eligible_teacher_missed_positives": 61352,
+    "teacher_missed_positives": 62351,
+    "positives": 187602,
+    "candidates": 8468163,
+    "stage_seconds": 86.97971460002009,
+    "cumulative_seconds": 143.60962220001966,
+    "last_lr": 0.00023811559115913527,
+    "stage_loss": {
+      "control": 3.7891833793421585,
+      "depth_hard": 3.829015240271886,
+      "pair": 0.9045964364036918
+    },
+    "memory": {
+      "rss_gib": 5.734676361083984,
+      "peak_rss_gib": 20.957237243652344,
+      "available_gib": 11.305488586425781
+    }
+  },
+  {
+    "feeds": 216000,
+    "steps": 2268,
+    "eligible_feeds": 203513,
+    "eligible_positives": 346247,
+    "pairs": 1251702,
+    "eligible_teacher_missed_positives": 121472,
+    "teacher_missed_positives": 123407,
+    "positives": 373108,
+    "candidates": 16900363,
+    "stage_seconds": 126.70264209999004,
+    "cumulative_seconds": 276.60059350001393,
+    "last_lr": 0.00012532840688890854,
+    "stage_loss": {
+      "control": 3.7843461017928743,
+      "depth_hard": 3.828697337759866,
+      "pair": 0.8823377623403514
+    },
+    "memory": {
+      "rss_gib": 9.10003662109375,
+      "peak_rss_gib": 20.957237243652344,
+      "available_gib": 10.931983947753906
+    }
+  },
+  {
+    "feeds": 295376,
+    "steps": 3099,
+    "eligible_feeds": 278247,
+    "eligible_positives": 473611,
+    "pairs": 1712626,
+    "eligible_teacher_missed_positives": 166609,
+    "teacher_missed_positives": 169242,
+    "positives": 510341,
+    "candidates": 23111632,
+    "stage_seconds": 93.36868529999629,
+    "cumulative_seconds": 376.2721820999868,
+    "last_lr": 9.000005473322862e-05,
+    "stage_loss": {
+      "control": 3.784729874595426,
+      "depth_hard": 3.830408887120294,
+      "pair": 0.8727029213278951
+    },
+    "memory": {
+      "rss_gib": 11.253223419189453,
+      "peak_rss_gib": 20.957237243652344,
+      "available_gib": 10.485122680664062
+    }
+  }
+]

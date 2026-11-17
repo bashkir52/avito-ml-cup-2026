@@ -1,0 +1,26 @@
+[
+  {
+    "feeds": 12000,
+    "steps": 380,
+    "candidates": 944248,
+    "positives": 20992,
+    "train_seconds": 53.21218630002113,
+    "stage_loss": 3.8482778584261736
+  },
+  {
+    "feeds": 36000,
+    "steps": 1135,
+    "candidates": 2825056,
+    "positives": 62334,
+    "train_seconds": 138.80397050001193,
+    "stage_loss": 3.8333518468737604
+  },
+  {
+    "feeds": 64724,
+    "steps": 2035,
+    "candidates": 5050395,
+    "positives": 112394,
+    "train_seconds": 240.07860060001258,
+    "stage_loss": 3.8093858707616826
+  }
+]

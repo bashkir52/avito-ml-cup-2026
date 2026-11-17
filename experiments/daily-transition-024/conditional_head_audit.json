@@ -1,0 +1,188 @@
+{
+  "1-10": {
+    "graph_category_positive_raw": {
+      "auc_by_late_half": [
+        0.5290821356301562,
+        0.5270008445526355
+      ],
+      "pairs_by_late_half": [
+        19273,
+        20129
+      ]
+    },
+    "graph_category_exposure_raw": {
+      "auc_by_late_half": [
+        0.5352046904996628,
+        0.5261811317005316
+      ],
+      "pairs_by_late_half": [
+        19273,
+        20129
+      ]
+    },
+    "graph_semantic_256_positive_raw": {
+      "auc_by_late_half": [
+        0.5382198680999117,
+        0.5433669665490333
+      ],
+      "pairs_by_late_half": [
+        19257,
+        20119
+      ]
+    },
+    "graph_semantic_256_exposure_raw": {
+      "auc_by_late_half": [
+        0.5362725242768863,
+        0.536557482976291
+      ],
+      "pairs_by_late_half": [
+        19257,
+        20119
+      ]
+    },
+    "graph_semantic_1024_positive_raw": {
+      "auc_by_late_half": [
+        0.5433348912083917,
+        0.5367563000149113
+      ],
+      "pairs_by_late_half": [
+        19257,
+        20119
+      ]
+    },
+    "graph_semantic_1024_exposure_raw": {
+      "auc_by_late_half": [
+        0.5449800031163975,
+        0.5410060142154183
+      ],
+      "pairs_by_late_half": [
+        19253,
+        20119
+      ]
+    }
+  },
+  "11-30": {
+    "graph_category_positive_raw": {
+      "auc_by_late_half": [
+        0.5127551864474076,
+        0.5083916537065837
+      ],
+      "pairs_by_late_half": [
+        30223,
+        30864
+      ]
+    },
+    "graph_category_exposure_raw": {
+      "auc_by_late_half": [
+        0.5168580220361976,
+        0.5084564541213064
+      ],
+      "pairs_by_late_half": [
+        30223,
+        30864
+      ]
+    },
+    "graph_semantic_256_positive_raw": {
+      "auc_by_late_half": [
+        0.5296132084836052,
+        0.5138029355538994
+      ],
+      "pairs_by_late_half": [
+        30223,
+        30863
+      ]
+    },
+    "graph_semantic_256_exposure_raw": {
+      "auc_by_late_half": [
+        0.5265360817920127,
+        0.5108868224087094
+      ],
+      "pairs_by_late_half": [
+        30223,
+        30863
+      ]
+    },
+    "graph_semantic_1024_positive_raw": {
+      "auc_by_late_half": [
+        0.5308580694265197,
+        0.5118758303360228
+      ],
+      "pairs_by_late_half": [
+        30219,
+        30861
+      ]
+    },
+    "graph_semantic_1024_exposure_raw": {
+      "auc_by_late_half": [
+        0.5261773174041102,
+        0.5158230926364256
+      ],
+      "pairs_by_late_half": [
+        30217,
+        30841
+      ]
+    }
+  },
+  "31+": {
+    "graph_category_positive_raw": {
+      "auc_by_late_half": [
+        0.5799538016566129,
+        0.5796206606942889
+      ],
+      "pairs_by_late_half": [
+        355424,
+        357200
+      ]
+    },
+    "graph_category_exposure_raw": {
+      "auc_by_late_half": [
+        0.5805601197443054,
+        0.5816951287793953
+      ],
+      "pairs_by_late_half": [
+        355424,
+        357200
+      ]
+    },
+    "graph_semantic_256_positive_raw": {
+      "auc_by_late_half": [
+        0.5651626105633446,
+        0.5905025774278362
+      ],
+      "pairs_by_late_half": [
+        354774,
+        357139
+      ]
+    },
+    "graph_semantic_256_exposure_raw": {
+      "auc_by_late_half": [
+        0.5728888613282296,
+        0.5948837560935999
+      ],
+      "pairs_by_late_half": [
+        354773,
+        357137
+      ]
+    },
+    "graph_semantic_1024_positive_raw": {
+      "auc_by_late_half": [
+        0.5686279208769397,
+        0.5923258232041412
+      ],
+      "pairs_by_late_half": [
+        354688,
+        356807
+      ]
+    },
+    "graph_semantic_1024_exposure_raw": {
+      "auc_by_late_half": [
+        0.5709666866890579,
+        0.5861801220472772
+      ],
+      "pairs_by_late_half": [
+        354603,
+        356747
+      ]
+    }
+  }
+}

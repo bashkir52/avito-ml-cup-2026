@@ -1,0 +1,7 @@
+frozen 1389971 key pairs; all four blocks match independent metrics
+submitted 1389971 key pairs; all four blocks match independent metrics
+control_8192 1389971 key pairs; all four blocks match independent metrics
+depth_hard_8192 1389971 key pairs; all four blocks match independent metrics
+control_216000 1389971 key pairs; all four blocks match independent metrics
+selected_blend 1389971 key pairs; all four blocks match independent metrics
+Every training feed once, all 23,111,632 candidates, 10 finite checkpoints

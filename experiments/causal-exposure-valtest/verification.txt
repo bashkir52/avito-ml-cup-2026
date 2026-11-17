@@ -1,0 +1,3 @@
+val all keys and 200 direct chronological exposure calculations checked
+test all keys and 200 direct chronological exposure calculations checked
+Zero-weight selection: exactly 1,389,971 incumbent scores and three independent late metrics verified.

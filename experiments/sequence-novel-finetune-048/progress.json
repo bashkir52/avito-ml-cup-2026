@@ -1,0 +1,104 @@
+[
+  {
+    "epoch": 1,
+    "lr": 0.0015,
+    "steps_per_arm": 379,
+    "feeds": 36000,
+    "candidates": 2808721,
+    "positives": 61962,
+    "loss": {
+      "scratch": 3.8358819186223876,
+      "pretrained": 3.832781175805463
+    },
+    "sequence_strength": {
+      "scratch": 0.426878958940506,
+      "pretrained": 0.5299023389816284
+    },
+    "seconds": 31.64
+  },
+  {
+    "epoch": 2,
+    "lr": 0.0013997339220468473,
+    "steps_per_arm": 379,
+    "feeds": 36000,
+    "candidates": 2834988,
+    "positives": 62382,
+    "loss": {
+      "scratch": 3.8221784114009805,
+      "pretrained": 3.8195941463775105
+    },
+    "sequence_strength": {
+      "scratch": 0.39164304733276367,
+      "pretrained": 0.5637347102165222
+    },
+    "seconds": 63.13
+  },
+  {
+    "epoch": 3,
+    "lr": 0.0011372339220468474,
+    "steps_per_arm": 380,
+    "feeds": 36000,
+    "candidates": 2800570,
+    "positives": 62375,
+    "loss": {
+      "scratch": 3.8021430727872585,
+      "pretrained": 3.7992873302068975
+    },
+    "sequence_strength": {
+      "scratch": 0.3802355229854584,
+      "pretrained": 0.5824634432792664
+    },
+    "seconds": 94.27
+  },
+  {
+    "epoch": 4,
+    "lr": 0.0008127660779531526,
+    "steps_per_arm": 381,
+    "feeds": 36000,
+    "candidates": 2820571,
+    "positives": 61588,
+    "loss": {
+      "scratch": 3.806173746585846,
+      "pretrained": 3.8037395541734167
+    },
+    "sequence_strength": {
+      "scratch": 0.3806644678115845,
+      "pretrained": 0.5951891541481018
+    },
+    "seconds": 125.49
+  },
+  {
+    "epoch": 5,
+    "lr": 0.0005502660779531526,
+    "steps_per_arm": 379,
+    "feeds": 36000,
+    "candidates": 2811014,
+    "positives": 63080,
+    "loss": {
+      "scratch": 3.798969161391258,
+      "pretrained": 3.796853861997525
+    },
+    "sequence_strength": {
+      "scratch": 0.3819093406200409,
+      "pretrained": 0.6118981838226318
+    },
+    "seconds": 157.09
+  },
+  {
+    "epoch": 6,
+    "lr": 0.00045,
+    "steps_per_arm": 379,
+    "feeds": 36000,
+    "candidates": 2827704,
+    "positives": 62220,
+    "loss": {
+      "scratch": 3.8019699715110993,
+      "pretrained": 3.7995848110119503
+    },
+    "sequence_strength": {
+      "scratch": 0.3742142915725708,
+      "pretrained": 0.614563524723053
+    },
+    "seconds": 189.1
+  }
+]

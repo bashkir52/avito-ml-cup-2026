@@ -1,0 +1,19 @@
+{
+  "arms": {
+    "random_only": {
+      "pairs": 1389971,
+      "exact_equal_after_reload": true,
+      "matched_pre_failure_predictions": true,
+      "checkpoint_sha256": "65da949db90ba04cc3de10e0eb5d4088c0b898904a8672fc97f9c84214b3b4c8"
+    },
+    "joint": {
+      "pairs": 1389971,
+      "exact_equal_after_reload": true,
+      "matched_pre_failure_predictions": false,
+      "checkpoint_sha256": "c77990f096234d80c663ac21469361cadcc7d099e798b7c553b82f8aefde9e45"
+    }
+  },
+  "fix": "restore requires_grad flags in adapted checkpoint loader",
+  "retrained": false,
+  "selection_sha256": "bd3a834176a19e2f16a4fc1087f6aea694312885e7af7480585f4c823edf676e"
+}

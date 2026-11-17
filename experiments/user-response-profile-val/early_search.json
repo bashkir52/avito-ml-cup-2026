@@ -1,0 +1,218 @@
+[
+  {
+    "signal": "prior_positive",
+    "weight": 0.025,
+    "early_gain": -0.00018571494860171792,
+    "early_gain_by_block": [
+      -0.000127686155215909,
+      -0.000293573127284612
+    ]
+  },
+  {
+    "signal": "prior_positive",
+    "weight": 0.05,
+    "early_gain": -0.00023183901634617494,
+    "early_gain_by_block": [
+      0.00016088720351492986,
+      -0.0009617996500890018
+    ]
+  },
+  {
+    "signal": "prior_positive",
+    "weight": 0.1,
+    "early_gain": -0.0008615172130318174,
+    "early_gain_by_block": [
+      7.402782871109468e-06,
+      -0.0024765797140928357
+    ]
+  },
+  {
+    "signal": "prior_positive",
+    "weight": 0.2,
+    "early_gain": -0.0021732401403299776,
+    "early_gain_by_block": [
+      -0.0013700913912903416,
+      -0.0036660535563684477
+    ]
+  },
+  {
+    "signal": "prior_positive",
+    "weight": 0.35,
+    "early_gain": -0.004611118305250431,
+    "early_gain_by_block": [
+      -0.0037907972932989197,
+      -0.00613584982424211
+    ]
+  },
+  {
+    "signal": "prior_positive",
+    "weight": 0.5,
+    "early_gain": -0.005739967251098598,
+    "early_gain_by_block": [
+      -0.005019757613893599,
+      -0.007078621653617953
+    ]
+  },
+  {
+    "signal": "prior_positive_absent_from_history",
+    "weight": 0.025,
+    "early_gain": -5.7934135762917975e-05,
+    "early_gain_by_block": [
+      -7.772678409455421e-05,
+      -2.1145519701785487e-05
+    ]
+  },
+  {
+    "signal": "prior_positive_absent_from_history",
+    "weight": 0.05,
+    "early_gain": -0.00024074456919895713,
+    "early_gain_by_block": [
+      -0.00016064579134103407,
+      -0.0003896242509983392
+    ]
+  },
+  {
+    "signal": "prior_positive_absent_from_history",
+    "weight": 0.1,
+    "early_gain": -0.00038046373513555767,
+    "early_gain_by_block": [
+      -0.0004686012212005944,
+      -0.00021664249802211066
+    ]
+  },
+  {
+    "signal": "prior_positive_absent_from_history",
+    "weight": 0.2,
+    "early_gain": -0.0008813613921330524,
+    "early_gain_by_block": [
+      -0.0009469659465042244,
+      -0.0007594221386191584
+    ]
+  },
+  {
+    "signal": "prior_positive_absent_from_history",
+    "weight": 0.35,
+    "early_gain": -0.001188036018426085,
+    "early_gain_by_block": [
+      -0.001149527924572542,
+      -0.0012596110525643766
+    ]
+  },
+  {
+    "signal": "prior_positive_absent_from_history",
+    "weight": 0.5,
+    "early_gain": -0.0014062055865782148,
+    "early_gain_by_block": [
+      -0.0012817663009327233,
+      -0.0016375010163674807
+    ]
+  },
+  {
+    "signal": "category_lift",
+    "weight": 0.025,
+    "early_gain": -0.0001289563280162677,
+    "early_gain_by_block": [
+      -5.327300111995925e-05,
+      -0.00026962900651614875
+    ]
+  },
+  {
+    "signal": "category_lift",
+    "weight": 0.05,
+    "early_gain": -0.0001670045098680104,
+    "early_gain_by_block": [
+      -1.1475957279847486e-05,
+      -0.00045608559249221605
+    ]
+  },
+  {
+    "signal": "category_lift",
+    "weight": 0.1,
+    "early_gain": -0.00020229304329821528,
+    "early_gain_by_block": [
+      -0.00022247153919912517,
+      -0.00016478725195834804
+    ]
+  },
+  {
+    "signal": "category_lift",
+    "weight": 0.2,
+    "early_gain": -0.0011571743372957135,
+    "early_gain_by_block": [
+      -0.0010216749015746728,
+      -0.0014090272795456787
+    ]
+  },
+  {
+    "signal": "category_lift",
+    "weight": 0.35,
+    "early_gain": -0.003105481759612402,
+    "early_gain_by_block": [
+      -0.002677360766192651,
+      -0.0039012306958199623
+    ]
+  },
+  {
+    "signal": "category_lift",
+    "weight": 0.5,
+    "early_gain": -0.003888648847285232,
+    "early_gain_by_block": [
+      -0.0030033542488346896,
+      -0.005534146839149924
+    ]
+  },
+  {
+    "signal": "mean",
+    "weight": 0.025,
+    "early_gain": -0.0002125838041081732,
+    "early_gain_by_block": [
+      -0.00011853224229354357,
+      -0.00038739753997482987
+    ]
+  },
+  {
+    "signal": "mean",
+    "weight": 0.05,
+    "early_gain": 1.821176067576667e-05,
+    "early_gain_by_block": [
+      0.0002082966663068211,
+      -0.00033509925132761605
+    ]
+  },
+  {
+    "signal": "mean",
+    "weight": 0.1,
+    "early_gain": -0.0006950969980395088,
+    "early_gain_by_block": [
+      -0.0002713206075797122,
+      -0.0014827706162020156
+    ]
+  },
+  {
+    "signal": "mean",
+    "weight": 0.2,
+    "early_gain": -0.0020753871466492294,
+    "early_gain_by_block": [
+      -0.0015603441747879864,
+      -0.0030326980546848264
+    ]
+  },
+  {
+    "signal": "mean",
+    "weight": 0.35,
+    "early_gain": -0.004074805671966309,
+    "early_gain_by_block": [
+      -0.003343291983616188,
+      -0.00543447092611832
+    ]
+  },
+  {
+    "signal": "mean",
+    "weight": 0.5,
+    "early_gain": -0.00506873158588128,
+    "early_gain_by_block": [
+      -0.004130778393233423,
+      -0.006812106161606024
+    ]
+  }
+]
